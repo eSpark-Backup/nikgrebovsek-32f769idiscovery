@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_HG38" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_PQRL" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_FG9V" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_8TBH" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_26NT" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_3EPG" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_B6IE" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_KOQZ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6WSZ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_TM6N" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PEMM" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">5.</Translation>
+      </Text>
+      <Text Id="__SingleUse_QAHW" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">4.</Translation>
+      </Text>
+      <Text Id="__SingleUse_AROW" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">3.</Translation>
+      </Text>
+      <Text Id="__SingleUse_XM73" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">2.</Translation>
+      </Text>
+      <Text Id="__SingleUse_1TQS" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">1.</Translation>
+      </Text>
+      <Text Id="__SingleUse_IJVY" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Sensor Data (cm)</Translation>
+      </Text>
+      <Text Id="__SingleUse_0LU9" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">S.No.</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+  </Typographies>
+</TextDatabase>
