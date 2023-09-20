@@ -1,7 +1,5 @@
-Utilities/jpeg_utils.o: \
- C:/TouchGFXProjects/guiApp/Utilities/JPEG/jpeg_utils.c \
- C:/TouchGFXProjects/guiApp/Utilities/JPEG/jpeg_utils.h \
- ../../Core/Inc/jpeg_utils_conf.h \
+Utilities/jpeg_utils.o: C:/mainApp/Utilities/JPEG/jpeg_utils.c \
+ C:/mainApp/Utilities/JPEG/jpeg_utils.h ../../Core/Inc/jpeg_utils_conf.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -43,7 +41,7 @@ Utilities/jpeg_utils.o: \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dsi.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_jpeg.h
-C:/TouchGFXProjects/guiApp/Utilities/JPEG/jpeg_utils.h:
+C:/mainApp/Utilities/JPEG/jpeg_utils.h:
 ../../Core/Inc/jpeg_utils_conf.h:
 ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../../Core/Inc/stm32f7xx_hal_conf.h:

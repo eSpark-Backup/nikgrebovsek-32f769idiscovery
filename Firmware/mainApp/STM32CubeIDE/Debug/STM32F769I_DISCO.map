@@ -3692,8 +3692,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1df ./Application/User/generated/SVGDatabase.o
  .debug_macro   0x0000000000000000       0x91 ./Application/User/generated/SVGDatabase.o
  .debug_macro   0x0000000000000000       0x1c ./Application/User/generated/SVGDatabase.o
- .debug_line    0x0000000000000000      0x5f7 ./Application/User/generated/SVGDatabase.o
- .debug_str     0x0000000000000000     0x4fd1 ./Application/User/generated/SVGDatabase.o
+ .debug_line    0x0000000000000000      0x5e7 ./Application/User/generated/SVGDatabase.o
+ .debug_str     0x0000000000000000     0x4fb1 ./Application/User/generated/SVGDatabase.o
  .comment       0x0000000000000000       0x44 ./Application/User/generated/SVGDatabase.o
  .debug_frame   0x0000000000000000       0x30 ./Application/User/generated/SVGDatabase.o
  .ARM.attributes
@@ -4230,8 +4230,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x91 ./Application/User/generated/UnmappedDataFont.o
  .debug_macro   0x0000000000000000       0x1c ./Application/User/generated/UnmappedDataFont.o
  .debug_macro   0x0000000000000000       0x58 ./Application/User/generated/UnmappedDataFont.o
- .debug_line    0x0000000000000000      0xa49 ./Application/User/generated/UnmappedDataFont.o
- .debug_str     0x0000000000000000     0x668d ./Application/User/generated/UnmappedDataFont.o
+ .debug_line    0x0000000000000000      0xa39 ./Application/User/generated/UnmappedDataFont.o
+ .debug_str     0x0000000000000000     0x666d ./Application/User/generated/UnmappedDataFont.o
  .comment       0x0000000000000000       0x44 ./Application/User/generated/UnmappedDataFont.o
  .debug_frame   0x0000000000000000      0x148 ./Application/User/generated/UnmappedDataFont.o
  .ARM.attributes
@@ -5666,8 +5666,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
  .debug_macro   0x0000000000000000      0x137 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
  .debug_macro   0x0000000000000000      0x15b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
- .debug_line    0x0000000000000000     0x110a ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
- .debug_str     0x0000000000000000   0x11c892 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
+ .debug_line    0x0000000000000000     0x10fa ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
+ .debug_str     0x0000000000000000   0x11c872 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
  .debug_frame   0x0000000000000000       0x58 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o
  .ARM.attributes
@@ -5975,8 +5975,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
  .debug_macro   0x0000000000000000      0x137 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
  .debug_macro   0x0000000000000000      0x15b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
- .debug_line    0x0000000000000000      0xc7d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
- .debug_str     0x0000000000000000   0x11c72a ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
+ .debug_line    0x0000000000000000      0xc6d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
+ .debug_str     0x0000000000000000   0x11c70a ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
  .debug_frame   0x0000000000000000       0xc4 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o
  .ARM.attributes
@@ -6136,8 +6136,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
  .debug_macro   0x0000000000000000      0x137 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
  .debug_macro   0x0000000000000000      0x15b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
- .debug_line    0x0000000000000000      0xe55 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
- .debug_str     0x0000000000000000   0x11c8c7 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
+ .debug_line    0x0000000000000000      0xe45 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
+ .debug_str     0x0000000000000000   0x11c8a7 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
  .debug_frame   0x0000000000000000      0x160 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o
  .ARM.attributes
@@ -6274,8 +6274,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
  .debug_macro   0x0000000000000000      0x137 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
  .debug_macro   0x0000000000000000      0x15b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
- .debug_line    0x0000000000000000      0xdeb ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
- .debug_str     0x0000000000000000   0x11c978 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
+ .debug_line    0x0000000000000000      0xddb ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
+ .debug_str     0x0000000000000000   0x11c958 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
  .debug_frame   0x0000000000000000       0x98 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o
  .ARM.attributes
@@ -7209,8 +7209,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
  .debug_macro   0x0000000000000000      0x137 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
  .debug_macro   0x0000000000000000      0x15b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
- .debug_line    0x0000000000000000      0x932 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
- .debug_str     0x0000000000000000   0x11cadd ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
+ .debug_line    0x0000000000000000      0x922 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
+ .debug_str     0x0000000000000000   0x11cabd ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
  .debug_frame   0x0000000000000000       0x30 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o
  .ARM.attributes
@@ -7369,8 +7369,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
  .debug_macro   0x0000000000000000      0x137 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
  .debug_macro   0x0000000000000000      0x15b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
- .debug_line    0x0000000000000000      0xb05 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
- .debug_str     0x0000000000000000   0x11ca45 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
+ .debug_line    0x0000000000000000      0xaf5 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
+ .debug_str     0x0000000000000000   0x11ca25 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
  .debug_frame   0x0000000000000000      0x128 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o
  .ARM.attributes
@@ -8965,8 +8965,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
  .debug_macro   0x0000000000000000      0x137 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
  .debug_macro   0x0000000000000000      0x15b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
- .debug_line    0x0000000000000000     0x111f ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
- .debug_str     0x0000000000000000   0x11ccd1 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
+ .debug_line    0x0000000000000000     0x110f ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
+ .debug_str     0x0000000000000000   0x11ccb1 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
  .debug_frame   0x0000000000000000      0x11c ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o
  .ARM.attributes
@@ -9372,8 +9372,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./Middlewares/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/FreeRTOS/croutine.o
  .debug_macro   0x0000000000000000       0x43 ./Middlewares/FreeRTOS/croutine.o
- .debug_line    0x0000000000000000      0x692 ./Middlewares/FreeRTOS/croutine.o
- .debug_str     0x0000000000000000     0x9ea1 ./Middlewares/FreeRTOS/croutine.o
+ .debug_line    0x0000000000000000      0x682 ./Middlewares/FreeRTOS/croutine.o
+ .debug_str     0x0000000000000000     0x9e81 ./Middlewares/FreeRTOS/croutine.o
  .comment       0x0000000000000000       0x44 ./Middlewares/FreeRTOS/croutine.o
  .ARM.attributes
                 0x0000000000000000       0x32 ./Middlewares/FreeRTOS/croutine.o
@@ -9489,8 +9489,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./Middlewares/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/FreeRTOS/event_groups.o
  .debug_macro   0x0000000000000000       0x91 ./Middlewares/FreeRTOS/event_groups.o
- .debug_line    0x0000000000000000      0xeee ./Middlewares/FreeRTOS/event_groups.o
- .debug_str     0x0000000000000000     0xbe9b ./Middlewares/FreeRTOS/event_groups.o
+ .debug_line    0x0000000000000000      0xede ./Middlewares/FreeRTOS/event_groups.o
+ .debug_str     0x0000000000000000     0xbe7b ./Middlewares/FreeRTOS/event_groups.o
  .comment       0x0000000000000000       0x44 ./Middlewares/FreeRTOS/event_groups.o
  .debug_frame   0x0000000000000000      0x160 ./Middlewares/FreeRTOS/event_groups.o
  .ARM.attributes
@@ -9941,8 +9941,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./Middlewares/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/FreeRTOS/stream_buffer.o
  .debug_macro   0x0000000000000000       0x18 ./Middlewares/FreeRTOS/stream_buffer.o
- .debug_line    0x0000000000000000     0x19ad ./Middlewares/FreeRTOS/stream_buffer.o
- .debug_str     0x0000000000000000     0xbf6d ./Middlewares/FreeRTOS/stream_buffer.o
+ .debug_line    0x0000000000000000     0x199d ./Middlewares/FreeRTOS/stream_buffer.o
+ .debug_str     0x0000000000000000     0xbf4d ./Middlewares/FreeRTOS/stream_buffer.o
  .comment       0x0000000000000000       0x44 ./Middlewares/FreeRTOS/stream_buffer.o
  .debug_frame   0x0000000000000000      0x294 ./Middlewares/FreeRTOS/stream_buffer.o
  .ARM.attributes
@@ -10313,8 +10313,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jaricom.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jaricom.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jaricom.o
- .debug_line    0x0000000000000000      0x800 ./Middlewares/LibJPEG/jaricom.o
- .debug_str     0x0000000000000000     0xdd17 ./Middlewares/LibJPEG/jaricom.o
+ .debug_line    0x0000000000000000      0x7f0 ./Middlewares/LibJPEG/jaricom.o
+ .debug_str     0x0000000000000000     0xdcf7 ./Middlewares/LibJPEG/jaricom.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jaricom.o
  .ARM.attributes
                 0x0000000000000000       0x32 ./Middlewares/LibJPEG/jaricom.o
@@ -10454,8 +10454,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcapimin.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcapimin.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcapimin.o
- .debug_line    0x0000000000000000      0xbd0 ./Middlewares/LibJPEG/jcapimin.o
- .debug_str     0x0000000000000000     0xf262 ./Middlewares/LibJPEG/jcapimin.o
+ .debug_line    0x0000000000000000      0xbc0 ./Middlewares/LibJPEG/jcapimin.o
+ .debug_str     0x0000000000000000     0xf242 ./Middlewares/LibJPEG/jcapimin.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcapimin.o
  .debug_frame   0x0000000000000000      0x100 ./Middlewares/LibJPEG/jcapimin.o
  .ARM.attributes
@@ -10584,8 +10584,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcapistd.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcapistd.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcapistd.o
- .debug_line    0x0000000000000000      0x9be ./Middlewares/LibJPEG/jcapistd.o
- .debug_str     0x0000000000000000     0xf1c0 ./Middlewares/LibJPEG/jcapistd.o
+ .debug_line    0x0000000000000000      0x9ae ./Middlewares/LibJPEG/jcapistd.o
+ .debug_str     0x0000000000000000     0xf1a0 ./Middlewares/LibJPEG/jcapistd.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcapistd.o
  .debug_frame   0x0000000000000000       0x70 ./Middlewares/LibJPEG/jcapistd.o
  .ARM.attributes
@@ -10730,8 +10730,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcarith.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcarith.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcarith.o
- .debug_line    0x0000000000000000     0x1721 ./Middlewares/LibJPEG/jcarith.o
- .debug_str     0x0000000000000000     0xf2d1 ./Middlewares/LibJPEG/jcarith.o
+ .debug_line    0x0000000000000000     0x1711 ./Middlewares/LibJPEG/jcarith.o
+ .debug_str     0x0000000000000000     0xf2b1 ./Middlewares/LibJPEG/jcarith.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcarith.o
  .debug_frame   0x0000000000000000      0x1c0 ./Middlewares/LibJPEG/jcarith.o
  .ARM.attributes
@@ -10866,8 +10866,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jccoefct.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jccoefct.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jccoefct.o
- .debug_line    0x0000000000000000      0xfe5 ./Middlewares/LibJPEG/jccoefct.o
- .debug_str     0x0000000000000000     0xf311 ./Middlewares/LibJPEG/jccoefct.o
+ .debug_line    0x0000000000000000      0xfd5 ./Middlewares/LibJPEG/jccoefct.o
+ .debug_str     0x0000000000000000     0xf2f1 ./Middlewares/LibJPEG/jccoefct.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jccoefct.o
  .debug_frame   0x0000000000000000      0x128 ./Middlewares/LibJPEG/jccoefct.o
  .ARM.attributes
@@ -11008,8 +11008,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jccolor.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jccolor.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jccolor.o
- .debug_line    0x0000000000000000     0x10b0 ./Middlewares/LibJPEG/jccolor.o
- .debug_str     0x0000000000000000     0xf3c7 ./Middlewares/LibJPEG/jccolor.o
+ .debug_line    0x0000000000000000     0x10a0 ./Middlewares/LibJPEG/jccolor.o
+ .debug_str     0x0000000000000000     0xf3a7 ./Middlewares/LibJPEG/jccolor.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jccolor.o
  .debug_frame   0x0000000000000000      0x14c ./Middlewares/LibJPEG/jccolor.o
  .ARM.attributes
@@ -11146,8 +11146,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcdctmgr.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcdctmgr.o
  .debug_macro   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jcdctmgr.o
- .debug_line    0x0000000000000000      0xe3e ./Middlewares/LibJPEG/jcdctmgr.o
- .debug_str     0x0000000000000000     0xf617 ./Middlewares/LibJPEG/jcdctmgr.o
+ .debug_line    0x0000000000000000      0xe2e ./Middlewares/LibJPEG/jcdctmgr.o
+ .debug_str     0x0000000000000000     0xf5f7 ./Middlewares/LibJPEG/jcdctmgr.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcdctmgr.o
  .debug_frame   0x0000000000000000       0xc4 ./Middlewares/LibJPEG/jcdctmgr.o
  .ARM.attributes
@@ -11310,8 +11310,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jchuff.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jchuff.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jchuff.o
- .debug_line    0x0000000000000000     0x1f58 ./Middlewares/LibJPEG/jchuff.o
- .debug_str     0x0000000000000000     0xf6b3 ./Middlewares/LibJPEG/jchuff.o
+ .debug_line    0x0000000000000000     0x1f48 ./Middlewares/LibJPEG/jchuff.o
+ .debug_str     0x0000000000000000     0xf693 ./Middlewares/LibJPEG/jchuff.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jchuff.o
  .debug_frame   0x0000000000000000      0x314 ./Middlewares/LibJPEG/jchuff.o
  .ARM.attributes
@@ -11436,8 +11436,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcinit.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcinit.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcinit.o
- .debug_line    0x0000000000000000      0x888 ./Middlewares/LibJPEG/jcinit.o
- .debug_str     0x0000000000000000     0xe931 ./Middlewares/LibJPEG/jcinit.o
+ .debug_line    0x0000000000000000      0x878 ./Middlewares/LibJPEG/jcinit.o
+ .debug_str     0x0000000000000000     0xe911 ./Middlewares/LibJPEG/jcinit.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcinit.o
  .debug_frame   0x0000000000000000       0x38 ./Middlewares/LibJPEG/jcinit.o
  .ARM.attributes
@@ -11566,8 +11566,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcmainct.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcmainct.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcmainct.o
- .debug_line    0x0000000000000000      0x9ac ./Middlewares/LibJPEG/jcmainct.o
- .debug_str     0x0000000000000000     0xf1f5 ./Middlewares/LibJPEG/jcmainct.o
+ .debug_line    0x0000000000000000      0x99c ./Middlewares/LibJPEG/jcmainct.o
+ .debug_str     0x0000000000000000     0xf1d5 ./Middlewares/LibJPEG/jcmainct.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcmainct.o
  .debug_frame   0x0000000000000000       0x8c ./Middlewares/LibJPEG/jcmainct.o
  .ARM.attributes
@@ -11718,8 +11718,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcmarker.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcmarker.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcmarker.o
- .debug_line    0x0000000000000000     0x1002 ./Middlewares/LibJPEG/jcmarker.o
- .debug_str     0x0000000000000000     0xf3d8 ./Middlewares/LibJPEG/jcmarker.o
+ .debug_line    0x0000000000000000      0xff2 ./Middlewares/LibJPEG/jcmarker.o
+ .debug_str     0x0000000000000000     0xf3b8 ./Middlewares/LibJPEG/jcmarker.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcmarker.o
  .debug_frame   0x0000000000000000      0x1e8 ./Middlewares/LibJPEG/jcmarker.o
  .ARM.attributes
@@ -11858,8 +11858,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcmaster.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcmaster.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcmaster.o
- .debug_line    0x0000000000000000     0x15cb ./Middlewares/LibJPEG/jcmaster.o
- .debug_str     0x0000000000000000     0xf38d ./Middlewares/LibJPEG/jcmaster.o
+ .debug_line    0x0000000000000000     0x15bb ./Middlewares/LibJPEG/jcmaster.o
+ .debug_str     0x0000000000000000     0xf36d ./Middlewares/LibJPEG/jcmaster.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcmaster.o
  .debug_frame   0x0000000000000000      0x124 ./Middlewares/LibJPEG/jcmaster.o
  .ARM.attributes
@@ -11990,8 +11990,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcomapi.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcomapi.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcomapi.o
- .debug_line    0x0000000000000000      0x904 ./Middlewares/LibJPEG/jcomapi.o
- .debug_str     0x0000000000000000     0xeb27 ./Middlewares/LibJPEG/jcomapi.o
+ .debug_line    0x0000000000000000      0x8f4 ./Middlewares/LibJPEG/jcomapi.o
+ .debug_str     0x0000000000000000     0xeb07 ./Middlewares/LibJPEG/jcomapi.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcomapi.o
  .debug_frame   0x0000000000000000       0x70 ./Middlewares/LibJPEG/jcomapi.o
  .ARM.attributes
@@ -12156,8 +12156,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcparam.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcparam.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcparam.o
- .debug_line    0x0000000000000000     0x1099 ./Middlewares/LibJPEG/jcparam.o
- .debug_str     0x0000000000000000     0xf4c4 ./Middlewares/LibJPEG/jcparam.o
+ .debug_line    0x0000000000000000     0x1089 ./Middlewares/LibJPEG/jcparam.o
+ .debug_str     0x0000000000000000     0xf4a4 ./Middlewares/LibJPEG/jcparam.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcparam.o
  .debug_frame   0x0000000000000000      0x158 ./Middlewares/LibJPEG/jcparam.o
  .ARM.attributes
@@ -12290,8 +12290,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcprepct.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcprepct.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcprepct.o
- .debug_line    0x0000000000000000      0xd2e ./Middlewares/LibJPEG/jcprepct.o
- .debug_str     0x0000000000000000     0xf2f1 ./Middlewares/LibJPEG/jcprepct.o
+ .debug_line    0x0000000000000000      0xd1e ./Middlewares/LibJPEG/jcprepct.o
+ .debug_str     0x0000000000000000     0xf2d1 ./Middlewares/LibJPEG/jcprepct.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcprepct.o
  .debug_frame   0x0000000000000000       0xe4 ./Middlewares/LibJPEG/jcprepct.o
  .ARM.attributes
@@ -12434,8 +12434,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jcsample.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jcsample.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jcsample.o
- .debug_line    0x0000000000000000     0x12d5 ./Middlewares/LibJPEG/jcsample.o
- .debug_str     0x0000000000000000     0xf3e4 ./Middlewares/LibJPEG/jcsample.o
+ .debug_line    0x0000000000000000     0x12c5 ./Middlewares/LibJPEG/jcsample.o
+ .debug_str     0x0000000000000000     0xf3c4 ./Middlewares/LibJPEG/jcsample.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jcsample.o
  .debug_frame   0x0000000000000000      0x1ac ./Middlewares/LibJPEG/jcsample.o
  .ARM.attributes
@@ -12568,8 +12568,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jctrans.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jctrans.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jctrans.o
- .debug_line    0x0000000000000000      0xdcd ./Middlewares/LibJPEG/jctrans.o
- .debug_str     0x0000000000000000     0xf9d3 ./Middlewares/LibJPEG/jctrans.o
+ .debug_line    0x0000000000000000      0xdbd ./Middlewares/LibJPEG/jctrans.o
+ .debug_str     0x0000000000000000     0xf9b3 ./Middlewares/LibJPEG/jctrans.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jctrans.o
  .debug_frame   0x0000000000000000       0xc0 ./Middlewares/LibJPEG/jctrans.o
  .ARM.attributes
@@ -12708,8 +12708,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdapimin.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdapimin.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdapimin.o
- .debug_line    0x0000000000000000      0xc60 ./Middlewares/LibJPEG/jdapimin.o
- .debug_str     0x0000000000000000     0xf506 ./Middlewares/LibJPEG/jdapimin.o
+ .debug_line    0x0000000000000000      0xc50 ./Middlewares/LibJPEG/jdapimin.o
+ .debug_str     0x0000000000000000     0xf4e6 ./Middlewares/LibJPEG/jdapimin.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdapimin.o
  .debug_frame   0x0000000000000000       0xd8 ./Middlewares/LibJPEG/jdapimin.o
  .ARM.attributes
@@ -12844,8 +12844,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdapistd.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdapistd.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdapistd.o
- .debug_line    0x0000000000000000      0xba1 ./Middlewares/LibJPEG/jdapistd.o
- .debug_str     0x0000000000000000     0xf47b ./Middlewares/LibJPEG/jdapistd.o
+ .debug_line    0x0000000000000000      0xb91 ./Middlewares/LibJPEG/jdapistd.o
+ .debug_str     0x0000000000000000     0xf45b ./Middlewares/LibJPEG/jdapistd.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdapistd.o
  .debug_frame   0x0000000000000000       0xd0 ./Middlewares/LibJPEG/jdapistd.o
  .ARM.attributes
@@ -12988,8 +12988,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdarith.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdarith.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdarith.o
- .debug_line    0x0000000000000000     0x166f ./Middlewares/LibJPEG/jdarith.o
- .debug_str     0x0000000000000000     0xf530 ./Middlewares/LibJPEG/jdarith.o
+ .debug_line    0x0000000000000000     0x165f ./Middlewares/LibJPEG/jdarith.o
+ .debug_str     0x0000000000000000     0xf510 ./Middlewares/LibJPEG/jdarith.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdarith.o
  .debug_frame   0x0000000000000000      0x1b4 ./Middlewares/LibJPEG/jdarith.o
  .ARM.attributes
@@ -13126,8 +13126,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x67 ./Middlewares/LibJPEG/jdatadst.o
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdatadst.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdatadst.o
- .debug_line    0x0000000000000000      0xabb ./Middlewares/LibJPEG/jdatadst.o
- .debug_str     0x0000000000000000     0xef8b ./Middlewares/LibJPEG/jdatadst.o
+ .debug_line    0x0000000000000000      0xaab ./Middlewares/LibJPEG/jdatadst.o
+ .debug_str     0x0000000000000000     0xef6b ./Middlewares/LibJPEG/jdatadst.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdatadst.o
  .debug_frame   0x0000000000000000       0xe8 ./Middlewares/LibJPEG/jdatadst.o
  .ARM.attributes
@@ -13266,8 +13266,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x67 ./Middlewares/LibJPEG/jdatasrc.o
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdatasrc.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdatasrc.o
- .debug_line    0x0000000000000000      0xa48 ./Middlewares/LibJPEG/jdatasrc.o
- .debug_str     0x0000000000000000     0xf0ff ./Middlewares/LibJPEG/jdatasrc.o
+ .debug_line    0x0000000000000000      0xa38 ./Middlewares/LibJPEG/jdatasrc.o
+ .debug_str     0x0000000000000000     0xf0df ./Middlewares/LibJPEG/jdatasrc.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdatasrc.o
  .debug_frame   0x0000000000000000       0xcc ./Middlewares/LibJPEG/jdatasrc.o
  .ARM.attributes
@@ -13408,8 +13408,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdcoefct.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdcoefct.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdcoefct.o
- .debug_line    0x0000000000000000     0x16b4 ./Middlewares/LibJPEG/jdcoefct.o
- .debug_str     0x0000000000000000     0xed8b ./Middlewares/LibJPEG/jdcoefct.o
+ .debug_line    0x0000000000000000     0x16a4 ./Middlewares/LibJPEG/jdcoefct.o
+ .debug_str     0x0000000000000000     0xed6b ./Middlewares/LibJPEG/jdcoefct.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdcoefct.o
  .debug_frame   0x0000000000000000      0x15c ./Middlewares/LibJPEG/jdcoefct.o
  .ARM.attributes
@@ -13552,8 +13552,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdcolor.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdcolor.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdcolor.o
- .debug_line    0x0000000000000000     0x10d8 ./Middlewares/LibJPEG/jdcolor.o
- .debug_str     0x0000000000000000     0xf614 ./Middlewares/LibJPEG/jdcolor.o
+ .debug_line    0x0000000000000000     0x10c8 ./Middlewares/LibJPEG/jdcolor.o
+ .debug_str     0x0000000000000000     0xf5f4 ./Middlewares/LibJPEG/jdcolor.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdcolor.o
  .debug_frame   0x0000000000000000      0x164 ./Middlewares/LibJPEG/jdcolor.o
  .ARM.attributes
@@ -13688,8 +13688,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jddctmgr.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jddctmgr.o
  .debug_macro   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jddctmgr.o
- .debug_line    0x0000000000000000      0xb4e ./Middlewares/LibJPEG/jddctmgr.o
- .debug_str     0x0000000000000000     0xf7fa ./Middlewares/LibJPEG/jddctmgr.o
+ .debug_line    0x0000000000000000      0xb3e ./Middlewares/LibJPEG/jddctmgr.o
+ .debug_str     0x0000000000000000     0xf7da ./Middlewares/LibJPEG/jddctmgr.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jddctmgr.o
  .debug_frame   0x0000000000000000       0x5c ./Middlewares/LibJPEG/jddctmgr.o
  .ARM.attributes
@@ -13851,8 +13851,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdhuff.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdhuff.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdhuff.o
- .debug_line    0x0000000000000000     0x254e ./Middlewares/LibJPEG/jdhuff.o
- .debug_str     0x0000000000000000     0xfe8f ./Middlewares/LibJPEG/jdhuff.o
+ .debug_line    0x0000000000000000     0x253e ./Middlewares/LibJPEG/jdhuff.o
+ .debug_str     0x0000000000000000     0xfe6f ./Middlewares/LibJPEG/jdhuff.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdhuff.o
  .debug_frame   0x0000000000000000      0x20c ./Middlewares/LibJPEG/jdhuff.o
  .ARM.attributes
@@ -13987,8 +13987,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdinput.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdinput.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdinput.o
- .debug_line    0x0000000000000000     0x104b ./Middlewares/LibJPEG/jdinput.o
- .debug_str     0x0000000000000000     0xf50b ./Middlewares/LibJPEG/jdinput.o
+ .debug_line    0x0000000000000000     0x103b ./Middlewares/LibJPEG/jdinput.o
+ .debug_str     0x0000000000000000     0xf4eb ./Middlewares/LibJPEG/jdinput.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdinput.o
  .debug_frame   0x0000000000000000       0xbc ./Middlewares/LibJPEG/jdinput.o
  .ARM.attributes
@@ -14121,8 +14121,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdmainct.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdmainct.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdmainct.o
- .debug_line    0x0000000000000000      0xdd6 ./Middlewares/LibJPEG/jdmainct.o
- .debug_str     0x0000000000000000     0xf59d ./Middlewares/LibJPEG/jdmainct.o
+ .debug_line    0x0000000000000000      0xdc6 ./Middlewares/LibJPEG/jdmainct.o
+ .debug_str     0x0000000000000000     0xf57d ./Middlewares/LibJPEG/jdmainct.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdmainct.o
  .debug_frame   0x0000000000000000       0xec ./Middlewares/LibJPEG/jdmainct.o
  .ARM.attributes
@@ -14273,8 +14273,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdmarker.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdmarker.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdmarker.o
- .debug_line    0x0000000000000000     0x2002 ./Middlewares/LibJPEG/jdmarker.o
- .debug_str     0x0000000000000000     0xfbfa ./Middlewares/LibJPEG/jdmarker.o
+ .debug_line    0x0000000000000000     0x1ff2 ./Middlewares/LibJPEG/jdmarker.o
+ .debug_str     0x0000000000000000     0xfbda ./Middlewares/LibJPEG/jdmarker.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdmarker.o
  .debug_frame   0x0000000000000000      0x23c ./Middlewares/LibJPEG/jdmarker.o
  .ARM.attributes
@@ -14409,8 +14409,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdmaster.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdmaster.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdmaster.o
- .debug_line    0x0000000000000000      0xe8a ./Middlewares/LibJPEG/jdmaster.o
- .debug_str     0x0000000000000000     0xf611 ./Middlewares/LibJPEG/jdmaster.o
+ .debug_line    0x0000000000000000      0xe7a ./Middlewares/LibJPEG/jdmaster.o
+ .debug_str     0x0000000000000000     0xf5f1 ./Middlewares/LibJPEG/jdmaster.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdmaster.o
  .debug_frame   0x0000000000000000       0xc4 ./Middlewares/LibJPEG/jdmaster.o
  .ARM.attributes
@@ -14545,8 +14545,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdmerge.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdmerge.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdmerge.o
- .debug_line    0x0000000000000000      0xfe6 ./Middlewares/LibJPEG/jdmerge.o
- .debug_str     0x0000000000000000     0xed43 ./Middlewares/LibJPEG/jdmerge.o
+ .debug_line    0x0000000000000000      0xfd6 ./Middlewares/LibJPEG/jdmerge.o
+ .debug_str     0x0000000000000000     0xed23 ./Middlewares/LibJPEG/jdmerge.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdmerge.o
  .debug_frame   0x0000000000000000       0xe4 ./Middlewares/LibJPEG/jdmerge.o
  .ARM.attributes
@@ -14679,8 +14679,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdpostct.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdpostct.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdpostct.o
- .debug_line    0x0000000000000000      0xabd ./Middlewares/LibJPEG/jdpostct.o
- .debug_str     0x0000000000000000     0xf4f0 ./Middlewares/LibJPEG/jdpostct.o
+ .debug_line    0x0000000000000000      0xaad ./Middlewares/LibJPEG/jdpostct.o
+ .debug_str     0x0000000000000000     0xf4d0 ./Middlewares/LibJPEG/jdpostct.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdpostct.o
  .debug_frame   0x0000000000000000       0xd0 ./Middlewares/LibJPEG/jdpostct.o
  .ARM.attributes
@@ -14819,8 +14819,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdsample.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdsample.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdsample.o
- .debug_line    0x0000000000000000      0xc8c ./Middlewares/LibJPEG/jdsample.o
- .debug_str     0x0000000000000000     0xf5b3 ./Middlewares/LibJPEG/jdsample.o
+ .debug_line    0x0000000000000000      0xc7c ./Middlewares/LibJPEG/jdsample.o
+ .debug_str     0x0000000000000000     0xf593 ./Middlewares/LibJPEG/jdsample.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdsample.o
  .debug_frame   0x0000000000000000      0x110 ./Middlewares/LibJPEG/jdsample.o
  .ARM.attributes
@@ -14945,8 +14945,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jdtrans.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jdtrans.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jdtrans.o
- .debug_line    0x0000000000000000      0x95d ./Middlewares/LibJPEG/jdtrans.o
- .debug_str     0x0000000000000000     0xf43b ./Middlewares/LibJPEG/jdtrans.o
+ .debug_line    0x0000000000000000      0x94d ./Middlewares/LibJPEG/jdtrans.o
+ .debug_str     0x0000000000000000     0xf41b ./Middlewares/LibJPEG/jdtrans.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jdtrans.o
  .debug_frame   0x0000000000000000       0x28 ./Middlewares/LibJPEG/jdtrans.o
  .ARM.attributes
@@ -15085,8 +15085,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jerror.o
  .debug_macro   0x0000000000000000       0x10 ./Middlewares/LibJPEG/jerror.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jerror.o
- .debug_line    0x0000000000000000      0xa2b ./Middlewares/LibJPEG/jerror.o
- .debug_str     0x0000000000000000     0xe542 ./Middlewares/LibJPEG/jerror.o
+ .debug_line    0x0000000000000000      0xa1b ./Middlewares/LibJPEG/jerror.o
+ .debug_str     0x0000000000000000     0xe522 ./Middlewares/LibJPEG/jerror.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jerror.o
  .debug_frame   0x0000000000000000       0xb0 ./Middlewares/LibJPEG/jerror.o
  .ARM.attributes
@@ -15213,8 +15213,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jfdctflt.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jfdctflt.o
  .debug_macro   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jfdctflt.o
- .debug_line    0x0000000000000000      0xd90 ./Middlewares/LibJPEG/jfdctflt.o
- .debug_str     0x0000000000000000     0xdec4 ./Middlewares/LibJPEG/jfdctflt.o
+ .debug_line    0x0000000000000000      0xd80 ./Middlewares/LibJPEG/jfdctflt.o
+ .debug_str     0x0000000000000000     0xdea4 ./Middlewares/LibJPEG/jfdctflt.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jfdctflt.o
  .debug_frame   0x0000000000000000       0x30 ./Middlewares/LibJPEG/jfdctflt.o
  .ARM.attributes
@@ -15341,8 +15341,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jfdctfst.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jfdctfst.o
  .debug_macro   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jfdctfst.o
- .debug_line    0x0000000000000000      0xd77 ./Middlewares/LibJPEG/jfdctfst.o
- .debug_str     0x0000000000000000     0xdfc2 ./Middlewares/LibJPEG/jfdctfst.o
+ .debug_line    0x0000000000000000      0xd67 ./Middlewares/LibJPEG/jfdctfst.o
+ .debug_str     0x0000000000000000     0xdfa2 ./Middlewares/LibJPEG/jfdctfst.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jfdctfst.o
  .debug_frame   0x0000000000000000       0x3c ./Middlewares/LibJPEG/jfdctfst.o
  .ARM.attributes
@@ -15531,8 +15531,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jfdctint.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jfdctint.o
  .debug_macro   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jfdctint.o
- .debug_line    0x0000000000000000     0x9e19 ./Middlewares/LibJPEG/jfdctint.o
- .debug_str     0x0000000000000000     0xe2a3 ./Middlewares/LibJPEG/jfdctint.o
+ .debug_line    0x0000000000000000     0x9e09 ./Middlewares/LibJPEG/jfdctint.o
+ .debug_str     0x0000000000000000     0xe283 ./Middlewares/LibJPEG/jfdctint.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jfdctint.o
  .debug_frame   0x0000000000000000      0x578 ./Middlewares/LibJPEG/jfdctint.o
  .ARM.attributes
@@ -15659,8 +15659,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jidctflt.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jidctflt.o
  .debug_macro   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jidctflt.o
- .debug_line    0x0000000000000000      0xdd5 ./Middlewares/LibJPEG/jidctflt.o
- .debug_str     0x0000000000000000     0xed42 ./Middlewares/LibJPEG/jidctflt.o
+ .debug_line    0x0000000000000000      0xdc5 ./Middlewares/LibJPEG/jidctflt.o
+ .debug_str     0x0000000000000000     0xed22 ./Middlewares/LibJPEG/jidctflt.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jidctflt.o
  .debug_frame   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jidctflt.o
  .ARM.attributes
@@ -15787,8 +15787,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jidctfst.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jidctfst.o
  .debug_macro   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jidctfst.o
- .debug_line    0x0000000000000000      0xc28 ./Middlewares/LibJPEG/jidctfst.o
- .debug_str     0x0000000000000000     0xeeaf ./Middlewares/LibJPEG/jidctfst.o
+ .debug_line    0x0000000000000000      0xc18 ./Middlewares/LibJPEG/jidctfst.o
+ .debug_str     0x0000000000000000     0xee8f ./Middlewares/LibJPEG/jidctfst.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jidctfst.o
  .debug_frame   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jidctfst.o
  .ARM.attributes
@@ -15977,8 +15977,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jidctint.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jidctint.o
  .debug_macro   0x0000000000000000       0x40 ./Middlewares/LibJPEG/jidctint.o
- .debug_line    0x0000000000000000     0xddaf ./Middlewares/LibJPEG/jidctint.o
- .debug_str     0x0000000000000000     0xf10f ./Middlewares/LibJPEG/jidctint.o
+ .debug_line    0x0000000000000000     0xdd9f ./Middlewares/LibJPEG/jidctint.o
+ .debug_str     0x0000000000000000     0xf0ef ./Middlewares/LibJPEG/jidctint.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jidctint.o
  .debug_frame   0x0000000000000000      0x5a8 ./Middlewares/LibJPEG/jidctint.o
  .ARM.attributes
@@ -16133,8 +16133,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jmemmgr.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jmemmgr.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jmemmgr.o
- .debug_line    0x0000000000000000     0x15df ./Middlewares/LibJPEG/jmemmgr.o
- .debug_str     0x0000000000000000     0xed36 ./Middlewares/LibJPEG/jmemmgr.o
+ .debug_line    0x0000000000000000     0x15cf ./Middlewares/LibJPEG/jmemmgr.o
+ .debug_str     0x0000000000000000     0xed16 ./Middlewares/LibJPEG/jmemmgr.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jmemmgr.o
  .debug_frame   0x0000000000000000      0x1f4 ./Middlewares/LibJPEG/jmemmgr.o
  .ARM.attributes
@@ -16273,8 +16273,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jmemnobs.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jmemnobs.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jmemnobs.o
- .debug_line    0x0000000000000000      0x898 ./Middlewares/LibJPEG/jmemnobs.o
- .debug_str     0x0000000000000000     0xea04 ./Middlewares/LibJPEG/jmemnobs.o
+ .debug_line    0x0000000000000000      0x888 ./Middlewares/LibJPEG/jmemnobs.o
+ .debug_str     0x0000000000000000     0xe9e4 ./Middlewares/LibJPEG/jmemnobs.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jmemnobs.o
  .debug_frame   0x0000000000000000       0x90 ./Middlewares/LibJPEG/jmemnobs.o
  .ARM.attributes
@@ -16423,8 +16423,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jquant1.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jquant1.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jquant1.o
- .debug_line    0x0000000000000000     0x1611 ./Middlewares/LibJPEG/jquant1.o
- .debug_str     0x0000000000000000     0xf770 ./Middlewares/LibJPEG/jquant1.o
+ .debug_line    0x0000000000000000     0x1601 ./Middlewares/LibJPEG/jquant1.o
+ .debug_str     0x0000000000000000     0xf750 ./Middlewares/LibJPEG/jquant1.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jquant1.o
  .debug_frame   0x0000000000000000      0x1c8 ./Middlewares/LibJPEG/jquant1.o
  .ARM.attributes
@@ -16569,8 +16569,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jquant2.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jquant2.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jquant2.o
- .debug_line    0x0000000000000000     0x1be7 ./Middlewares/LibJPEG/jquant2.o
- .debug_str     0x0000000000000000     0xfb6d ./Middlewares/LibJPEG/jquant2.o
+ .debug_line    0x0000000000000000     0x1bd7 ./Middlewares/LibJPEG/jquant2.o
+ .debug_str     0x0000000000000000     0xfb4d ./Middlewares/LibJPEG/jquant2.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jquant2.o
  .debug_frame   0x0000000000000000      0x1ac ./Middlewares/LibJPEG/jquant2.o
  .ARM.attributes
@@ -16715,8 +16715,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xe6 ./Middlewares/LibJPEG/jutils.o
  .debug_macro   0x0000000000000000       0x8f ./Middlewares/LibJPEG/jutils.o
  .debug_macro   0x0000000000000000       0xaa ./Middlewares/LibJPEG/jutils.o
- .debug_line    0x0000000000000000      0x8f1 ./Middlewares/LibJPEG/jutils.o
- .debug_str     0x0000000000000000     0xde7f ./Middlewares/LibJPEG/jutils.o
+ .debug_line    0x0000000000000000      0x8e1 ./Middlewares/LibJPEG/jutils.o
+ .debug_str     0x0000000000000000     0xde5f ./Middlewares/LibJPEG/jutils.o
  .comment       0x0000000000000000       0x44 ./Middlewares/LibJPEG/jutils.o
  .debug_frame   0x0000000000000000       0x5c ./Middlewares/LibJPEG/jutils.o
  .ARM.attributes
@@ -22283,7 +22283,7 @@ LOAD C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 .iplt           0x0000000008024c04        0x0
  .iplt          0x0000000008024c04        0x0 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.rodata         0x0000000008024c04     0x3818
+.rodata         0x0000000008024c04     0x37d8
                 0x0000000008024c04                . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x0000000008024c04       0x40 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Container.o)
@@ -22295,655 +22295,655 @@ LOAD C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000008024c6c       0x1c ./Application/User/TouchGFX/target/KeySampler.o
                 0x0000000008024c6c                vtable for touchgfx::KeySampler
  .rodata._ZN20STM32TouchController4initEv.str1.1
-                0x0000000008024c88       0x81 ./Application/User/TouchGFX/target/STM32TouchController.o
- *fill*         0x0000000008024d09        0x3 
+                0x0000000008024c88       0x71 ./Application/User/TouchGFX/target/STM32TouchController.o
+ *fill*         0x0000000008024cf9        0x3 
  .rodata._ZTV20STM32TouchController
-                0x0000000008024d0c       0x18 ./Application/User/TouchGFX/target/STM32TouchController.o
-                0x0000000008024d0c                vtable for STM32TouchController
+                0x0000000008024cfc       0x18 ./Application/User/TouchGFX/target/STM32TouchController.o
+                0x0000000008024cfc                vtable for STM32TouchController
  .rodata._ZN8touchgfx3HAL18setFrameBufferSizeEtt.str1.1
-                0x0000000008024d24       0xeb ./Application/User/TouchGFX/target/TouchGFXHAL.o
+                0x0000000008024d14       0xeb ./Application/User/TouchGFX/target/TouchGFXHAL.o
  .rodata._ZN11TouchGFXHAL28setFrameBufferStartAddressesEPvS0_S0_.str1.1
-                0x0000000008024e0f       0x86 ./Application/User/TouchGFX/target/TouchGFXHAL.o
- *fill*         0x0000000008024e95        0x3 
+                0x0000000008024dff       0x86 ./Application/User/TouchGFX/target/TouchGFXHAL.o
+ *fill*         0x0000000008024e85        0x3 
  .rodata._ZTV11TouchGFXHAL
-                0x0000000008024e98       0xd8 ./Application/User/TouchGFX/target/TouchGFXHAL.o
-                0x0000000008024e98                vtable for TouchGFXHAL
+                0x0000000008024e88       0xd8 ./Application/User/TouchGFX/target/TouchGFXHAL.o
+                0x0000000008024e88                vtable for TouchGFXHAL
  .rodata._ZN20HardwareMJPEGDecoder15decodeThumbnailEmPhtt.str1.1
-                0x0000000008024f70       0xa9 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
-                                         0xab (size before relaxing)
+                0x0000000008024f60       0x99 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+                                         0x9b (size before relaxing)
  .rodata._ZN20HardwareMJPEGDecoder8readDataEmm.str1.1
-                0x0000000008025019       0x55 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+                0x0000000008024ff9       0x55 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
  .rodata._ZN20HardwareMJPEGDecoder13gotoNextFrameEv.str1.1
-                0x000000000802506e       0x7c ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+                0x000000000802504e       0x7c ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
  .rodata._ZN20HardwareMJPEGDecoder15readVideoHeaderEv.str1.1
-                0x00000000080250ea       0xa3 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+                0x00000000080250ca       0xa3 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
  .rodata.HAL_JPEG_InfoReadyCallback.str1.1
-                0x000000000802518d       0x59 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+                0x000000000802516d       0x59 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
  .rodata._ZN20HardwareMJPEGDecoder15decodeNextFrameEPhttm.str1.1
-                0x00000000080251e6       0x5b ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
- *fill*         0x0000000008025241        0x3 
+                0x00000000080251c6       0x5b ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+ *fill*         0x0000000008025221        0x3 
  .rodata._ZTV20HardwareMJPEGDecoder
-                0x0000000008025244       0x44 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
-                0x0000000008025244                vtable for HardwareMJPEGDecoder
+                0x0000000008025224       0x44 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+                0x0000000008025224                vtable for HardwareMJPEGDecoder
  .rodata._ZN8touchgfx10OSWrappers10initializeEv.str1.1
-                0x0000000008025288       0xfe ./Application/User/TouchGFX/target/generated/OSWrappers.o
+                0x0000000008025268       0xee ./Application/User/TouchGFX/target/generated/OSWrappers.o
  .rodata._ZN8STM32DMA22getChromARTInputFormatEN8touchgfx6Bitmap12BitmapFormatE.str1.1
-                0x0000000008025386       0xa7 ./Application/User/TouchGFX/target/generated/STM32DMA.o
+                0x0000000008025356       0x97 ./Application/User/TouchGFX/target/generated/STM32DMA.o
  .rodata._ZN8STM32DMA23getChromARTOutputFormatEN8touchgfx6Bitmap12BitmapFormatE.str1.1
-                0x000000000802542d       0x4b ./Application/User/TouchGFX/target/generated/STM32DMA.o
+                0x00000000080253ed       0x4b ./Application/User/TouchGFX/target/generated/STM32DMA.o
  .rodata._ZN8STM32DMA13setupDataCopyERKN8touchgfx6BlitOpE.str1.1
-                0x0000000008025478       0x58 ./Application/User/TouchGFX/target/generated/STM32DMA.o
+                0x0000000008025438       0x58 ./Application/User/TouchGFX/target/generated/STM32DMA.o
  .rodata._ZTV8STM32DMA
-                0x00000000080254d0       0x50 ./Application/User/TouchGFX/target/generated/STM32DMA.o
-                0x00000000080254d0                vtable for STM32DMA
+                0x0000000008025490       0x50 ./Application/User/TouchGFX/target/generated/STM32DMA.o
+                0x0000000008025490                vtable for STM32DMA
  .rodata._ZTVN8touchgfx9PartitionINS_4meta8TypeListI16Screen1PresenterNS2_INS1_3NilES4_EEEELt1EEE
-                0x0000000008025520       0x34 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
-                0x0000000008025520                vtable for touchgfx::Partition<touchgfx::meta::TypeList<Screen1Presenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, (unsigned short)1>
+                0x00000000080254e0       0x34 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+                0x00000000080254e0                vtable for touchgfx::Partition<touchgfx::meta::TypeList<Screen1Presenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, (unsigned short)1>
  .rodata._ZTVN8touchgfx9PartitionINS_4meta8TypeListI11Screen1ViewNS2_INS1_3NilES4_EEEELt1EEE
-                0x0000000008025554       0x34 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
-                0x0000000008025554                vtable for touchgfx::Partition<touchgfx::meta::TypeList<Screen1View, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, (unsigned short)1>
+                0x0000000008025514       0x34 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+                0x0000000008025514                vtable for touchgfx::Partition<touchgfx::meta::TypeList<Screen1View, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, (unsigned short)1>
  .rodata._ZTVN8touchgfx9PartitionINS_4meta8TypeListINS_12NoTransitionENS2_INS1_3NilES4_EEEELt1EEE
-                0x0000000008025588       0x34 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
-                0x0000000008025588                vtable for touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, (unsigned short)1>
+                0x0000000008025548       0x34 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+                0x0000000008025548                vtable for touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, (unsigned short)1>
  .rodata._ZTV12FrontendHeap
-                0x00000000080255bc       0x14 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
-                0x00000000080255bc                vtable for FrontendHeap
+                0x000000000802557c       0x14 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+                0x000000000802557c                vtable for FrontendHeap
  .rodata._ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE12getIsPlayingEm.str1.1
-                0x00000000080255d0      0x1e1 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x0000000008025590      0x1e1 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
  .rodata._ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE19getVideoInformationEmPNS0_16VideoInformationE.str1.1
-                0x00000000080257b1      0x1ae ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x0000000008025771      0x1ae ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
  .rodata._ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE21getCurrentFrameNumberEm.str1.1
-                0x000000000802595f      0x1b5 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x000000000802591f      0x1b5 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
  .rodata._ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE10setCommandEmNS0_15VideoController7CommandEm.str1.1
-                0x0000000008025b14      0x1d4 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x0000000008025ad4      0x1d4 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
  .rodata._ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE12setVideoDataEmPKhm.str1.1
-                0x0000000008025ce8      0x1db ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x0000000008025ca8      0x1db ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
  .rodata._ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE12setFrameRateEmmm.str1.1
-                0x0000000008025ec3      0x1bc ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x0000000008025e83      0x1bc ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
  .rodata._ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE11updateFrameEmRNS0_11VideoWidgetE.str1.1
-                0x000000000802607f      0x1a1 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x000000000802603f      0x1a1 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
  .rodata._ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE19registerVideoWidgetERNS0_11VideoWidgetE.str1.1
-                0x0000000008026220      0x395 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x00000000080261e0      0x395 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
  .rodata._ZN8touchgfx21AbstractPainterRGB565C2Ev.str1.1
-                0x00000000080265b5       0xf9 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
- *fill*         0x00000000080266ae        0x2 
+                0x0000000008026575       0xf9 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+ *fill*         0x000000000802666e        0x2 
  .rodata._ZTVN8touchgfx21AbstractPainterRGB565E
-                0x00000000080266b0       0x20 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
-                0x00000000080266b0                vtable for touchgfx::AbstractPainterRGB565
+                0x0000000008026670       0x20 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x0000000008026670                vtable for touchgfx::AbstractPainterRGB565
  .rodata._ZTV25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE
-                0x00000000080266d0       0x40 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
-                0x00000000080266d0                vtable for DedicatedBufferController<1ul, 800ul, 480ul, 1600ul, (touchgfx::Bitmap::BitmapFormat)0>
+                0x0000000008026690       0x40 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                0x0000000008026690                vtable for DedicatedBufferController<1ul, 800ul, 480ul, 1600ul, (touchgfx::Bitmap::BitmapFormat)0>
  .rodata.CLAMP_LUT
-                0x0000000008026710      0x300 ./Application/User/TouchGFX/target/generated/tgfx_jpeg_utils.o
+                0x00000000080266d0      0x300 ./Application/User/TouchGFX/target/generated/tgfx_jpeg_utils.o
  .rodata.str1.1
-                0x0000000008026a10       0x2e ./Application/User/main.o
- *fill*         0x0000000008026a3e        0x2 
+                0x00000000080269d0       0x2e ./Application/User/main.o
+ *fill*         0x00000000080269fe        0x2 
  .rodata.TouchGFXTask_attributes
-                0x0000000008026a40       0x24 ./Application/User/main.o
-                0x0000000008026a40                TouchGFXTask_attributes
+                0x0000000008026a00       0x24 ./Application/User/main.o
+                0x0000000008026a00                TouchGFXTask_attributes
  .rodata.defaultTask_attributes
-                0x0000000008026a64       0x24 ./Application/User/main.o
-                0x0000000008026a64                defaultTask_attributes
+                0x0000000008026a24       0x24 ./Application/User/main.o
+                0x0000000008026a24                defaultTask_attributes
  .rodata.sensorTask_attributes
-                0x0000000008026a88       0x24 ./Application/User/main.o
-                0x0000000008026a88                sensorTask_attributes
+                0x0000000008026a48       0x24 ./Application/User/main.o
+                0x0000000008026a48                sensorTask_attributes
  .rodata.videoTask_attributes
-                0x0000000008026aac       0x24 ./Application/User/main.o
-                0x0000000008026aac                videoTask_attributes
+                0x0000000008026a6c       0x24 ./Application/User/main.o
+                0x0000000008026a6c                videoTask_attributes
  .rodata._ZTV23ApplicationFontProvider
-                0x0000000008026ad0       0x14 ./Application/User/generated/ApplicationFontProvider.o
-                0x0000000008026ad0                vtable for ApplicationFontProvider
+                0x0000000008026a90       0x14 ./Application/User/generated/ApplicationFontProvider.o
+                0x0000000008026a90                vtable for ApplicationFontProvider
  .rodata._ZL15bitmap_database
-                0x0000000008026ae4       0x14 ./Application/User/generated/BitmapDatabase.o
+                0x0000000008026aa4       0x14 ./Application/User/generated/BitmapDatabase.o
  .rodata._ZTVN8touchgfx9TypedTextE
-                0x0000000008026af8       0x10 ./Application/User/generated/FontCache.o
-                0x0000000008026af8                vtable for touchgfx::TypedText
+                0x0000000008026ab8       0x10 ./Application/User/generated/FontCache.o
+                0x0000000008026ab8                vtable for touchgfx::TypedText
  .rodata._ZN23FrontendApplicationBase33gotoScreen1ScreenNoTransitionImplEv.str1.1
-                0x0000000008026b08      0x31f ./Application/User/generated/FrontendApplicationBase.o
- *fill*         0x0000000008026e27        0x1 
+                0x0000000008026ac8      0x31f ./Application/User/generated/FrontendApplicationBase.o
+ *fill*         0x0000000008026de7        0x1 
  .rodata._ZTVN8touchgfx8CallbackI23FrontendApplicationBasevvvEE
-                0x0000000008026e28       0x18 ./Application/User/generated/FrontendApplicationBase.o
-                0x0000000008026e28                vtable for touchgfx::Callback<FrontendApplicationBase, void, void, void>
+                0x0000000008026de8       0x18 ./Application/User/generated/FrontendApplicationBase.o
+                0x0000000008026de8                vtable for touchgfx::Callback<FrontendApplicationBase, void, void, void>
  .rodata._ZTV23FrontendApplicationBase
-                0x0000000008026e40       0x54 ./Application/User/generated/FrontendApplicationBase.o
-                0x0000000008026e40                vtable for FrontendApplicationBase
+                0x0000000008026e00       0x54 ./Application/User/generated/FrontendApplicationBase.o
+                0x0000000008026e00                vtable for FrontendApplicationBase
  .rodata._ZTVN8touchgfx12NoTransitionE
-                0x0000000008026e94       0x24 ./Application/User/generated/FrontendApplicationBase.o
-                0x0000000008026e94                vtable for touchgfx::NoTransition
+                0x0000000008026e54       0x24 ./Application/User/generated/FrontendApplicationBase.o
+                0x0000000008026e54                vtable for touchgfx::NoTransition
  .rodata._ZTVN8touchgfx13GeneratedFontE
-                0x0000000008026eb8       0x60 ./Application/User/generated/GeneratedFont.o
-                0x0000000008026eb8                vtable for touchgfx::GeneratedFont
+                0x0000000008026e78       0x60 ./Application/User/generated/GeneratedFont.o
+                0x0000000008026e78                vtable for touchgfx::GeneratedFont
  .rodata._ZN8touchgfx8TextArea12setBaselineYEs.str1.1
-                0x0000000008026f18      0x102 ./Application/User/generated/Screen1ViewBase.o
+                0x0000000008026ed8      0x102 ./Application/User/generated/Screen1ViewBase.o
  .rodata._ZN15Screen1ViewBaseC2Ev.str1.1
-                0x000000000802701a       0x3b ./Application/User/generated/Screen1ViewBase.o
- *fill*         0x0000000008027055        0x3 
+                0x0000000008026fda       0x3b ./Application/User/generated/Screen1ViewBase.o
+ *fill*         0x0000000008027015        0x3 
  .rodata._ZTVN8touchgfx23TextAreaWithOneWildcardE
-                0x0000000008027058       0x90 ./Application/User/generated/Screen1ViewBase.o
-                0x0000000008027058                vtable for touchgfx::TextAreaWithOneWildcard
+                0x0000000008027018       0x90 ./Application/User/generated/Screen1ViewBase.o
+                0x0000000008027018                vtable for touchgfx::TextAreaWithOneWildcard
  .rodata._ZTV15Screen1ViewBase
-                0x00000000080270e8       0x34 ./Application/User/generated/Screen1ViewBase.o
-                0x00000000080270e8                vtable for Screen1ViewBase
+                0x00000000080270a8       0x34 ./Application/User/generated/Screen1ViewBase.o
+                0x00000000080270a8                vtable for Screen1ViewBase
  .rodata._ZN8touchgfx12TextProvider15getNextLigatureEh.str1.1
-                0x000000000802711c      0x1de ./Application/User/generated/Texts.o
- *fill*         0x00000000080272fa        0x2 
+                0x00000000080270dc      0x1de ./Application/User/generated/Texts.o
+ *fill*         0x00000000080272ba        0x2 
  .rodata._ZTV19FrontendApplication
-                0x00000000080272fc       0x54 ./Application/User/gui/FrontendApplication.o
-                0x00000000080272fc                vtable for FrontendApplication
+                0x00000000080272bc       0x54 ./Application/User/gui/FrontendApplication.o
+                0x00000000080272bc                vtable for FrontendApplication
  .rodata._ZTV16Screen1Presenter
-                0x0000000008027350       0x30 ./Application/User/gui/Screen1Presenter.o
-                0x0000000008027350                vtable for Screen1Presenter
+                0x0000000008027310       0x30 ./Application/User/gui/Screen1Presenter.o
+                0x0000000008027310                vtable for Screen1Presenter
  .rodata._ZN11Screen1View11saveReadingEh.str1.1
-                0x0000000008027380        0x3 ./Application/User/gui/Screen1View.o
- *fill*         0x0000000008027383        0x1 
+                0x0000000008027340        0x3 ./Application/User/gui/Screen1View.o
+ *fill*         0x0000000008027343        0x1 
  .rodata._ZTV11Screen1View
-                0x0000000008027384       0x38 ./Application/User/gui/Screen1View.o
-                0x0000000008027384                vtable for Screen1View
+                0x0000000008027344       0x38 ./Application/User/gui/Screen1View.o
+                0x0000000008027344                vtable for Screen1View
  .rodata.ShortRegData1
-                0x00000000080273bc        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273bc                ShortRegData1
+                0x000000000802737c        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802737c                ShortRegData1
  .rodata.ShortRegData10
-                0x00000000080273be        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273be                ShortRegData10
+                0x000000000802737e        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802737e                ShortRegData10
  .rodata.ShortRegData11
-                0x00000000080273c0        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273c0                ShortRegData11
+                0x0000000008027380        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027380                ShortRegData11
  .rodata.ShortRegData12
-                0x00000000080273c2        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273c2                ShortRegData12
+                0x0000000008027382        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027382                ShortRegData12
  .rodata.ShortRegData13
-                0x00000000080273c4        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273c4                ShortRegData13
+                0x0000000008027384        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027384                ShortRegData13
  .rodata.ShortRegData15
-                0x00000000080273c6        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273c6                ShortRegData15
+                0x0000000008027386        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027386                ShortRegData15
  .rodata.ShortRegData16
-                0x00000000080273c8        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273c8                ShortRegData16
+                0x0000000008027388        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027388                ShortRegData16
  .rodata.ShortRegData17
-                0x00000000080273ca        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273ca                ShortRegData17
+                0x000000000802738a        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802738a                ShortRegData17
  .rodata.ShortRegData18
-                0x00000000080273cc        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273cc                ShortRegData18
+                0x000000000802738c        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802738c                ShortRegData18
  .rodata.ShortRegData19
-                0x00000000080273ce        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273ce                ShortRegData19
+                0x000000000802738e        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802738e                ShortRegData19
  .rodata.ShortRegData2
-                0x00000000080273d0        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273d0                ShortRegData2
+                0x0000000008027390        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027390                ShortRegData2
  .rodata.ShortRegData20
-                0x00000000080273d2        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273d2                ShortRegData20
+                0x0000000008027392        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027392                ShortRegData20
  .rodata.ShortRegData21
-                0x00000000080273d4        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273d4                ShortRegData21
+                0x0000000008027394        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027394                ShortRegData21
  .rodata.ShortRegData22
-                0x00000000080273d6        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273d6                ShortRegData22
+                0x0000000008027396        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027396                ShortRegData22
  .rodata.ShortRegData23
-                0x00000000080273d8        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273d8                ShortRegData23
+                0x0000000008027398        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027398                ShortRegData23
  .rodata.ShortRegData24
-                0x00000000080273da        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273da                ShortRegData24
+                0x000000000802739a        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802739a                ShortRegData24
  .rodata.ShortRegData25
-                0x00000000080273dc        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273dc                ShortRegData25
+                0x000000000802739c        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802739c                ShortRegData25
  .rodata.ShortRegData26
-                0x00000000080273de        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273de                ShortRegData26
+                0x000000000802739e        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802739e                ShortRegData26
  .rodata.ShortRegData27
-                0x00000000080273e0        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273e0                ShortRegData27
+                0x00000000080273a0        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273a0                ShortRegData27
  .rodata.ShortRegData28
-                0x00000000080273e2        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273e2                ShortRegData28
+                0x00000000080273a2        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273a2                ShortRegData28
  .rodata.ShortRegData29
-                0x00000000080273e4        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273e4                ShortRegData29
+                0x00000000080273a4        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273a4                ShortRegData29
  .rodata.ShortRegData3
-                0x00000000080273e6        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273e6                ShortRegData3
+                0x00000000080273a6        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273a6                ShortRegData3
  .rodata.ShortRegData30
-                0x00000000080273e8        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273e8                ShortRegData30
+                0x00000000080273a8        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273a8                ShortRegData30
  .rodata.ShortRegData31
-                0x00000000080273ea        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273ea                ShortRegData31
+                0x00000000080273aa        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273aa                ShortRegData31
  .rodata.ShortRegData32
-                0x00000000080273ec        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273ec                ShortRegData32
+                0x00000000080273ac        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273ac                ShortRegData32
  .rodata.ShortRegData33
-                0x00000000080273ee        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273ee                ShortRegData33
+                0x00000000080273ae        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273ae                ShortRegData33
  .rodata.ShortRegData34
-                0x00000000080273f0        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273f0                ShortRegData34
+                0x00000000080273b0        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273b0                ShortRegData34
  .rodata.ShortRegData35
-                0x00000000080273f2        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273f2                ShortRegData35
+                0x00000000080273b2        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273b2                ShortRegData35
  .rodata.ShortRegData36
-                0x00000000080273f4        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273f4                ShortRegData36
+                0x00000000080273b4        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273b4                ShortRegData36
  .rodata.ShortRegData37
-                0x00000000080273f6        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273f6                ShortRegData37
+                0x00000000080273b6        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273b6                ShortRegData37
  .rodata.ShortRegData38
-                0x00000000080273f8        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273f8                ShortRegData38
+                0x00000000080273b8        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273b8                ShortRegData38
  .rodata.ShortRegData39
-                0x00000000080273fa        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273fa                ShortRegData39
+                0x00000000080273ba        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273ba                ShortRegData39
  .rodata.ShortRegData4
-                0x00000000080273fc        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273fc                ShortRegData4
+                0x00000000080273bc        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273bc                ShortRegData4
  .rodata.ShortRegData40
-                0x00000000080273fe        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080273fe                ShortRegData40
+                0x00000000080273be        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273be                ShortRegData40
  .rodata.ShortRegData41
-                0x0000000008027400        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027400                ShortRegData41
+                0x00000000080273c0        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273c0                ShortRegData41
  .rodata.ShortRegData42
-                0x0000000008027402        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027402                ShortRegData42
+                0x00000000080273c2        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273c2                ShortRegData42
  .rodata.ShortRegData43
-                0x0000000008027404        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027404                ShortRegData43
+                0x00000000080273c4        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273c4                ShortRegData43
  .rodata.ShortRegData44
-                0x0000000008027406        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027406                ShortRegData44
+                0x00000000080273c6        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273c6                ShortRegData44
  .rodata.ShortRegData45
-                0x0000000008027408        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027408                ShortRegData45
+                0x00000000080273c8        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273c8                ShortRegData45
  .rodata.ShortRegData46
-                0x000000000802740a        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802740a                ShortRegData46
+                0x00000000080273ca        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273ca                ShortRegData46
  .rodata.ShortRegData47
-                0x000000000802740c        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802740c                ShortRegData47
+                0x00000000080273cc        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273cc                ShortRegData47
  .rodata.ShortRegData48
-                0x000000000802740e        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802740e                ShortRegData48
+                0x00000000080273ce        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273ce                ShortRegData48
  .rodata.ShortRegData49
-                0x0000000008027410        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027410                ShortRegData49
+                0x00000000080273d0        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273d0                ShortRegData49
  .rodata.ShortRegData5
-                0x0000000008027412        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027412                ShortRegData5
+                0x00000000080273d2        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273d2                ShortRegData5
  .rodata.ShortRegData50
-                0x0000000008027414        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027414                ShortRegData50
+                0x00000000080273d4        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273d4                ShortRegData50
  .rodata.ShortRegData51
-                0x0000000008027416        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027416                ShortRegData51
+                0x00000000080273d6        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273d6                ShortRegData51
  .rodata.ShortRegData6
-                0x0000000008027418        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027418                ShortRegData6
+                0x00000000080273d8        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273d8                ShortRegData6
  .rodata.ShortRegData7
-                0x000000000802741a        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802741a                ShortRegData7
+                0x00000000080273da        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273da                ShortRegData7
  .rodata.ShortRegData8
-                0x000000000802741c        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802741c                ShortRegData8
+                0x00000000080273dc        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273dc                ShortRegData8
  .rodata.ShortRegData9
-                0x000000000802741e        0x2 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802741e                ShortRegData9
+                0x00000000080273de        0x2 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273de                ShortRegData9
  .rodata.lcdRegData1
-                0x0000000008027420        0x4 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027420                lcdRegData1
+                0x00000000080273e0        0x4 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273e0                lcdRegData1
  .rodata.lcdRegData10
-                0x0000000008027424        0xb ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027424                lcdRegData10
+                0x00000000080273e4        0xb ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273e4                lcdRegData10
  .rodata.lcdRegData11
-                0x000000000802742f        0xb ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802742f                lcdRegData11
+                0x00000000080273ef        0xb ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273ef                lcdRegData11
  .rodata.lcdRegData12
-                0x000000000802743a       0x10 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802743a                lcdRegData12
+                0x00000000080273fa       0x10 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080273fa                lcdRegData12
  .rodata.lcdRegData13
-                0x000000000802744a       0x10 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802744a                lcdRegData13
+                0x000000000802740a       0x10 ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802740a                lcdRegData13
  .rodata.lcdRegData14
-                0x000000000802745a        0xb ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802745a                lcdRegData14
+                0x000000000802741a        0xb ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802741a                lcdRegData14
  .rodata.lcdRegData15
-                0x0000000008027465       0x10 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027465                lcdRegData15
+                0x0000000008027425       0x10 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027425                lcdRegData15
  .rodata.lcdRegData16
-                0x0000000008027475       0x10 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027475                lcdRegData16
+                0x0000000008027435       0x10 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027435                lcdRegData16
  .rodata.lcdRegData17
-                0x0000000008027485        0xb ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027485                lcdRegData17
+                0x0000000008027445        0xb ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027445                lcdRegData17
  .rodata.lcdRegData18
-                0x0000000008027490        0xb ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027490                lcdRegData18
+                0x0000000008027450        0xb ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027450                lcdRegData18
  .rodata.lcdRegData19
-                0x000000000802749b        0xb ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802749b                lcdRegData19
+                0x000000000802745b        0xb ./Drivers/BSP/Components/otm8009a.o
+                0x000000000802745b                lcdRegData19
  .rodata.lcdRegData2
-                0x00000000080274a6        0x3 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274a6                lcdRegData2
+                0x0000000008027466        0x3 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027466                lcdRegData2
  .rodata.lcdRegData20
-                0x00000000080274a9       0x10 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274a9                lcdRegData20
+                0x0000000008027469       0x10 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027469                lcdRegData20
  .rodata.lcdRegData21
-                0x00000000080274b9       0x10 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274b9                lcdRegData21
+                0x0000000008027479       0x10 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027479                lcdRegData21
  .rodata.lcdRegData22
-                0x00000000080274c9        0xb ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274c9                lcdRegData22
+                0x0000000008027489        0xb ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027489                lcdRegData22
  .rodata.lcdRegData23
-                0x00000000080274d4       0x10 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274d4                lcdRegData23
+                0x0000000008027494       0x10 ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027494                lcdRegData23
  .rodata.lcdRegData24
-                0x00000000080274e4       0x10 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274e4                lcdRegData24
+                0x00000000080274a4       0x10 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274a4                lcdRegData24
  .rodata.lcdRegData25
-                0x00000000080274f4        0x4 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274f4                lcdRegData25
+                0x00000000080274b4        0x4 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274b4                lcdRegData25
  .rodata.lcdRegData27
-                0x00000000080274f8        0x5 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274f8                lcdRegData27
+                0x00000000080274b8        0x5 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274b8                lcdRegData27
  .rodata.lcdRegData28
-                0x00000000080274fd        0x5 ./Drivers/BSP/Components/otm8009a.o
-                0x00000000080274fd                lcdRegData28
+                0x00000000080274bd        0x5 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274bd                lcdRegData28
  .rodata.lcdRegData3
-                0x0000000008027502       0x11 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027502                lcdRegData3
+                0x00000000080274c2       0x11 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274c2                lcdRegData3
  .rodata.lcdRegData4
-                0x0000000008027513       0x11 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027513                lcdRegData4
+                0x00000000080274d3       0x11 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274d3                lcdRegData4
  .rodata.lcdRegData5
-                0x0000000008027524        0x3 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027524                lcdRegData5
+                0x00000000080274e4        0x3 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274e4                lcdRegData5
  .rodata.lcdRegData6
-                0x0000000008027527        0x3 ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027527                lcdRegData6
+                0x00000000080274e7        0x3 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274e7                lcdRegData6
  .rodata.lcdRegData7
-                0x000000000802752a        0x7 ./Drivers/BSP/Components/otm8009a.o
-                0x000000000802752a                lcdRegData7
+                0x00000000080274ea        0x7 ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274ea                lcdRegData7
  .rodata.lcdRegData8
-                0x0000000008027531        0xf ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027531                lcdRegData8
+                0x00000000080274f1        0xf ./Drivers/BSP/Components/otm8009a.o
+                0x00000000080274f1                lcdRegData8
  .rodata.lcdRegData9
-                0x0000000008027540        0xf ./Drivers/BSP/Components/otm8009a.o
-                0x0000000008027540                lcdRegData9
+                0x0000000008027500        0xf ./Drivers/BSP/Components/otm8009a.o
+                0x0000000008027500                lcdRegData9
  .rodata.AHBPrescTable
-                0x000000000802754f       0x10 ./Drivers/CMSIS/system_stm32f7xx.o
-                0x000000000802754f                AHBPrescTable
+                0x000000000802750f       0x10 ./Drivers/CMSIS/system_stm32f7xx.o
+                0x000000000802750f                AHBPrescTable
  .rodata.APBPrescTable
-                0x000000000802755f        0x8 ./Drivers/CMSIS/system_stm32f7xx.o
-                0x000000000802755f                APBPrescTable
+                0x000000000802751f        0x8 ./Drivers/CMSIS/system_stm32f7xx.o
+                0x000000000802751f                APBPrescTable
  .rodata.flagBitshiftOffset.0
-                0x0000000008027567        0x8 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o
+                0x0000000008027527        0x8 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o
  .rodata.JPEG_ACCHROM_HuffTable
-                0x000000000802756f       0xb2 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+                0x000000000802752f       0xb2 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
  .rodata.JPEG_ACLUM_HuffTable
-                0x0000000008027621       0xb2 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+                0x00000000080275e1       0xb2 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
  .rodata.JPEG_CHROM_QuantTable.0
-                0x00000000080276d3       0x40 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+                0x0000000008027693       0x40 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
  .rodata.JPEG_DCCHROM_HuffTable
-                0x0000000008027713       0x1c ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+                0x00000000080276d3       0x1c ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
  .rodata.JPEG_DCLUM_HuffTable
-                0x000000000802772f       0x1c ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+                0x00000000080276ef       0x1c ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
  .rodata.JPEG_LUM_QuantTable.1
-                0x000000000802774b       0x40 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+                0x000000000802770b       0x40 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
  .rodata.JPEG_ZIGZAG_ORDER
-                0x000000000802778b       0x40 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+                0x000000000802774b       0x40 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
  .rodata.CSWTCH.3
-                0x00000000080277cb        0x7 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o
+                0x000000000802778b        0x7 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o
  .rodata.CSWTCH.54
-                0x00000000080277d2        0x3 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o
+                0x0000000008027792        0x3 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o
  .rodata.CSWTCH.55
-                0x00000000080277d5        0xd ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o
+                0x0000000008027795        0xd ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o
  .rodata.vTaskStartScheduler.str1.1
-                0x00000000080277e2        0x5 ./Middlewares/FreeRTOS/tasks.o
+                0x00000000080277a2        0x5 ./Middlewares/FreeRTOS/tasks.o
  .rodata.prvCheckForValidListAndQueue.str1.1
-                0x00000000080277e7        0x5 ./Middlewares/FreeRTOS/timers.o
+                0x00000000080277a7        0x5 ./Middlewares/FreeRTOS/timers.o
  .rodata.xTimerCreateTimerTask.str1.1
-                0x00000000080277ec        0x8 ./Middlewares/FreeRTOS/timers.o
+                0x00000000080277ac        0x8 ./Middlewares/FreeRTOS/timers.o
  .rodata.CLAMP_LUT
-                0x00000000080277f4      0x300 ./Utilities/jpeg_utils.o
+                0x00000000080277b4      0x300 ./Utilities/jpeg_utils.o
  .rodata._ZTVN8touchgfx17AbstractPartitionE
-                0x0000000008027af4       0x34 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(AbstractPartition.o)
-                0x0000000008027af4                vtable for touchgfx::AbstractPartition
+                0x0000000008027ab4       0x34 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(AbstractPartition.o)
+                0x0000000008027ab4                vtable for touchgfx::AbstractPartition
  .rodata._ZTVN8touchgfx9ContainerE
-                0x0000000008027b28       0x90 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Container.o)
-                0x0000000008027b28                vtable for touchgfx::Container
+                0x0000000008027ae8       0x90 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Container.o)
+                0x0000000008027ae8                vtable for touchgfx::Container
  .rodata.CSWTCH.170
-                0x0000000008027bb8        0xc C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(HAL.o)
+                0x0000000008027b78        0xc C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(HAL.o)
  .rodata._ZTVN8touchgfx17LockFreeDMA_QueueE
-                0x0000000008027bc4       0x24 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(DMA.o)
-                0x0000000008027bc4                vtable for touchgfx::LockFreeDMA_Queue
+                0x0000000008027b84       0x24 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(DMA.o)
+                0x0000000008027b84                vtable for touchgfx::LockFreeDMA_Queue
  .rodata._ZTVN8touchgfx13PainterRGB565E
-                0x0000000008027be8       0x38 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(PainterRGB565.o)
-                0x0000000008027be8                vtable for touchgfx::PainterRGB565
+                0x0000000008027ba8       0x38 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(PainterRGB565.o)
+                0x0000000008027ba8                vtable for touchgfx::PainterRGB565
  .rodata._ZTVN8touchgfx12CanvasWidgetE
-                0x0000000008027c20       0x78 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(CanvasWidget.o)
-                0x0000000008027c20                vtable for touchgfx::CanvasWidget
+                0x0000000008027be0       0x78 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(CanvasWidget.o)
+                0x0000000008027be0                vtable for touchgfx::CanvasWidget
  .rodata._ZZN8touchgfx7CWRUtil7arcsineENS0_3Q10EE12arcsineTable
-                0x0000000008027c98       0x5b C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Line.o)
-                0x0000000008027c98                touchgfx::CWRUtil::arcsine(touchgfx::CWRUtil::Q10)::arcsineTable
- *fill*         0x0000000008027cf3        0x1 
+                0x0000000008027c58       0x5b C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Line.o)
+                0x0000000008027c58                touchgfx::CWRUtil::arcsine(touchgfx::CWRUtil::Q10)::arcsineTable
+ *fill*         0x0000000008027cb3        0x1 
  .rodata._ZZN8touchgfx7CWRUtil4sineEiE9sineTable
-                0x0000000008027cf4       0xb6 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Line.o)
-                0x0000000008027cf4                touchgfx::CWRUtil::sine(int)::sineTable
- *fill*         0x0000000008027daa        0x2 
+                0x0000000008027cb4       0xb6 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Line.o)
+                0x0000000008027cb4                touchgfx::CWRUtil::sine(int)::sineTable
+ *fill*         0x0000000008027d6a        0x2 
  .rodata._ZTVN8touchgfx4LineE
-                0x0000000008027dac       0x78 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Line.o)
-                0x0000000008027dac                vtable for touchgfx::Line
+                0x0000000008027d6c       0x78 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Line.o)
+                0x0000000008027d6c                vtable for touchgfx::Line
  .rodata._ZTVN8touchgfx8TextAreaE
-                0x0000000008027e24       0x90 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(TextArea.o)
-                0x0000000008027e24                vtable for touchgfx::TextArea
+                0x0000000008027de4       0x90 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(TextArea.o)
+                0x0000000008027de4                vtable for touchgfx::TextArea
  .rodata._ZTVN8touchgfx3BoxE
-                0x0000000008027eb4       0x68 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Box.o)
-                0x0000000008027eb4                vtable for touchgfx::Box
+                0x0000000008027e74       0x68 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Box.o)
+                0x0000000008027e74                vtable for touchgfx::Box
  .rodata._ZTVN8touchgfx13BoxWithBorderE
-                0x0000000008027f1c       0x68 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(BoxWithBorder.o)
-                0x0000000008027f1c                vtable for touchgfx::BoxWithBorder
+                0x0000000008027edc       0x68 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(BoxWithBorder.o)
+                0x0000000008027edc                vtable for touchgfx::BoxWithBorder
  .rodata._ZTVN8touchgfx7OutlineE
-                0x0000000008027f84       0x10 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Outline.o)
-                0x0000000008027f84                vtable for touchgfx::Outline
+                0x0000000008027f44       0x10 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Outline.o)
+                0x0000000008027f44                vtable for touchgfx::Outline
  .rodata._ZTVN8touchgfx11ApplicationE
-                0x0000000008027f94       0x54 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Application.o)
-                0x0000000008027f94                vtable for touchgfx::Application
+                0x0000000008027f54       0x54 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Application.o)
+                0x0000000008027f54                vtable for touchgfx::Application
  .rodata._ZTVN8touchgfx9ConstFontE
-                0x0000000008027fe8       0x60 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(ConstFont.o)
-                0x0000000008027fe8                vtable for touchgfx::ConstFont
+                0x0000000008027fa8       0x60 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(ConstFont.o)
+                0x0000000008027fa8                vtable for touchgfx::ConstFont
  .rodata._ZTVN8touchgfx10ClickEventE
-                0x0000000008028048       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
-                0x0000000008028048                vtable for touchgfx::ClickEvent
+                0x0000000008028008       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
+                0x0000000008028008                vtable for touchgfx::ClickEvent
  .rodata._ZTVN8touchgfx9DragEventE
-                0x000000000802805c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
-                0x000000000802805c                vtable for touchgfx::DragEvent
+                0x000000000802801c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
+                0x000000000802801c                vtable for touchgfx::DragEvent
  .rodata._ZTVN8touchgfx12GestureEventE
-                0x0000000008028070       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
-                0x0000000008028070                vtable for touchgfx::GestureEvent
+                0x0000000008028030       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
+                0x0000000008028030                vtable for touchgfx::GestureEvent
  .rodata._ZTVN8touchgfx6ScreenE
-                0x0000000008028084       0x34 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
-                0x0000000008028084                vtable for touchgfx::Screen
+                0x0000000008028044       0x34 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Screen.o)
+                0x0000000008028044                vtable for touchgfx::Screen
  .rodata._ZTVN8touchgfx8LCD16bpp17DecompressorL8_L4E
-                0x00000000080280b8       0x1c C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080280b8                vtable for touchgfx::LCD16bpp::DecompressorL8_L4
+                0x0000000008028078       0x1c C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028078                vtable for touchgfx::LCD16bpp::DecompressorL8_L4
  .rodata._ZTVN8touchgfx8LCD16bpp18DecompressorL8_RLEE
-                0x00000000080280d4       0x1c C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080280d4                vtable for touchgfx::LCD16bpp::DecompressorL8_RLE
+                0x0000000008028094       0x1c C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028094                vtable for touchgfx::LCD16bpp::DecompressorL8_RLE
  .rodata._ZTVN8touchgfx8LCD16bpp19DecompressorL8_LZW9E
-                0x00000000080280f0       0x1c C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080280f0                vtable for touchgfx::LCD16bpp::DecompressorL8_LZW9
+                0x00000000080280b0       0x1c C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080280b0                vtable for touchgfx::LCD16bpp::DecompressorL8_LZW9
  .rodata._ZTVN8touchgfx8LCD16bpp35TextureMapper_A4_NearestNeighbor_GAE
-                0x000000000802810c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x000000000802810c                vtable for touchgfx::LCD16bpp::TextureMapper_A4_NearestNeighbor_GA
+                0x00000000080280cc       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080280cc                vtable for touchgfx::LCD16bpp::TextureMapper_A4_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCD16bpp37TextureMapper_A4_NearestNeighbor_NoGAE
-                0x0000000008028120       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028120                vtable for touchgfx::LCD16bpp::TextureMapper_A4_NearestNeighbor_NoGA
+                0x00000000080280e0       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080280e0                vtable for touchgfx::LCD16bpp::TextureMapper_A4_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp41TextureMapper_A4_BilinearInterpolation_GAE
-                0x0000000008028134       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028134                vtable for touchgfx::LCD16bpp::TextureMapper_A4_BilinearInterpolation_GA
+                0x00000000080280f4       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080280f4                vtable for touchgfx::LCD16bpp::TextureMapper_A4_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCD16bpp43TextureMapper_A4_BilinearInterpolation_NoGAE
-                0x0000000008028148       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028148                vtable for touchgfx::LCD16bpp::TextureMapper_A4_BilinearInterpolation_NoGA
+                0x0000000008028108       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028108                vtable for touchgfx::LCD16bpp::TextureMapper_A4_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp46TextureMapper_RGB565_Opaque_NearestNeighbor_GAE
-                0x000000000802815c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x000000000802815c                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_NearestNeighbor_GA
+                0x000000000802811c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x000000000802811c                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCD16bpp48TextureMapper_RGB565_Opaque_NearestNeighbor_NoGAE
-                0x0000000008028170       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028170                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_NearestNeighbor_NoGA
+                0x0000000008028130       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028130                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp49TextureMapper_L8_RGB565_Opaque_NearestNeighbor_GAE
-                0x0000000008028184       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028184                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_NearestNeighbor_GA
+                0x0000000008028144       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028144                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCD16bpp49TextureMapper_L8_RGB888_Opaque_NearestNeighbor_GAE
-                0x0000000008028198       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028198                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_NearestNeighbor_GA
+                0x0000000008028158       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028158                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCD16bpp49TextureMapper_RGB565_NonOpaque_NearestNeighbor_GAE
-                0x00000000080281ac       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080281ac                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_NearestNeighbor_GA
+                0x000000000802816c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x000000000802816c                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCD16bpp51TextureMapper_ARGB8888_NonOpaque_NearestNeighbor_GAE
-                0x00000000080281c0       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080281c0                vtable for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_NearestNeighbor_GA
+                0x0000000008028180       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028180                vtable for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCD16bpp51TextureMapper_L8_RGB565_Opaque_NearestNeighbor_NoGAE
-                0x00000000080281d4       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080281d4                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_NearestNeighbor_NoGA
+                0x0000000008028194       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028194                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp51TextureMapper_L8_RGB888_Opaque_NearestNeighbor_NoGAE
-                0x00000000080281e8       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080281e8                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_NearestNeighbor_NoGA
+                0x00000000080281a8       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080281a8                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp51TextureMapper_RGB565_NonOpaque_NearestNeighbor_NoGAE
-                0x00000000080281fc       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080281fc                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_NearestNeighbor_NoGA
+                0x00000000080281bc       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080281bc                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp52TextureMapper_RGB565_Opaque_BilinearInterpolation_GAE
-                0x0000000008028210       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028210                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_BilinearInterpolation_GA
+                0x00000000080281d0       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080281d0                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCD16bpp53TextureMapper_ARGB8888_NonOpaque_NearestNeighbor_NoGAE
-                0x0000000008028224       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028224                vtable for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_NearestNeighbor_NoGA
+                0x00000000080281e4       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080281e4                vtable for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp54TextureMapper_L8_ARGB8888_NonOpaque_NearestNeighbor_GAE
-                0x0000000008028238       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028238                vtable for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
+                0x00000000080281f8       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080281f8                vtable for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_NearestNeighbor_GA
  .rodata._ZTVN8touchgfx8LCD16bpp54TextureMapper_RGB565_Opaque_BilinearInterpolation_NoGAE
-                0x000000000802824c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x000000000802824c                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_BilinearInterpolation_NoGA
+                0x000000000802820c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x000000000802820c                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_Opaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp55TextureMapper_L8_RGB565_Opaque_BilinearInterpolation_GAE
-                0x0000000008028260       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028260                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_BilinearInterpolation_GA
+                0x0000000008028220       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028220                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCD16bpp55TextureMapper_L8_RGB888_Opaque_BilinearInterpolation_GAE
-                0x0000000008028274       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028274                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_BilinearInterpolation_GA
+                0x0000000008028234       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028234                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCD16bpp55TextureMapper_RGB565_NonOpaque_BilinearInterpolation_GAE
-                0x0000000008028288       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028288                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_BilinearInterpolation_GA
+                0x0000000008028248       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028248                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCD16bpp56TextureMapper_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGAE
-                0x000000000802829c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x000000000802829c                vtable for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGA
+                0x000000000802825c       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x000000000802825c                vtable for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_NearestNeighbor_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp57TextureMapper_ARGB8888_NonOpaque_BilinearInterpolation_GAE
-                0x00000000080282b0       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080282b0                vtable for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                0x0000000008028270       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028270                vtable for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCD16bpp57TextureMapper_L8_RGB565_Opaque_BilinearInterpolation_NoGAE
-                0x00000000080282c4       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080282c4                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_BilinearInterpolation_NoGA
+                0x0000000008028284       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028284                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB565_Opaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp57TextureMapper_L8_RGB888_Opaque_BilinearInterpolation_NoGAE
-                0x00000000080282d8       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080282d8                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_BilinearInterpolation_NoGA
+                0x0000000008028298       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x0000000008028298                vtable for touchgfx::LCD16bpp::TextureMapper_L8_RGB888_Opaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp57TextureMapper_RGB565_NonOpaque_BilinearInterpolation_NoGAE
-                0x00000000080282ec       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x00000000080282ec                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_BilinearInterpolation_NoGA
+                0x00000000080282ac       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080282ac                vtable for touchgfx::LCD16bpp::TextureMapper_RGB565_NonOpaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp59TextureMapper_ARGB8888_NonOpaque_BilinearInterpolation_NoGAE
-                0x0000000008028300       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028300                vtable for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
+                0x00000000080282c0       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080282c0                vtable for touchgfx::LCD16bpp::TextureMapper_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCD16bpp60TextureMapper_L8_ARGB8888_NonOpaque_BilinearInterpolation_GAE
-                0x0000000008028314       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028314                vtable for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
+                0x00000000080282d4       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080282d4                vtable for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_BilinearInterpolation_GA
  .rodata._ZTVN8touchgfx8LCD16bpp62TextureMapper_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGAE
-                0x0000000008028328       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x0000000008028328                vtable for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
+                0x00000000080282e8       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080282e8                vtable for touchgfx::LCD16bpp::TextureMapper_L8_ARGB8888_NonOpaque_BilinearInterpolation_NoGA
  .rodata._ZTVN8touchgfx8LCD16bppE
-                0x000000000802833c       0x58 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
-                0x000000000802833c                vtable for touchgfx::LCD16bpp
+                0x00000000080282fc       0x58 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD16bpp.o)
+                0x00000000080282fc                vtable for touchgfx::LCD16bpp
  .rodata._ZTVN8touchgfx6CanvasE
-                0x0000000008028394       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Canvas.o)
-                0x0000000008028394                vtable for touchgfx::Canvas
+                0x0000000008028354       0x14 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Canvas.o)
+                0x0000000008028354                vtable for touchgfx::Canvas
  .rodata.__assert_func.str1.1
-                0x00000000080283a8       0x3c C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-assert.o)
+                0x0000000008028368       0x3c C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-assert.o)
                                          0x3d (size before relaxing)
  .rodata.__on_exit_args
-                0x00000000080283e4        0x4 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-on_exit_args.o)
-                0x00000000080283e4                __on_exit_args
+                0x00000000080283a4        0x4 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-on_exit_args.o)
+                0x00000000080283a4                __on_exit_args
  .rodata._vfprintf_r.str1.1
-                0x00000000080283e8       0x11 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000080283a8       0x11 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x00000000080283f9       0x22 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x000000000802841c                . = ALIGN (0x4)
- *fill*         0x000000000802841b        0x1 
+                0x00000000080283b9       0x22 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00000000080283dc                . = ALIGN (0x4)
+ *fill*         0x00000000080283db        0x1 
 
 FontSearchFlashSection
-                0x000000000802841c      0x4c8
+                0x00000000080283dc      0x4c8
  FontSearchFlashSection
-                0x000000000802841c       0x34 ./Application/User/generated/Kerning_verdana_10_4bpp.o
-                0x000000000802841c                kerning_verdana_10_4bpp
+                0x00000000080283dc       0x34 ./Application/User/generated/Kerning_verdana_10_4bpp.o
+                0x00000000080283dc                kerning_verdana_10_4bpp
  FontSearchFlashSection
-                0x0000000008028450      0x1a4 ./Application/User/generated/Kerning_verdana_20_4bpp.o
-                0x0000000008028450                kerning_verdana_20_4bpp
+                0x0000000008028410      0x1a4 ./Application/User/generated/Kerning_verdana_20_4bpp.o
+                0x0000000008028410                kerning_verdana_20_4bpp
  FontSearchFlashSection
-                0x00000000080285f4      0x2e4 ./Application/User/generated/Kerning_verdana_40_4bpp.o
-                0x00000000080285f4                kerning_verdana_40_4bpp
+                0x00000000080285b4      0x2e4 ./Application/User/generated/Kerning_verdana_40_4bpp.o
+                0x00000000080285b4                kerning_verdana_40_4bpp
  FontSearchFlashSection
-                0x00000000080288d8        0x4 ./Application/User/generated/Table_verdana_10_4bpp.o
-                0x00000000080288d8                unicodes_verdana_10_4bpp
+                0x0000000008028898        0x4 ./Application/User/generated/Table_verdana_10_4bpp.o
+                0x0000000008028898                unicodes_verdana_10_4bpp
  FontSearchFlashSection
-                0x00000000080288dc        0x4 ./Application/User/generated/Table_verdana_20_4bpp.o
-                0x00000000080288dc                unicodes_verdana_20_4bpp
+                0x000000000802889c        0x4 ./Application/User/generated/Table_verdana_20_4bpp.o
+                0x000000000802889c                unicodes_verdana_20_4bpp
  FontSearchFlashSection
-                0x00000000080288e0        0x4 ./Application/User/generated/Table_verdana_40_4bpp.o
-                0x00000000080288e0                unicodes_verdana_40_4bpp
+                0x00000000080288a0        0x4 ./Application/User/generated/Table_verdana_40_4bpp.o
+                0x00000000080288a0                unicodes_verdana_40_4bpp
 
-.ARM.extab      0x00000000080288e4        0x0
-                0x00000000080288e4                . = ALIGN (0x4)
+.ARM.extab      0x00000000080288a4        0x0
+                0x00000000080288a4                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080288e4                . = ALIGN (0x4)
+                0x00000000080288a4                . = ALIGN (0x4)
 
-.ARM            0x00000000080288e4        0x8
-                0x00000000080288e4                . = ALIGN (0x4)
-                0x00000000080288e4                __exidx_start = .
+.ARM            0x00000000080288a4        0x8
+                0x00000000080288a4                . = ALIGN (0x4)
+                0x00000000080288a4                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x00000000080288e4        0x8 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
-                0x00000000080288ec                __exidx_end = .
-                0x00000000080288ec                . = ALIGN (0x4)
+ .ARM.exidx     0x00000000080288a4        0x8 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x00000000080288ac                __exidx_end = .
+                0x00000000080288ac                . = ALIGN (0x4)
 
-.preinit_array  0x00000000080288ec        0x0
-                0x00000000080288ec                . = ALIGN (0x4)
-                0x00000000080288ec                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00000000080288ac        0x0
+                0x00000000080288ac                . = ALIGN (0x4)
+                0x00000000080288ac                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000080288ec                PROVIDE (__preinit_array_end = .)
-                0x00000000080288ec                . = ALIGN (0x4)
+                0x00000000080288ac                PROVIDE (__preinit_array_end = .)
+                0x00000000080288ac                . = ALIGN (0x4)
 
-.init_array     0x00000000080288ec       0x1c
-                0x00000000080288ec                . = ALIGN (0x4)
-                0x00000000080288ec                PROVIDE (__init_array_start = .)
+.init_array     0x00000000080288ac       0x1c
+                0x00000000080288ac                . = ALIGN (0x4)
+                0x00000000080288ac                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080288ec        0x4 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
- .init_array    0x00000000080288f0        0x4 ./Application/User/TouchGFX/target/TouchGFXHAL.o
- .init_array    0x00000000080288f4        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
- .init_array    0x00000000080288f8        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
- .init_array    0x00000000080288fc        0x4 ./Application/User/generated/TypedTextDatabase.o
- .init_array    0x0000000008028900        0x4 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD.o)
- .init_array    0x0000000008028904        0x4 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Application.o)
-                0x0000000008028908                PROVIDE (__init_array_end = .)
-                0x0000000008028908                . = ALIGN (0x4)
+ .init_array    0x00000000080288ac        0x4 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .init_array    0x00000000080288b0        0x4 ./Application/User/TouchGFX/target/TouchGFXHAL.o
+ .init_array    0x00000000080288b4        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+ .init_array    0x00000000080288b8        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+ .init_array    0x00000000080288bc        0x4 ./Application/User/generated/TypedTextDatabase.o
+ .init_array    0x00000000080288c0        0x4 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(LCD.o)
+ .init_array    0x00000000080288c4        0x4 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Application.o)
+                0x00000000080288c8                PROVIDE (__init_array_end = .)
+                0x00000000080288c8                . = ALIGN (0x4)
 
-.fini_array     0x0000000008028908        0x8
-                0x0000000008028908                . = ALIGN (0x4)
+.fini_array     0x00000000080288c8        0x8
+                0x00000000080288c8                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008028908        0x4 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
- .fini_array    0x000000000802890c        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+ .fini_array    0x00000000080288c8        0x4 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .fini_array    0x00000000080288cc        0x4 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008028910                . = ALIGN (0x4)
-                0x0000000008028910                _sidata = LOADADDR (.data)
+                0x00000000080288d0                . = ALIGN (0x4)
+                0x00000000080288d0                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x150 load address 0x0000000008028910
+.data           0x0000000020000000      0x150 load address 0x00000000080288d0
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -23058,11 +23058,11 @@ FontSearchFlashSection
                 0x0000000020000150                . = ALIGN (0x4)
                 0x0000000020000150                _edata = .
 
-.igot.plt       0x0000000020000150        0x0 load address 0x0000000008028a60
+.igot.plt       0x0000000020000150        0x0 load address 0x0000000008028a20
  .igot.plt      0x0000000020000150        0x0 C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
                 0x0000000020000150                . = ALIGN (0x4)
 
-.bss            0x0000000020000150    0x28644 load address 0x0000000008028a60
+.bss            0x0000000020000150    0x28644 load address 0x0000000008028a20
                 0x0000000020000150                _sbss = .
                 0x0000000020000150                __bss_start__ = _sbss
  *(.bss)
@@ -23612,7 +23612,7 @@ FontSearchFlashSection
                 0x0000000020028794                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020028794     0x2004 load address 0x0000000008028a60
+                0x0000000020028794     0x2004 load address 0x0000000008028a20
                 0x0000000020028798                . = ALIGN (0x8)
  *fill*         0x0000000020028794        0x4 
                 0x0000000020028798                PROVIDE (end = .)
@@ -24137,90 +24137,90 @@ LOAD C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x00000000000000c2       0x80 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Gestures.o)
  .comment       0x00000000000000c2       0x80 C:/TouchGFXProjects/guiApp/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc\libtouchgfx-float-abi-hard.a(Canvas.o)
 
-.debug_line     0x0000000000000000    0x5f32d
+.debug_line     0x0000000000000000    0x5ee7d
  .debug_line    0x0000000000000000       0x78 ./Application/Startup/startup_stm32f769nihx.o
- .debug_line    0x0000000000000078      0x787 ./Application/User/LIBJPEG/App/libjpeg.o
- .debug_line    0x00000000000007ff       0xca ./Application/User/TouchGFX/App/app_touchgfx.o
- .debug_line    0x00000000000008c9      0x9b9 ./Application/User/TouchGFX/target/Buttons.o
- .debug_line    0x0000000000001282      0xcd0 ./Application/User/TouchGFX/target/CortexMMCUInstrumentation.o
- .debug_line    0x0000000000001f52      0x75d ./Application/User/TouchGFX/target/KeySampler.o
- .debug_line    0x00000000000026af      0xf18 ./Application/User/TouchGFX/target/STM32TouchController.o
- .debug_line    0x00000000000035c7      0xa79 ./Application/User/TouchGFX/target/TouchGFXGPIO.o
- .debug_line    0x0000000000004040     0x1d77 ./Application/User/TouchGFX/target/TouchGFXHAL.o
- .debug_line    0x0000000000005db7     0x19a2 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
- .debug_line    0x0000000000007759      0xcd3 ./Application/User/TouchGFX/target/generated/OSWrappers.o
- .debug_line    0x000000000000842c     0x1777 ./Application/User/TouchGFX/target/generated/STM32DMA.o
- .debug_line    0x0000000000009ba3     0x1d5b ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
- .debug_line    0x000000000000b8fe     0x2da7 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
- .debug_line    0x000000000000e6a5     0x2ae6 ./Application/User/TouchGFX/target/generated/tgfx_jpeg_utils.o
- .debug_line    0x000000000001118b      0xabc ./Application/User/freertos.o
- .debug_line    0x0000000000011c47     0x1f78 ./Application/User/main.o
- .debug_line    0x0000000000013bbf     0x10e0 ./Application/User/stm32f7xx_hal_msp.o
- .debug_line    0x0000000000014c9f      0x988 ./Application/User/stm32f7xx_hal_timebase_tim.o
- .debug_line    0x0000000000015627      0xa3a ./Application/User/stm32f7xx_it.o
- .debug_line    0x0000000000016061      0x95d ./Application/User/syscalls.o
- .debug_line    0x00000000000169be      0x642 ./Application/User/sysmem.o
- .debug_line    0x0000000000017000      0x776 ./Application/User/generated/ApplicationFontProvider.o
- .debug_line    0x0000000000017776      0x636 ./Application/User/generated/BitmapDatabase.o
- .debug_line    0x0000000000017dac      0x998 ./Application/User/generated/CachedFont.o
- .debug_line    0x0000000000018744     0x14bf ./Application/User/generated/FontCache.o
- .debug_line    0x0000000000019c03      0x581 ./Application/User/generated/Font_verdana_10_4bpp_0.o
- .debug_line    0x000000000001a184      0x581 ./Application/User/generated/Font_verdana_20_4bpp_0.o
- .debug_line    0x000000000001a705      0x581 ./Application/User/generated/Font_verdana_40_4bpp_0.o
- .debug_line    0x000000000001ac86     0x1a2d ./Application/User/generated/FrontendApplicationBase.o
- .debug_line    0x000000000001c6b3      0x954 ./Application/User/generated/GeneratedFont.o
- .debug_line    0x000000000001d007      0x5f0 ./Application/User/generated/Kerning_verdana_10_4bpp.o
- .debug_line    0x000000000001d5f7      0x5f0 ./Application/User/generated/Kerning_verdana_20_4bpp.o
- .debug_line    0x000000000001dbe7      0x5f0 ./Application/User/generated/Kerning_verdana_40_4bpp.o
- .debug_line    0x000000000001e1d7      0x5c9 ./Application/User/generated/LanguageGb.o
- .debug_line    0x000000000001e7a0     0x3814 ./Application/User/generated/Screen1ViewBase.o
- .debug_line    0x0000000000021fb4      0x6aa ./Application/User/generated/Table_verdana_10_4bpp.o
- .debug_line    0x000000000002265e      0x6aa ./Application/User/generated/Table_verdana_20_4bpp.o
- .debug_line    0x0000000000022d08      0x6aa ./Application/User/generated/Table_verdana_40_4bpp.o
- .debug_line    0x00000000000233b2      0xf5b ./Application/User/generated/Texts.o
- .debug_line    0x000000000002430d      0x79f ./Application/User/generated/TypedTextDatabase.o
- .debug_line    0x0000000000024aac     0x108c ./Application/User/gui/FrontendApplication.o
- .debug_line    0x0000000000025b38      0x60c ./Application/User/gui/Model.o
- .debug_line    0x0000000000026144     0x13c9 ./Application/User/gui/Screen1Presenter.o
- .debug_line    0x000000000002750d     0x1491 ./Application/User/gui/Screen1View.o
- .debug_line    0x000000000002899e      0x66c ./Drivers/BSP/Components/ft6x06.o
- .debug_line    0x000000000002900a      0x4ea ./Drivers/BSP/Components/otm8009a.o
- .debug_line    0x00000000000294f4      0x958 ./Drivers/CMSIS/system_stm32f7xx.o
- .debug_line    0x0000000000029e4c      0xc5d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o
- .debug_line    0x000000000002aaa9      0xe95 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o
- .debug_line    0x000000000002b93e      0xc4d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_crc.o
- .debug_line    0x000000000002c58b      0x980 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_crc_ex.o
- .debug_line    0x000000000002cf0b     0x141c ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o
- .debug_line    0x000000000002e327     0x1980 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma2d.o
- .debug_line    0x000000000002fca7     0x2e60 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dsi.o
- .debug_line    0x0000000000032b07      0xe0a ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o
- .debug_line    0x0000000000033911     0x545e ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o
- .debug_line    0x0000000000038d6f      0xa56 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o
- .debug_line    0x00000000000397c5     0x3057 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
- .debug_line    0x000000000003c81c     0x2103 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o
- .debug_line    0x000000000003e91f      0xc77 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o
- .debug_line    0x000000000003f596     0x1cea ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_qspi.o
- .debug_line    0x0000000000041280     0x138a ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o
- .debug_line    0x000000000004260a     0x1187 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o
- .debug_line    0x0000000000043791     0x134b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_sdram.o
- .debug_line    0x0000000000044adc     0x4c57 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.o
- .debug_line    0x0000000000049733     0x1f0d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.o
- .debug_line    0x000000000004b640     0x5197 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o
- .debug_line    0x00000000000507d7      0xd2a ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_ll_fmc.o
- .debug_line    0x0000000000051501     0x2eb1 ./Middlewares/FreeRTOS/cmsis_os2.o
- .debug_line    0x00000000000543b2      0xab6 ./Middlewares/FreeRTOS/heap_4.o
- .debug_line    0x0000000000054e68      0x847 ./Middlewares/FreeRTOS/list.o
- .debug_line    0x00000000000556af      0xb6c ./Middlewares/FreeRTOS/port.o
- .debug_line    0x000000000005621b     0x2375 ./Middlewares/FreeRTOS/queue.o
- .debug_line    0x0000000000058590     0x30a7 ./Middlewares/FreeRTOS/tasks.o
- .debug_line    0x000000000005b637     0x1209 ./Middlewares/FreeRTOS/timers.o
- .debug_line    0x000000000005c840     0x2aed ./Utilities/jpeg_utils.o
+ .debug_line    0x0000000000000078      0x777 ./Application/User/LIBJPEG/App/libjpeg.o
+ .debug_line    0x00000000000007ef       0xba ./Application/User/TouchGFX/App/app_touchgfx.o
+ .debug_line    0x00000000000008a9      0x9a9 ./Application/User/TouchGFX/target/Buttons.o
+ .debug_line    0x0000000000001252      0xcc0 ./Application/User/TouchGFX/target/CortexMMCUInstrumentation.o
+ .debug_line    0x0000000000001f12      0x74d ./Application/User/TouchGFX/target/KeySampler.o
+ .debug_line    0x000000000000265f      0xf08 ./Application/User/TouchGFX/target/STM32TouchController.o
+ .debug_line    0x0000000000003567      0xa69 ./Application/User/TouchGFX/target/TouchGFXGPIO.o
+ .debug_line    0x0000000000003fd0     0x1d67 ./Application/User/TouchGFX/target/TouchGFXHAL.o
+ .debug_line    0x0000000000005d37     0x1992 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+ .debug_line    0x00000000000076c9      0xcc3 ./Application/User/TouchGFX/target/generated/OSWrappers.o
+ .debug_line    0x000000000000838c     0x1767 ./Application/User/TouchGFX/target/generated/STM32DMA.o
+ .debug_line    0x0000000000009af3     0x1d4b ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+ .debug_line    0x000000000000b83e     0x2d97 ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+ .debug_line    0x000000000000e5d5     0x2ad6 ./Application/User/TouchGFX/target/generated/tgfx_jpeg_utils.o
+ .debug_line    0x00000000000110ab      0xaac ./Application/User/freertos.o
+ .debug_line    0x0000000000011b57     0x1f68 ./Application/User/main.o
+ .debug_line    0x0000000000013abf     0x10d0 ./Application/User/stm32f7xx_hal_msp.o
+ .debug_line    0x0000000000014b8f      0x978 ./Application/User/stm32f7xx_hal_timebase_tim.o
+ .debug_line    0x0000000000015507      0xa2a ./Application/User/stm32f7xx_it.o
+ .debug_line    0x0000000000015f31      0x95d ./Application/User/syscalls.o
+ .debug_line    0x000000000001688e      0x642 ./Application/User/sysmem.o
+ .debug_line    0x0000000000016ed0      0x766 ./Application/User/generated/ApplicationFontProvider.o
+ .debug_line    0x0000000000017636      0x626 ./Application/User/generated/BitmapDatabase.o
+ .debug_line    0x0000000000017c5c      0x988 ./Application/User/generated/CachedFont.o
+ .debug_line    0x00000000000185e4     0x14af ./Application/User/generated/FontCache.o
+ .debug_line    0x0000000000019a93      0x571 ./Application/User/generated/Font_verdana_10_4bpp_0.o
+ .debug_line    0x000000000001a004      0x571 ./Application/User/generated/Font_verdana_20_4bpp_0.o
+ .debug_line    0x000000000001a575      0x571 ./Application/User/generated/Font_verdana_40_4bpp_0.o
+ .debug_line    0x000000000001aae6     0x1a1d ./Application/User/generated/FrontendApplicationBase.o
+ .debug_line    0x000000000001c503      0x944 ./Application/User/generated/GeneratedFont.o
+ .debug_line    0x000000000001ce47      0x5e0 ./Application/User/generated/Kerning_verdana_10_4bpp.o
+ .debug_line    0x000000000001d427      0x5e0 ./Application/User/generated/Kerning_verdana_20_4bpp.o
+ .debug_line    0x000000000001da07      0x5e0 ./Application/User/generated/Kerning_verdana_40_4bpp.o
+ .debug_line    0x000000000001dfe7      0x5b9 ./Application/User/generated/LanguageGb.o
+ .debug_line    0x000000000001e5a0     0x3804 ./Application/User/generated/Screen1ViewBase.o
+ .debug_line    0x0000000000021da4      0x69a ./Application/User/generated/Table_verdana_10_4bpp.o
+ .debug_line    0x000000000002243e      0x69a ./Application/User/generated/Table_verdana_20_4bpp.o
+ .debug_line    0x0000000000022ad8      0x69a ./Application/User/generated/Table_verdana_40_4bpp.o
+ .debug_line    0x0000000000023172      0xf4b ./Application/User/generated/Texts.o
+ .debug_line    0x00000000000240bd      0x78f ./Application/User/generated/TypedTextDatabase.o
+ .debug_line    0x000000000002484c     0x107c ./Application/User/gui/FrontendApplication.o
+ .debug_line    0x00000000000258c8      0x5fc ./Application/User/gui/Model.o
+ .debug_line    0x0000000000025ec4     0x13b9 ./Application/User/gui/Screen1Presenter.o
+ .debug_line    0x000000000002727d     0x1481 ./Application/User/gui/Screen1View.o
+ .debug_line    0x00000000000286fe      0x64c ./Drivers/BSP/Components/ft6x06.o
+ .debug_line    0x0000000000028d4a      0x4da ./Drivers/BSP/Components/otm8009a.o
+ .debug_line    0x0000000000029224      0x948 ./Drivers/CMSIS/system_stm32f7xx.o
+ .debug_line    0x0000000000029b6c      0xc4d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o
+ .debug_line    0x000000000002a7b9      0xe85 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o
+ .debug_line    0x000000000002b63e      0xc3d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_crc.o
+ .debug_line    0x000000000002c27b      0x970 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_crc_ex.o
+ .debug_line    0x000000000002cbeb     0x140c ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o
+ .debug_line    0x000000000002dff7     0x1970 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma2d.o
+ .debug_line    0x000000000002f967     0x2e50 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dsi.o
+ .debug_line    0x00000000000327b7      0xdfa ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o
+ .debug_line    0x00000000000335b1     0x544e ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o
+ .debug_line    0x00000000000389ff      0xa46 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o
+ .debug_line    0x0000000000039445     0x3047 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+ .debug_line    0x000000000003c48c     0x20f3 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o
+ .debug_line    0x000000000003e57f      0xc67 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o
+ .debug_line    0x000000000003f1e6     0x1cda ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_qspi.o
+ .debug_line    0x0000000000040ec0     0x137a ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o
+ .debug_line    0x000000000004223a     0x1177 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o
+ .debug_line    0x00000000000433b1     0x133b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_sdram.o
+ .debug_line    0x00000000000446ec     0x4c47 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.o
+ .debug_line    0x0000000000049333     0x1efd ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.o
+ .debug_line    0x000000000004b230     0x5187 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o
+ .debug_line    0x00000000000503b7      0xd1a ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_ll_fmc.o
+ .debug_line    0x00000000000510d1     0x2ea1 ./Middlewares/FreeRTOS/cmsis_os2.o
+ .debug_line    0x0000000000053f72      0xaa6 ./Middlewares/FreeRTOS/heap_4.o
+ .debug_line    0x0000000000054a18      0x837 ./Middlewares/FreeRTOS/list.o
+ .debug_line    0x000000000005524f      0xb5c ./Middlewares/FreeRTOS/port.o
+ .debug_line    0x0000000000055dab     0x2365 ./Middlewares/FreeRTOS/queue.o
+ .debug_line    0x0000000000058110     0x3097 ./Middlewares/FreeRTOS/tasks.o
+ .debug_line    0x000000000005b1a7     0x11f9 ./Middlewares/FreeRTOS/timers.o
+ .debug_line    0x000000000005c3a0     0x2add ./Utilities/jpeg_utils.o
 
 .debug_line_str
-                0x0000000000000000       0x5d
+                0x0000000000000000       0x92
  .debug_line_str
-                0x0000000000000000       0x5d ./Application/Startup/startup_stm32f769nihx.o
-                                         0x75 (size before relaxing)
+                0x0000000000000000       0x92 ./Application/Startup/startup_stm32f769nihx.o
+                                         0xaa (size before relaxing)
 
 .debug_info     0x0000000000000000    0xc038b
  .debug_info    0x0000000000000000       0x23 ./Application/Startup/startup_stm32f769nihx.o
@@ -24536,160 +24536,160 @@ LOAD C:/ST/STM32CubeIDE_1.12.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_aranges
                 0x0000000000003080       0x80 ./Utilities/jpeg_utils.o
 
-.debug_str      0x0000000000000000   0x157404
- .debug_str     0x0000000000000000       0x69 ./Application/Startup/startup_stm32f769nihx.o
- .debug_str     0x0000000000000069     0xc584 ./Application/User/LIBJPEG/App/libjpeg.o
-                                       0xc7cd (size before relaxing)
- .debug_str     0x000000000000c5ed       0xc5 ./Application/User/TouchGFX/App/app_touchgfx.o
-                                       0x2eda (size before relaxing)
- .debug_str     0x000000000000c6b2   0x1191dc ./Application/User/TouchGFX/target/Buttons.o
-                                     0x11d6b3 (size before relaxing)
- .debug_str     0x000000000012588e     0x35e2 ./Application/User/TouchGFX/target/CortexMMCUInstrumentation.o
-                                       0x953e (size before relaxing)
- .debug_str     0x0000000000128e70      0x2ce ./Application/User/TouchGFX/target/KeySampler.o
-                                       0x8141 (size before relaxing)
- .debug_str     0x000000000012913e     0x1336 ./Application/User/TouchGFX/target/STM32TouchController.o
-                                     0x11eb5e (size before relaxing)
- .debug_str     0x000000000012a474      0x332 ./Application/User/TouchGFX/target/TouchGFXGPIO.o
-                                     0x11ce42 (size before relaxing)
- .debug_str     0x000000000012a7a6     0x99d3 ./Application/User/TouchGFX/target/TouchGFXHAL.o
-                                     0x1315e9 (size before relaxing)
- .debug_str     0x0000000000134179     0x1660 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
-                                     0x126c15 (size before relaxing)
- .debug_str     0x00000000001357d9       0xf5 ./Application/User/TouchGFX/target/generated/OSWrappers.o
-                                       0x97ec (size before relaxing)
- .debug_str     0x00000000001358ce      0x94f ./Application/User/TouchGFX/target/generated/STM32DMA.o
-                                     0x12a9bc (size before relaxing)
- .debug_str     0x000000000013621d     0x6137 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
-                                     0x132047 (size before relaxing)
- .debug_str     0x000000000013c354     0x544c ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
-                                     0x13a7cd (size before relaxing)
- .debug_str     0x00000000001417a0      0x6c1 ./Application/User/TouchGFX/target/generated/tgfx_jpeg_utils.o
-                                     0x11cdec (size before relaxing)
- .debug_str     0x0000000000141e61       0x73 ./Application/User/freertos.o
-                                     0x121e9f (size before relaxing)
- .debug_str     0x0000000000141ed4     0x2862 ./Application/User/main.o
-                                     0x1297a8 (size before relaxing)
- .debug_str     0x0000000000144736      0x523 ./Application/User/stm32f7xx_hal_msp.o
-                                     0x11ebcb (size before relaxing)
- .debug_str     0x0000000000144c59      0x10d ./Application/User/stm32f7xx_hal_timebase_tim.o
-                                     0x11d36e (size before relaxing)
- .debug_str     0x0000000000144d66      0x217 ./Application/User/stm32f7xx_it.o
-                                     0x11dc53 (size before relaxing)
- .debug_str     0x0000000000144f7d     0x124d ./Application/User/syscalls.o
-                                       0x9912 (size before relaxing)
- .debug_str     0x00000000001461ca       0x3e ./Application/User/sysmem.o
-                                       0x7bb9 (size before relaxing)
- .debug_str     0x0000000000146208       0xbe ./Application/User/generated/ApplicationFontProvider.o
-                                       0x60b0 (size before relaxing)
- .debug_str     0x00000000001462c6       0x5c ./Application/User/generated/BitmapDatabase.o
-                                       0x5e74 (size before relaxing)
- .debug_str     0x0000000000146322     0x105e ./Application/User/generated/CachedFont.o
-                                       0x7255 (size before relaxing)
- .debug_str     0x0000000000147380      0x584 ./Application/User/generated/FontCache.o
-                                       0xd381 (size before relaxing)
- .debug_str     0x0000000000147904       0x6e ./Application/User/generated/Font_verdana_10_4bpp_0.o
-                                       0x4d3d (size before relaxing)
- .debug_str     0x0000000000147972       0x6e ./Application/User/generated/Font_verdana_20_4bpp_0.o
-                                       0x4d3d (size before relaxing)
- .debug_str     0x00000000001479e0       0x6e ./Application/User/generated/Font_verdana_40_4bpp_0.o
-                                       0x4d3d (size before relaxing)
- .debug_str     0x0000000000147a4e     0x1f21 ./Application/User/generated/FrontendApplicationBase.o
-                                      0x1b0ee (size before relaxing)
- .debug_str     0x000000000014996f      0x18b ./Application/User/generated/GeneratedFont.o
-                                       0x64df (size before relaxing)
- .debug_str     0x0000000000149afa       0x6c ./Application/User/generated/Kerning_verdana_10_4bpp.o
-                                       0x5470 (size before relaxing)
- .debug_str     0x0000000000149b66       0x6c ./Application/User/generated/Kerning_verdana_20_4bpp.o
-                                       0x5470 (size before relaxing)
- .debug_str     0x0000000000149bd2       0x6c ./Application/User/generated/Kerning_verdana_40_4bpp.o
-                                       0x5470 (size before relaxing)
- .debug_str     0x0000000000149c3e       0x51 ./Application/User/generated/LanguageGb.o
-                                       0x4e79 (size before relaxing)
- .debug_str     0x0000000000149c8f      0xaf2 ./Application/User/generated/Screen1ViewBase.o
-                                      0x1a8b7 (size before relaxing)
- .debug_str     0x000000000014a781      0x12c ./Application/User/generated/Table_verdana_10_4bpp.o
-                                       0x63b8 (size before relaxing)
- .debug_str     0x000000000014a8ad       0xb7 ./Application/User/generated/Table_verdana_20_4bpp.o
-                                       0x63b8 (size before relaxing)
- .debug_str     0x000000000014a964       0xb7 ./Application/User/generated/Table_verdana_40_4bpp.o
-                                       0x63b8 (size before relaxing)
- .debug_str     0x000000000014aa1b      0x190 ./Application/User/generated/Texts.o
-                                       0xdb5f (size before relaxing)
- .debug_str     0x000000000014abab      0x10d ./Application/User/generated/TypedTextDatabase.o
-                                       0x66e8 (size before relaxing)
- .debug_str     0x000000000014acb8       0x7d ./Application/User/gui/FrontendApplication.o
-                                       0xdd2f (size before relaxing)
- .debug_str     0x000000000014ad35       0x4a ./Application/User/gui/Model.o
-                                       0x4e88 (size before relaxing)
- .debug_str     0x000000000014ad7f       0xa9 ./Application/User/gui/Screen1Presenter.o
-                                      0x17e28 (size before relaxing)
- .debug_str     0x000000000014ae28       0x60 ./Application/User/gui/Screen1View.o
-                                      0x17db0 (size before relaxing)
- .debug_str     0x000000000014ae88      0x1bb ./Drivers/BSP/Components/ft6x06.o
-                                       0x4901 (size before relaxing)
- .debug_str     0x000000000014b043      0x490 ./Drivers/BSP/Components/otm8009a.o
-                                       0x494a (size before relaxing)
- .debug_str     0x000000000014b4d3       0xb4 ./Drivers/CMSIS/system_stm32f7xx.o
-                                     0x11c7b9 (size before relaxing)
- .debug_str     0x000000000014b587      0x3c9 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o
-                                     0x11d215 (size before relaxing)
- .debug_str     0x000000000014b950      0x238 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o
-                                     0x11d19d (size before relaxing)
- .debug_str     0x000000000014bb88       0xc9 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_crc.o
-                                     0x11c7df (size before relaxing)
- .debug_str     0x000000000014bc51       0x81 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_crc_ex.o
+.debug_str      0x0000000000000000   0x156fb7
+ .debug_str     0x0000000000000000       0x9e ./Application/Startup/startup_stm32f769nihx.o
+ .debug_str     0x000000000000009e     0xc592 ./Application/User/LIBJPEG/App/libjpeg.o
+                                       0xc7ad (size before relaxing)
+ .debug_str     0x000000000000c630       0xb5 ./Application/User/TouchGFX/App/app_touchgfx.o
+                                       0x2eba (size before relaxing)
+ .debug_str     0x000000000000c6e5   0x1191cc ./Application/User/TouchGFX/target/Buttons.o
+                                     0x11d693 (size before relaxing)
+ .debug_str     0x00000000001258b1     0x35d2 ./Application/User/TouchGFX/target/CortexMMCUInstrumentation.o
+                                       0x951e (size before relaxing)
+ .debug_str     0x0000000000128e83      0x2be ./Application/User/TouchGFX/target/KeySampler.o
+                                       0x8121 (size before relaxing)
+ .debug_str     0x0000000000129141     0x1326 ./Application/User/TouchGFX/target/STM32TouchController.o
+                                     0x11eb3e (size before relaxing)
+ .debug_str     0x000000000012a467      0x322 ./Application/User/TouchGFX/target/TouchGFXGPIO.o
+                                     0x11ce22 (size before relaxing)
+ .debug_str     0x000000000012a789     0x99c3 ./Application/User/TouchGFX/target/TouchGFXHAL.o
+                                     0x1315c9 (size before relaxing)
+ .debug_str     0x000000000013414c     0x1650 ./Application/User/TouchGFX/target/generated/HardwareMJPEGDecoder.o
+                                     0x126bf5 (size before relaxing)
+ .debug_str     0x000000000013579c       0xe5 ./Application/User/TouchGFX/target/generated/OSWrappers.o
+                                       0x97cc (size before relaxing)
+ .debug_str     0x0000000000135881      0x93f ./Application/User/TouchGFX/target/generated/STM32DMA.o
+                                     0x12a99c (size before relaxing)
+ .debug_str     0x00000000001361c0     0x6127 ./Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o
+                                     0x132027 (size before relaxing)
+ .debug_str     0x000000000013c2e7     0x543c ./Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o
+                                     0x13a7ad (size before relaxing)
+ .debug_str     0x0000000000141723      0x6b1 ./Application/User/TouchGFX/target/generated/tgfx_jpeg_utils.o
+                                     0x11cdcc (size before relaxing)
+ .debug_str     0x0000000000141dd4       0x63 ./Application/User/freertos.o
+                                     0x121e7f (size before relaxing)
+ .debug_str     0x0000000000141e37     0x2852 ./Application/User/main.o
+                                     0x129788 (size before relaxing)
+ .debug_str     0x0000000000144689      0x513 ./Application/User/stm32f7xx_hal_msp.o
+                                     0x11ebab (size before relaxing)
+ .debug_str     0x0000000000144b9c       0xfd ./Application/User/stm32f7xx_hal_timebase_tim.o
+                                     0x11d34e (size before relaxing)
+ .debug_str     0x0000000000144c99      0x207 ./Application/User/stm32f7xx_it.o
+                                     0x11dc33 (size before relaxing)
+ .debug_str     0x0000000000144ea0     0x124d ./Application/User/syscalls.o
+                                       0x9902 (size before relaxing)
+ .debug_str     0x00000000001460ed       0x3e ./Application/User/sysmem.o
+                                       0x7ba9 (size before relaxing)
+ .debug_str     0x000000000014612b       0xae ./Application/User/generated/ApplicationFontProvider.o
+                                       0x6090 (size before relaxing)
+ .debug_str     0x00000000001461d9       0x4c ./Application/User/generated/BitmapDatabase.o
+                                       0x5e54 (size before relaxing)
+ .debug_str     0x0000000000146225     0x104e ./Application/User/generated/CachedFont.o
+                                       0x7235 (size before relaxing)
+ .debug_str     0x0000000000147273      0x574 ./Application/User/generated/FontCache.o
+                                       0xd361 (size before relaxing)
+ .debug_str     0x00000000001477e7       0x5e ./Application/User/generated/Font_verdana_10_4bpp_0.o
+                                       0x4d1d (size before relaxing)
+ .debug_str     0x0000000000147845       0x5e ./Application/User/generated/Font_verdana_20_4bpp_0.o
+                                       0x4d1d (size before relaxing)
+ .debug_str     0x00000000001478a3       0x5e ./Application/User/generated/Font_verdana_40_4bpp_0.o
+                                       0x4d1d (size before relaxing)
+ .debug_str     0x0000000000147901     0x1f11 ./Application/User/generated/FrontendApplicationBase.o
+                                      0x1b0ce (size before relaxing)
+ .debug_str     0x0000000000149812      0x17b ./Application/User/generated/GeneratedFont.o
+                                       0x64bf (size before relaxing)
+ .debug_str     0x000000000014998d       0x5c ./Application/User/generated/Kerning_verdana_10_4bpp.o
+                                       0x5450 (size before relaxing)
+ .debug_str     0x00000000001499e9       0x5c ./Application/User/generated/Kerning_verdana_20_4bpp.o
+                                       0x5450 (size before relaxing)
+ .debug_str     0x0000000000149a45       0x5c ./Application/User/generated/Kerning_verdana_40_4bpp.o
+                                       0x5450 (size before relaxing)
+ .debug_str     0x0000000000149aa1       0x41 ./Application/User/generated/LanguageGb.o
+                                       0x4e59 (size before relaxing)
+ .debug_str     0x0000000000149ae2      0xae2 ./Application/User/generated/Screen1ViewBase.o
+                                      0x1a897 (size before relaxing)
+ .debug_str     0x000000000014a5c4      0x11c ./Application/User/generated/Table_verdana_10_4bpp.o
+                                       0x6398 (size before relaxing)
+ .debug_str     0x000000000014a6e0       0xa7 ./Application/User/generated/Table_verdana_20_4bpp.o
+                                       0x6398 (size before relaxing)
+ .debug_str     0x000000000014a787       0xa7 ./Application/User/generated/Table_verdana_40_4bpp.o
+                                       0x6398 (size before relaxing)
+ .debug_str     0x000000000014a82e      0x180 ./Application/User/generated/Texts.o
+                                       0xdb3f (size before relaxing)
+ .debug_str     0x000000000014a9ae       0xfd ./Application/User/generated/TypedTextDatabase.o
+                                       0x66c8 (size before relaxing)
+ .debug_str     0x000000000014aaab       0x6d ./Application/User/gui/FrontendApplication.o
+                                       0xdd0f (size before relaxing)
+ .debug_str     0x000000000014ab18       0x3a ./Application/User/gui/Model.o
+                                       0x4e68 (size before relaxing)
+ .debug_str     0x000000000014ab52       0x99 ./Application/User/gui/Screen1Presenter.o
+                                      0x17e08 (size before relaxing)
+ .debug_str     0x000000000014abeb       0x50 ./Application/User/gui/Screen1View.o
+                                      0x17d90 (size before relaxing)
+ .debug_str     0x000000000014ac3b      0x1ab ./Drivers/BSP/Components/ft6x06.o
+                                       0x48e1 (size before relaxing)
+ .debug_str     0x000000000014ade6      0x480 ./Drivers/BSP/Components/otm8009a.o
+                                       0x492a (size before relaxing)
+ .debug_str     0x000000000014b266       0xa4 ./Drivers/CMSIS/system_stm32f7xx.o
                                      0x11c799 (size before relaxing)
- .debug_str     0x000000000014bcd2      0x2f6 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o
-                                     0x11cae3 (size before relaxing)
- .debug_str     0x000000000014bfc8      0x37b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma2d.o
-                                     0x11ccd1 (size before relaxing)
- .debug_str     0x000000000014c343      0x810 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dsi.o
-                                     0x11d691 (size before relaxing)
- .debug_str     0x000000000014cb53       0xb6 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o
-                                     0x11c862 (size before relaxing)
- .debug_str     0x000000000014cc09      0xd5d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o
-                                     0x11d9ba (size before relaxing)
- .debug_str     0x000000000014d966       0xa1 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o
-                                     0x11cc60 (size before relaxing)
- .debug_str     0x000000000014da07      0xbc0 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
-                                     0x11d7be (size before relaxing)
- .debug_str     0x000000000014e5c7      0x413 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o
-                                     0x11cd35 (size before relaxing)
- .debug_str     0x000000000014e9da      0x1e9 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o
-                                     0x11ca13 (size before relaxing)
- .debug_str     0x000000000014ebc3      0x564 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_qspi.o
-                                     0x11d13f (size before relaxing)
- .debug_str     0x000000000014f127      0x205 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o
-                                     0x11cb30 (size before relaxing)
- .debug_str     0x000000000014f32c      0x155 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o
-                                     0x11ca82 (size before relaxing)
- .debug_str     0x000000000014f481      0x354 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_sdram.o
-                                     0x11cdf1 (size before relaxing)
- .debug_str     0x000000000014f7d5      0xdbf ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.o
-                                     0x11dab7 (size before relaxing)
- .debug_str     0x0000000000150594      0x617 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.o
-                                     0x11d3cd (size before relaxing)
- .debug_str     0x0000000000150bab      0x84f ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o
-                                     0x11d46d (size before relaxing)
- .debug_str     0x00000000001513fa      0x772 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_ll_fmc.o
-                                     0x11cfb5 (size before relaxing)
- .debug_str     0x0000000000151b6c     0x2e7e ./Middlewares/FreeRTOS/cmsis_os2.o
-                                       0xefa8 (size before relaxing)
- .debug_str     0x00000000001549ea      0x2c1 ./Middlewares/FreeRTOS/heap_4.o
-                                       0xb21f (size before relaxing)
- .debug_str     0x0000000000154cab      0x13a ./Middlewares/FreeRTOS/list.o
-                                       0xaa02 (size before relaxing)
- .debug_str     0x0000000000154de5      0x7da ./Middlewares/FreeRTOS/port.o
-                                       0xa135 (size before relaxing)
- .debug_str     0x00000000001555bf      0x80d ./Middlewares/FreeRTOS/queue.o
-                                       0xc539 (size before relaxing)
- .debug_str     0x0000000000155dcc     0x104f ./Middlewares/FreeRTOS/tasks.o
-                                       0xd3e4 (size before relaxing)
- .debug_str     0x0000000000156e1b      0x5a9 ./Middlewares/FreeRTOS/timers.o
-                                       0xcd7f (size before relaxing)
- .debug_str     0x00000000001573c4       0x40 ./Utilities/jpeg_utils.o
-                                     0x11cdaa (size before relaxing)
+ .debug_str     0x000000000014b30a      0x3b9 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o
+                                     0x11d1f5 (size before relaxing)
+ .debug_str     0x000000000014b6c3      0x228 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o
+                                     0x11d17d (size before relaxing)
+ .debug_str     0x000000000014b8eb       0xb9 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_crc.o
+                                     0x11c7bf (size before relaxing)
+ .debug_str     0x000000000014b9a4       0x71 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_crc_ex.o
+                                     0x11c779 (size before relaxing)
+ .debug_str     0x000000000014ba15      0x2e6 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o
+                                     0x11cac3 (size before relaxing)
+ .debug_str     0x000000000014bcfb      0x36b ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma2d.o
+                                     0x11ccb1 (size before relaxing)
+ .debug_str     0x000000000014c066      0x800 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dsi.o
+                                     0x11d671 (size before relaxing)
+ .debug_str     0x000000000014c866       0xa6 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o
+                                     0x11c842 (size before relaxing)
+ .debug_str     0x000000000014c90c      0xd4d ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o
+                                     0x11d99a (size before relaxing)
+ .debug_str     0x000000000014d659       0x91 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o
+                                     0x11cc40 (size before relaxing)
+ .debug_str     0x000000000014d6ea      0xbb0 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_jpeg.o
+                                     0x11d79e (size before relaxing)
+ .debug_str     0x000000000014e29a      0x403 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o
+                                     0x11cd15 (size before relaxing)
+ .debug_str     0x000000000014e69d      0x1d9 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o
+                                     0x11c9f3 (size before relaxing)
+ .debug_str     0x000000000014e876      0x554 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_qspi.o
+                                     0x11d11f (size before relaxing)
+ .debug_str     0x000000000014edca      0x1f5 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o
+                                     0x11cb10 (size before relaxing)
+ .debug_str     0x000000000014efbf      0x145 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o
+                                     0x11ca62 (size before relaxing)
+ .debug_str     0x000000000014f104      0x344 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_sdram.o
+                                     0x11cdd1 (size before relaxing)
+ .debug_str     0x000000000014f448      0xdaf ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.o
+                                     0x11da97 (size before relaxing)
+ .debug_str     0x00000000001501f7      0x607 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.o
+                                     0x11d3ad (size before relaxing)
+ .debug_str     0x00000000001507fe      0x83f ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o
+                                     0x11d44d (size before relaxing)
+ .debug_str     0x000000000015103d      0x762 ./Drivers/STM32F7xx_HAL_Driver/stm32f7xx_ll_fmc.o
+                                     0x11cf95 (size before relaxing)
+ .debug_str     0x000000000015179f     0x2e6e ./Middlewares/FreeRTOS/cmsis_os2.o
+                                       0xef88 (size before relaxing)
+ .debug_str     0x000000000015460d      0x2b1 ./Middlewares/FreeRTOS/heap_4.o
+                                       0xb1ff (size before relaxing)
+ .debug_str     0x00000000001548be      0x12a ./Middlewares/FreeRTOS/list.o
+                                       0xa9e2 (size before relaxing)
+ .debug_str     0x00000000001549e8      0x7ca ./Middlewares/FreeRTOS/port.o
+                                       0xa115 (size before relaxing)
+ .debug_str     0x00000000001551b2      0x7fd ./Middlewares/FreeRTOS/queue.o
+                                       0xc519 (size before relaxing)
+ .debug_str     0x00000000001559af     0x103f ./Middlewares/FreeRTOS/tasks.o
+                                       0xd3c4 (size before relaxing)
+ .debug_str     0x00000000001569ee      0x599 ./Middlewares/FreeRTOS/timers.o
+                                       0xcd5f (size before relaxing)
+ .debug_str     0x0000000000156f87       0x30 ./Utilities/jpeg_utils.o
+                                     0x11cd8a (size before relaxing)
 
 .debug_rnglists
                 0x0000000000000000     0x3ac1

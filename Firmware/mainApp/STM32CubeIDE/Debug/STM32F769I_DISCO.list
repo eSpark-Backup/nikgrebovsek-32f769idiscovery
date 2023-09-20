@@ -7,25 +7,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   1 .text         00024a04  08000200  08000200  00010200  2**4
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .rodata       00003818  08024c04  08024c04  00034c04  2**2
+  2 .rodata       000037d8  08024c04  08024c04  00034c04  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 FontSearchFlashSection 000004c8  0802841c  0802841c  0003841c  2**2
+  3 FontSearchFlashSection 000004c8  080283dc  080283dc  000383dc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  4 .ARM.extab    00000000  080288e4  080288e4  00059e30  2**0
+  4 .ARM.extab    00000000  080288a4  080288a4  00059e30  2**0
                   CONTENTS
-  5 .ARM          00000008  080288e4  080288e4  000388e4  2**2
+  5 .ARM          00000008  080288a4  080288a4  000388a4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  6 .preinit_array 00000000  080288ec  080288ec  00059e30  2**0
+  6 .preinit_array 00000000  080288ac  080288ac  00059e30  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  7 .init_array   0000001c  080288ec  080288ec  000388ec  2**2
+  7 .init_array   0000001c  080288ac  080288ac  000388ac  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  8 .fini_array   00000008  08028908  08028908  00038908  2**2
+  8 .fini_array   00000008  080288c8  080288c8  000388c8  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  9 .data         00000150  20000000  08028910  00040000  2**2
+  9 .data         00000150  20000000  080288d0  00040000  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 10 .bss          00028644  20000150  08028a60  00040150  2**2
+ 10 .bss          00028644  20000150  08028a20  00040150  2**2
                   ALLOC
- 11 ._user_heap_stack 00002004  20028794  08028a60  00048794  2**0
+ 11 ._user_heap_stack 00002004  20028794  08028a20  00048794  2**0
                   ALLOC
  12 .ARM.attributes 0000002e  00000000  00000000  00059e30  2**0
                   CONTENTS, READONLY
@@ -39,25 +39,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  17 .comment      000000c2  00000000  00000000  00059e5e  2**0
                   CONTENTS, READONLY
- 18 .debug_line   0005f32d  00000000  00000000  00059f20  2**0
+ 18 .debug_line   0005ee7d  00000000  00000000  00059f20  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line_str 0000005d  00000000  00000000  000b924d  2**0
+ 19 .debug_line_str 00000092  00000000  00000000  000b8d9d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_info   000c038b  00000000  00000000  000b92aa  2**0
+ 20 .debug_info   000c038b  00000000  00000000  000b8e2f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_abbrev 000151f5  00000000  00000000  00179635  2**0
+ 21 .debug_abbrev 000151f5  00000000  00000000  001791ba  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_aranges 00003100  00000000  00000000  0018e830  2**3
+ 22 .debug_aranges 00003100  00000000  00000000  0018e3b0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    00157404  00000000  00000000  00191930  2**0
+ 23 .debug_str    00156fb7  00000000  00000000  001914b0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_rnglists 00003ac1  00000000  00000000  002e8d34  2**0
+ 24 .debug_rnglists 00003ac1  00000000  00000000  002e8467  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_macro  0003dc58  00000000  00000000  002ec7f5  2**0
+ 25 .debug_macro  0003dc58  00000000  00000000  002ebf28  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 26 .debug_frame  000096a0  00000000  00000000  0032a450  2**2
+ 26 .debug_frame  000096a0  00000000  00000000  00329b80  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 27 .debug_loclists 00023dee  00000000  00000000  00333af0  2**0
+ 27 .debug_loclists 00023dee  00000000  00000000  00333220  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -500,7 +500,7 @@ LoopFillZerobss:
   ldr   sp, =_estack      /* set stack pointer */
  8000614:	20080000 	.word	0x20080000
   ldr  r3, =_sidata
- 8000618:	08028910 	.word	0x08028910
+ 8000618:	080288d0 	.word	0x080288d0
   ldr  r0, =_sdata
  800061c:	20000000 	.word	0x20000000
   ldr  r3, =_edata
@@ -2110,9 +2110,9 @@ void TouchGFXHAL::endFrame()
  8000d9a:	bd08      	pop	{r3, pc}
  8000d9c:	20027b50 	.word	0x20027b50
  8000da0:	20027b52 	.word	0x20027b52
- 8000da4:	08024d24 	.word	0x08024d24
- 8000da8:	08024d87 	.word	0x08024d87
- 8000dac:	08024dca 	.word	0x08024dca
+ 8000da4:	08024d14 	.word	0x08024d14
+ 8000da8:	08024d77 	.word	0x08024d77
+ 8000dac:	08024dba 	.word	0x08024dba
  8000db0:	20027b56 	.word	0x20027b56
  8000db4:	20027b58 	.word	0x20027b58
 
@@ -2163,9 +2163,9 @@ void TouchGFXHAL::endFrame()
  8000e02:	f8d3 308c 	ldr.w	r3, [r3, #140]	; 0x8c
  8000e06:	4718      	bx	r3
  8000e08:	20000194 	.word	0x20000194
- 8000e0c:	08024e0f 	.word	0x08024e0f
- 8000e10:	08024e47 	.word	0x08024e47
- 8000e14:	08024dca 	.word	0x08024dca
+ 8000e0c:	08024dff 	.word	0x08024dff
+ 8000e10:	08024e37 	.word	0x08024e37
+ 8000e14:	08024dba 	.word	0x08024dba
  8000e18:	20027b5a 	.word	0x20027b5a
 
 08000e1c <_ZN11TouchGFXHALC1ERN8touchgfx13DMA_InterfaceERNS0_3LCDERNS0_15TouchControllerEtt>:
@@ -2282,7 +2282,7 @@ public:
  8000eb8:	20027b52 	.word	0x20027b52
  8000ebc:	20027b58 	.word	0x20027b58
  8000ec0:	20027b54 	.word	0x20027b54
- 8000ec4:	08024ea0 	.word	0x08024ea0
+ 8000ec4:	08024e90 	.word	0x08024e90
 
 08000ec8 <OTM8009A_IO_Delay>:
       * @brief  OTM8009A delay
@@ -2805,9 +2805,9 @@ class HardwareMJPEGDecoder : public MJPEGDecoder
  800118c:	4b02      	ldr	r3, [pc, #8]	; (8001198 <_ZN20HardwareMJPEGDecoder15decodeThumbnailEmPhtt+0x14>)
  800118e:	4803      	ldr	r0, [pc, #12]	; (800119c <_ZN20HardwareMJPEGDecoder15decodeThumbnailEmPhtt+0x18>)
  8001190:	f022 fcb0 	bl	8023af4 <__assert_func>
- 8001194:	08024f70 	.word	0x08024f70
- 8001198:	08027123 	.word	0x08027123
- 800119c:	08024fcb 	.word	0x08024fcb
+ 8001194:	08024f60 	.word	0x08024f60
+ 8001198:	080270e3 	.word	0x080270e3
+ 800119c:	08024fbb 	.word	0x08024fbb
 
 080011a0 <_ZN20HardwareMJPEGDecoderD0Ev>:
  80011a0:	b510      	push	{r4, lr}
@@ -2855,7 +2855,7 @@ HardwareMJPEGDecoder::HardwareMJPEGDecoder()
  80011ee:	4620      	mov	r0, r4
  80011f0:	bd38      	pop	{r3, r4, r5, pc}
  80011f2:	bf00      	nop
- 80011f4:	0802524c 	.word	0x0802524c
+ 80011f4:	0802522c 	.word	0x0802522c
  80011f8:	200097f4 	.word	0x200097f4
 
 080011fc <_ZN20HardwareMJPEGDecoder7compareEmPKcm>:
@@ -3004,9 +3004,9 @@ HardwareMJPEGDecoder::HardwareMJPEGDecoder()
  80012c6:	4408      	add	r0, r1
  80012c8:	e7fb      	b.n	80012c2 <_ZN20HardwareMJPEGDecoder8readDataEmm+0x42>
  80012ca:	bf00      	nop
- 80012cc:	0802502c 	.word	0x0802502c
- 80012d0:	08024fcb 	.word	0x08024fcb
- 80012d4:	08025019 	.word	0x08025019
+ 80012cc:	0802500c 	.word	0x0802500c
+ 80012d0:	08024fbb 	.word	0x08024fbb
+ 80012d4:	08024ff9 	.word	0x08024ff9
 
 080012d8 <_ZN20HardwareMJPEGDecoder13gotoNextFrameEv>:
 {
@@ -3097,9 +3097,9 @@ HardwareMJPEGDecoder::HardwareMJPEGDecoder()
             return true;
  8001368:	2001      	movs	r0, #1
  800136a:	e7d9      	b.n	8001320 <_ZN20HardwareMJPEGDecoder13gotoNextFrameEv+0x48>
- 800136c:	0802506e 	.word	0x0802506e
- 8001370:	080250b7 	.word	0x080250b7
- 8001374:	08024fcb 	.word	0x08024fcb
+ 800136c:	0802504e 	.word	0x0802504e
+ 8001370:	08025097 	.word	0x08025097
+ 8001374:	08024fbb 	.word	0x08024fbb
 
 08001378 <_ZN20HardwareMJPEGDecoder9gotoFrameEm>:
     if (frameNumber==0)
@@ -3393,19 +3393,19 @@ HardwareMJPEGDecoder::HardwareMJPEGDecoder()
  800156a:	230b      	movs	r3, #11
  800156c:	e7ef      	b.n	800154e <_ZN20HardwareMJPEGDecoder15readVideoHeaderEv+0x18a>
  800156e:	bf00      	nop
- 8001570:	080250ea 	.word	0x080250ea
- 8001574:	08025108 	.word	0x08025108
- 8001578:	080250ef 	.word	0x080250ef
- 800157c:	08024fcb 	.word	0x08024fcb
- 8001580:	08025135 	.word	0x08025135
- 8001584:	0802513a 	.word	0x0802513a
- 8001588:	08025152 	.word	0x08025152
- 800158c:	08025157 	.word	0x08025157
- 8001590:	0802516d 	.word	0x0802516d
- 8001594:	08025179 	.word	0x08025179
- 8001598:	0802517e 	.word	0x0802517e
- 800159c:	08025183 	.word	0x08025183
- 80015a0:	08025188 	.word	0x08025188
+ 8001570:	080250ca 	.word	0x080250ca
+ 8001574:	080250e8 	.word	0x080250e8
+ 8001578:	080250cf 	.word	0x080250cf
+ 800157c:	08024fbb 	.word	0x08024fbb
+ 8001580:	08025115 	.word	0x08025115
+ 8001584:	0802511a 	.word	0x0802511a
+ 8001588:	08025132 	.word	0x08025132
+ 800158c:	08025137 	.word	0x08025137
+ 8001590:	0802514d 	.word	0x0802514d
+ 8001594:	08025159 	.word	0x08025159
+ 8001598:	0802515e 	.word	0x0802515e
+ 800159c:	08025163 	.word	0x08025163
+ 80015a0:	08025168 	.word	0x08025168
 
 080015a4 <_ZN20HardwareMJPEGDecoder12setVideoDataEPKhm>:
     movieLength = length;
@@ -3636,9 +3636,9 @@ void HAL_JPEG_InfoReadyCallback(JPEG_HandleTypeDef *hjpeg, JPEG_ConfTypeDef *pIn
  80016d2:	bf00      	nop
  80016d4:	200097c8 	.word	0x200097c8
  80016d8:	200097cc 	.word	0x200097cc
- 80016dc:	0802518d 	.word	0x0802518d
- 80016e0:	0802519e 	.word	0x0802519e
- 80016e4:	08024fcb 	.word	0x08024fcb
+ 80016dc:	0802516d 	.word	0x0802516d
+ 80016e0:	0802517e 	.word	0x0802517e
+ 80016e4:	08024fbb 	.word	0x08024fbb
 
 080016e8 <HAL_JPEG_GetDataCallback>:
   * @retval None
@@ -4173,9 +4173,9 @@ uint32_t JPEG_OutputHandler(JPEG_HandleTypeDef *hjpeg)
         isCurrentFrameLast = false;
  80019f8:	2000      	movs	r0, #0
  80019fa:	e7f6      	b.n	80019ea <_ZN20HardwareMJPEGDecoder15decodeNextFrameEPhttm+0xaa>
- 80019fc:	0802506e 	.word	0x0802506e
- 8001a00:	080251e6 	.word	0x080251e6
- 8001a04:	08024fcb 	.word	0x08024fcb
+ 80019fc:	0802504e 	.word	0x0802504e
+ 8001a00:	080251c6 	.word	0x080251c6
+ 8001a04:	08024fbb 	.word	0x08024fbb
 
 08001a08 <_ZN20HardwareMJPEGDecoder11decodeFrameERKN8touchgfx4RectEPhm>:
 {
@@ -4271,11 +4271,11 @@ void OSWrappers::initialize()
 }
  8001a92:	bd08      	pop	{r3, pc}
  8001a94:	200097fc 	.word	0x200097fc
- 8001a98:	08025288 	.word	0x08025288
- 8001a9c:	080252d1 	.word	0x080252d1
- 8001aa0:	08025300 	.word	0x08025300
+ 8001a98:	08025268 	.word	0x08025268
+ 8001a9c:	080252b1 	.word	0x080252b1
+ 8001aa0:	080252e0 	.word	0x080252e0
  8001aa4:	200097f8 	.word	0x200097f8
- 8001aa8:	08025344 	.word	0x08025344
+ 8001aa8:	08025314 	.word	0x08025314
 
 08001aac <_ZN8touchgfx10OSWrappers24takeFrameBufferSemaphoreEv>:
 /*
@@ -4471,7 +4471,7 @@ STM32DMA::~STM32DMA()
  8001b8e:	f3bf 8f6f 	isb	sy
 }
  8001b92:	4770      	bx	lr
- 8001b94:	080254d8 	.word	0x080254d8
+ 8001b94:	08025498 	.word	0x08025498
  8001b98:	e000e100 	.word	0xe000e100
 
 08001b9c <_ZN8STM32DMAD0Ev>:
@@ -4529,7 +4529,7 @@ STM32DMA::STM32DMA()
  8001bee:	4620      	mov	r0, r4
  8001bf0:	bd70      	pop	{r4, r5, r6, pc}
  8001bf2:	bf00      	nop
- 8001bf4:	080254d8 	.word	0x080254d8
+ 8001bf4:	08025498 	.word	0x08025498
 
 08001bf8 <_ZN8STM32DMA22getChromARTInputFormatEN8touchgfx6Bitmap12BitmapFormatE>:
 {
@@ -4563,9 +4563,9 @@ STM32DMA::STM32DMA()
     return dma2dColorMode;
  8001c28:	e7f2      	b.n	8001c10 <_ZN8STM32DMA22getChromARTInputFormatEN8touchgfx6Bitmap12BitmapFormatE+0x18>
  8001c2a:	bf00      	nop
- 8001c2c:	08025386 	.word	0x08025386
- 8001c30:	080253a1 	.word	0x080253a1
- 8001c34:	080253eb 	.word	0x080253eb
+ 8001c2c:	08025356 	.word	0x08025356
+ 8001c30:	08025371 	.word	0x08025371
+ 8001c34:	080253bb 	.word	0x080253bb
 
 08001c38 <_ZN8STM32DMA23getChromARTOutputFormatEN8touchgfx6Bitmap12BitmapFormatE>:
 {
@@ -4596,9 +4596,9 @@ STM32DMA::STM32DMA()
     return dma2dColorMode;
  8001c64:	e7f4      	b.n	8001c50 <_ZN8STM32DMA23getChromARTOutputFormatEN8touchgfx6Bitmap12BitmapFormatE+0x18>
  8001c66:	bf00      	nop
- 8001c68:	08025386 	.word	0x08025386
- 8001c6c:	0802542d 	.word	0x0802542d
- 8001c70:	080253eb 	.word	0x080253eb
+ 8001c68:	08025356 	.word	0x08025356
+ 8001c6c:	080253ed 	.word	0x080253ed
+ 8001c70:	080253bb 	.word	0x080253bb
 
 08001c74 <_ZN8STM32DMA13setupDataCopyERKN8touchgfx6BlitOpE>:
  * BLIT_OP_COPY_ARGB8888_WITH_ALPHA
@@ -4834,9 +4834,9 @@ void STM32DMA::setupDataCopy(const BlitOp& blitOp)
  8001db4:	00010201 	.word	0x00010201
  8001db8:	00020009 	.word	0x00020009
  8001dbc:	0002000a 	.word	0x0002000a
- 8001dc0:	08025478 	.word	0x08025478
- 8001dc4:	08025492 	.word	0x08025492
- 8001dc8:	080253eb 	.word	0x080253eb
+ 8001dc0:	08025438 	.word	0x08025438
+ 8001dc4:	08025452 	.word	0x08025452
+ 8001dc8:	080253bb 	.word	0x080253bb
  8001dcc:	00020201 	.word	0x00020201
 
 08001dd0 <_ZN8STM32DMA13setupDataFillERKN8touchgfx6BlitOpE>:
@@ -5178,7 +5178,7 @@ class Partition : public AbstractPartition
  8001f14:	f00b fe87 	bl	800dc26 <_ZN8touchgfx17AbstractPartitionD1Ev>
  8001f18:	4620      	mov	r0, r4
  8001f1a:	bd10      	pop	{r4, pc}
- 8001f1c:	08025590 	.word	0x08025590
+ 8001f1c:	08025550 	.word	0x08025550
 
 08001f20 <_ZN8touchgfx9PartitionINS_4meta8TypeListINS_12NoTransitionENS2_INS1_3NilES4_EEEELt1EED0Ev>:
  8001f20:	b510      	push	{r4, lr}
@@ -5198,7 +5198,7 @@ class Partition : public AbstractPartition
  8001f3c:	f00b fe73 	bl	800dc26 <_ZN8touchgfx17AbstractPartitionD1Ev>
  8001f40:	4620      	mov	r0, r4
  8001f42:	bd10      	pop	{r4, pc}
- 8001f44:	0802555c 	.word	0x0802555c
+ 8001f44:	0802551c 	.word	0x0802551c
 
 08001f48 <_ZN8touchgfx9PartitionINS_4meta8TypeListI11Screen1ViewNS2_INS1_3NilES4_EEEELt1EED0Ev>:
  8001f48:	b510      	push	{r4, lr}
@@ -5219,7 +5219,7 @@ class Partition : public AbstractPartition
  8001f68:	f00b fe5d 	bl	800dc26 <_ZN8touchgfx17AbstractPartitionD1Ev>
  8001f6c:	4620      	mov	r0, r4
  8001f6e:	bd10      	pop	{r4, pc}
- 8001f70:	08025528 	.word	0x08025528
+ 8001f70:	080254e8 	.word	0x080254e8
 
 08001f74 <_ZN8touchgfx9PartitionINS_4meta8TypeListI16Screen1PresenterNS2_INS1_3NilES4_EEEELt1EED0Ev>:
  8001f74:	b510      	push	{r4, lr}
@@ -5252,7 +5252,7 @@ class FrontendHeap : public FrontendHeapBase
  8001faa:	4620      	mov	r0, r4
  8001fac:	bd10      	pop	{r4, pc}
  8001fae:	bf00      	nop
- 8001fb0:	080255c4 	.word	0x080255c4
+ 8001fb0:	08025584 	.word	0x08025584
 
 08001fb4 <__tcf_0>:
                             > > CombinedTransitionTypes;
@@ -5397,11 +5397,11 @@ private:
  8002098:	20009800 	.word	0x20009800
  800209c:	20000034 	.word	0x20000034
  80020a0:	20009804 	.word	0x20009804
- 80020a4:	080255c4 	.word	0x080255c4
+ 80020a4:	08025584 	.word	0x08025584
  80020a8:	2000ce80 	.word	0x2000ce80
- 80020ac:	08025528 	.word	0x08025528
- 80020b0:	0802555c 	.word	0x0802555c
- 80020b4:	08025590 	.word	0x08025590
+ 80020ac:	080254e8 	.word	0x080254e8
+ 80020b0:	0802551c 	.word	0x0802551c
+ 80020b4:	08025550 	.word	0x08025550
  80020b8:	08001fb5 	.word	0x08001fb5
  80020bc:	2000dd98 	.word	0x2000dd98
 
@@ -5456,7 +5456,7 @@ static TouchGFXHAL hal(dma, display, tc, 800, 480);
  8002100:	b002      	add	sp, #8
  8002102:	bd10      	pop	{r4, pc}
  8002104:	2000cff8 	.word	0x2000cff8
- 8002108:	08024d14 	.word	0x08024d14
+ 8002108:	08024d04 	.word	0x08024d04
  800210c:	2000cff4 	.word	0x2000cff4
  8002110:	2000de18 	.word	0x2000de18
  8002114:	2000dd98 	.word	0x2000dd98
@@ -5982,9 +5982,9 @@ class DedicatedBufferController : public touchgfx::VideoController
     }
  80022fa:	f890 0029 	ldrb.w	r0, [r0, #41]	; 0x29
  80022fe:	bd08      	pop	{r3, pc}
- 8002300:	080255d0 	.word	0x080255d0
- 8002304:	080255e4 	.word	0x080255e4
- 8002308:	0802576e 	.word	0x0802576e
+ 8002300:	08025590 	.word	0x08025590
+ 8002304:	080255a4 	.word	0x080255a4
+ 8002308:	0802572e 	.word	0x0802572e
 
 0800230c <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE19getVideoInformationEmPNS0_16VideoInformationE>:
     virtual void getVideoInformation(const Handle handle, touchgfx::VideoInformation* data)
@@ -6005,9 +6005,9 @@ class DedicatedBufferController : public touchgfx::VideoController
         mjpegDecoders[handle]->getVideoInfo(data);
  8002328:	6b1b      	ldr	r3, [r3, #48]	; 0x30
  800232a:	4718      	bx	r3
- 800232c:	080255d0 	.word	0x080255d0
- 8002330:	080257b1 	.word	0x080257b1
- 8002334:	0802576e 	.word	0x0802576e
+ 800232c:	08025590 	.word	0x08025590
+ 8002330:	08025771 	.word	0x08025771
+ 8002334:	0802572e 	.word	0x0802572e
 
 08002338 <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE21getCurrentFrameNumberEm>:
     virtual uint32_t getCurrentFrameNumber(const Handle handle)
@@ -6022,9 +6022,9 @@ class DedicatedBufferController : public touchgfx::VideoController
     }
  8002348:	68c0      	ldr	r0, [r0, #12]
  800234a:	bd08      	pop	{r3, pc}
- 800234c:	080255d0 	.word	0x080255d0
- 8002350:	0802595f 	.word	0x0802595f
- 8002354:	0802576e 	.word	0x0802576e
+ 800234c:	08025590 	.word	0x08025590
+ 8002350:	0802591f 	.word	0x0802591f
+ 8002354:	0802572e 	.word	0x0802572e
 
 08002358 <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE10setCommandEmNS0_15VideoController7CommandEm>:
     virtual void setCommand(const Handle handle, Command cmd, uint32_t param)
@@ -6090,9 +6090,9 @@ class DedicatedBufferController : public touchgfx::VideoController
     }
  80023c0:	e7eb      	b.n	800239a <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE10setCommandEmNS0_15VideoController7CommandEm+0x42>
  80023c2:	bf00      	nop
- 80023c4:	080255d0 	.word	0x080255d0
- 80023c8:	08025b14 	.word	0x08025b14
- 80023cc:	0802576e 	.word	0x0802576e
+ 80023c4:	08025590 	.word	0x08025590
+ 80023c8:	08025ad4 	.word	0x08025ad4
+ 80023cc:	0802572e 	.word	0x0802572e
 
 080023d0 <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE12setVideoDataEmPKhm>:
     virtual void setVideoData(const Handle handle, const uint8_t* movie, const uint32_t length)
@@ -6117,9 +6117,9 @@ class DedicatedBufferController : public touchgfx::VideoController
         mjpegDecoders[handle]->setVideoData(movie, length);
  80023f0:	689b      	ldr	r3, [r3, #8]
  80023f2:	4718      	bx	r3
- 80023f4:	080255d0 	.word	0x080255d0
- 80023f8:	08025ce8 	.word	0x08025ce8
- 80023fc:	0802576e 	.word	0x0802576e
+ 80023f4:	08025590 	.word	0x08025590
+ 80023f8:	08025ca8 	.word	0x08025ca8
+ 80023fc:	0802572e 	.word	0x0802572e
 
 08002400 <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE12setFrameRateEmmm>:
     virtual void setFrameRate(const Handle handle, uint32_t ui_frames, uint32_t video_frames)
@@ -6138,9 +6138,9 @@ class DedicatedBufferController : public touchgfx::VideoController
     }
  8002418:	bd08      	pop	{r3, pc}
  800241a:	bf00      	nop
- 800241c:	080255d0 	.word	0x080255d0
- 8002420:	08025ec3 	.word	0x08025ec3
- 8002424:	0802576e 	.word	0x0802576e
+ 800241c:	08025590 	.word	0x08025590
+ 8002420:	08025e83 	.word	0x08025e83
+ 8002424:	0802572e 	.word	0x0802572e
 
 08002428 <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE4drawEmRKNS0_4RectERKNS0_11VideoWidgetE>:
         if (firstDrawThisFrame)
@@ -6221,9 +6221,9 @@ class DedicatedBufferController : public touchgfx::VideoController
                 stream.isPlaying = false;
  800249e:	f884 0029 	strb.w	r0, [r4, #41]	; 0x29
  80024a2:	e7eb      	b.n	800247c <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE11updateFrameEmRNS0_11VideoWidgetE+0x30>
- 80024a4:	080255d0 	.word	0x080255d0
- 80024a8:	0802607f 	.word	0x0802607f
- 80024ac:	0802576e 	.word	0x0802576e
+ 80024a4:	08025590 	.word	0x08025590
+ 80024a8:	0802603f 	.word	0x0802603f
+ 80024ac:	0802572e 	.word	0x0802572e
  80024b0:	20027b5c 	.word	0x20027b5c
 
 080024b4 <_ZN20TouchGFXGeneratedHAL8endFrameEv>:
@@ -6392,11 +6392,11 @@ class DedicatedBufferController : public touchgfx::VideoController
         buffer = videoBuffer;
  80025a0:	630b      	str	r3, [r1, #48]	; 0x30
  80025a2:	bd70      	pop	{r4, r5, r6, pc}
- 80025a4:	080263d7 	.word	0x080263d7
- 80025a8:	08026412 	.word	0x08026412
- 80025ac:	08026220 	.word	0x08026220
- 80025b0:	08026250 	.word	0x08026250
- 80025b4:	0802576e 	.word	0x0802576e
+ 80025a4:	08026397 	.word	0x08026397
+ 80025a8:	080263d2 	.word	0x080263d2
+ 80025ac:	080261e0 	.word	0x080261e0
+ 80025b0:	08026210 	.word	0x08026210
+ 80025b4:	0802572e 	.word	0x0802572e
 
 080025b8 <_ZN8touchgfx21AbstractPainterRGB565C1Ev>:
         : widgetWidth(0)
@@ -6459,10 +6459,10 @@ public:
  8002604:	bd70      	pop	{r4, r5, r6, pc}
  8002606:	bf00      	nop
  8002608:	20027b5c 	.word	0x20027b5c
- 800260c:	080266b8 	.word	0x080266b8
- 8002610:	080265b5 	.word	0x080265b5
- 8002614:	08026613 	.word	0x08026613
- 8002618:	0802664c 	.word	0x0802664c
+ 800260c:	08026678 	.word	0x08026678
+ 8002610:	08026575 	.word	0x08026575
+ 8002614:	080265d3 	.word	0x080265d3
+ 8002618:	0802660c 	.word	0x0802660c
 
 0800261c <_ZN25DedicatedBufferControllerILm1ELm800ELm480ELm1600ELN8touchgfx6Bitmap12BitmapFormatE0EE16decoderTaskEntryEv>:
     void decoderTaskEntry()
@@ -6626,7 +6626,7 @@ HardwareMJPEGDecoder mjpegdecoder1;
  8002722:	bd38      	pop	{r3, r4, r5, pc}
  8002724:	2000dee4 	.word	0x2000dee4
  8002728:	2000de9c 	.word	0x2000de9c
- 800272c:	080266d8 	.word	0x080266d8
+ 800272c:	08026698 	.word	0x08026698
 
 08002730 <TGFX_JPEG_MCU_YCbCr420_ARGB_ConvertBlocks>:
 static uint32_t TGFX_JPEG_MCU_YCbCr420_ARGB_ConvertBlocks(uint8_t *pInBuffer,
@@ -6896,7 +6896,7 @@ static uint32_t TGFX_JPEG_MCU_YCbCr420_ARGB_ConvertBlocks(uint8_t *pInBuffer,
  8002908:	2000eb28 	.word	0x2000eb28
  800290c:	2000f328 	.word	0x2000f328
  8002910:	2000ef28 	.word	0x2000ef28
- 8002914:	08026710 	.word	0x08026710
+ 8002914:	080266d0 	.word	0x080266d0
 
 08002918 <JPEG_MCU_YCbCr422_ARGB_ConvertBlocks>:
 static uint32_t JPEG_MCU_YCbCr422_ARGB_ConvertBlocks(uint8_t *pInBuffer,
@@ -7122,7 +7122,7 @@ static uint32_t JPEG_MCU_YCbCr422_ARGB_ConvertBlocks(uint8_t *pInBuffer,
  8002a68:	2000f728 	.word	0x2000f728
  8002a6c:	2000f328 	.word	0x2000f328
  8002a70:	2000ef28 	.word	0x2000ef28
- 8002a74:	08026710 	.word	0x08026710
+ 8002a74:	080266d0 	.word	0x080266d0
 
 08002a78 <JPEG_MCU_YCbCr444_ARGB_ConvertBlocks>:
 static uint32_t JPEG_MCU_YCbCr444_ARGB_ConvertBlocks(uint8_t *pInBuffer,
@@ -7299,7 +7299,7 @@ static uint32_t JPEG_MCU_YCbCr444_ARGB_ConvertBlocks(uint8_t *pInBuffer,
  8002b58:	34c0      	adds	r4, #192	; 0xc0
  8002b5a:	e79f      	b.n	8002a9c <JPEG_MCU_YCbCr444_ARGB_ConvertBlocks+0x24>
  8002b5c:	20010ba8 	.word	0x20010ba8
- 8002b60:	08026710 	.word	0x08026710
+ 8002b60:	080266d0 	.word	0x080266d0
  8002b64:	2000f728 	.word	0x2000f728
  8002b68:	2000eb28 	.word	0x2000eb28
  8002b6c:	2000f328 	.word	0x2000f328
@@ -9876,7 +9876,7 @@ void MPU_Config(void)
  8003c66:	9335      	str	r3, [sp, #212]	; 0xd4
   s_command.AddressSize       = QSPI_ADDRESS_32_BITS;
  8003c68:	f44f 5340 	mov.w	r3, #12288	; 0x3000
-  htim11.Init.Prescaler = 95;
+  htim11.Init.Prescaler = 199;
  8003c6c:	4f19      	ldr	r7, [pc, #100]	; (8003cd4 <main+0xa68>)
   s_command.AddressSize       = QSPI_ADDRESS_32_BITS;
  8003c6e:	9331      	str	r3, [sp, #196]	; 0xc4
@@ -9953,15 +9953,15 @@ void MPU_Config(void)
  8003cf4:	4621      	mov	r1, r4
  8003cf6:	a82e      	add	r0, sp, #184	; 0xb8
  8003cf8:	f020 f984 	bl	8024004 <memset>
-  htim11.Init.Prescaler = 95;
- 8003cfc:	235f      	movs	r3, #95	; 0x5f
+  htim11.Init.Prescaler = 199;
+ 8003cfc:	23c7      	movs	r3, #199	; 0xc7
   if (HAL_TIM_Base_Init(&htim11) != HAL_OK)
  8003cfe:	4628      	mov	r0, r5
   htim11.Init.CounterMode = TIM_COUNTERMODE_UP;
  8003d00:	60ac      	str	r4, [r5, #8]
   htim11.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
  8003d02:	61ac      	str	r4, [r5, #24]
-  htim11.Init.Prescaler = 95;
+  htim11.Init.Prescaler = 199;
  8003d04:	e9c5 7300 	strd	r7, r3, [r5]
   htim11.Init.Period = 0xffff-1;
  8003d08:	f64f 73fe 	movw	r3, #65534	; 0xfffe
@@ -10055,16 +10055,16 @@ void MPU_Config(void)
  8003da4:	50051000 	.word	0x50051000
  8003da8:	20012138 	.word	0x20012138
  8003dac:	20012304 	.word	0x20012304
- 8003db0:	08026a64 	.word	0x08026a64
+ 8003db0:	08026a24 	.word	0x08026a24
  8003db4:	08002ffd 	.word	0x08002ffd
  8003db8:	20011f80 	.word	0x20011f80
- 8003dbc:	08026a40 	.word	0x08026a40
+ 8003dbc:	08026a00 	.word	0x08026a00
  8003dc0:	08000641 	.word	0x08000641
  8003dc4:	20011f7c 	.word	0x20011f7c
- 8003dc8:	08026aac 	.word	0x08026aac
+ 8003dc8:	08026a6c 	.word	0x08026a6c
  8003dcc:	080026c5 	.word	0x080026c5
  8003dd0:	20012394 	.word	0x20012394
- 8003dd4:	08026a88 	.word	0x08026a88
+ 8003dd4:	08026a48 	.word	0x08026a48
  8003dd8:	0800316d 	.word	0x0800316d
  8003ddc:	2001238c 	.word	0x2001238c
  8003de0:	40011000 	.word	0x40011000
@@ -11934,7 +11934,7 @@ const touchgfx::Bitmap::BitmapData* getInstance()
 }
  80046c0:	4800      	ldr	r0, [pc, #0]	; (80046c4 <_ZN14BitmapDatabase11getInstanceEv+0x4>)
  80046c2:	4770      	bx	lr
- 80046c4:	08026ae4 	.word	0x08026ae4
+ 80046c4:	08026aa4 	.word	0x08026aa4
 
 080046c8 <_ZN14BitmapDatabase15getInstanceSizeEv>:
 
@@ -12502,12 +12502,12 @@ public:
  8004926:	462b      	mov	r3, r5
  8004928:	e7e1      	b.n	80048ee <_ZN23FrontendApplicationBase33gotoScreen1ScreenNoTransitionImplEv+0xf6>
  800492a:	bf00      	nop
- 800492c:	08026b08 	.word	0x08026b08
- 8004930:	08026b96 	.word	0x08026b96
- 8004934:	08026c9a 	.word	0x08026c9a
- 8004938:	08026ce1 	.word	0x08026ce1
- 800493c:	08026d84 	.word	0x08026d84
- 8004940:	08026e9c 	.word	0x08026e9c
+ 800492c:	08026ac8 	.word	0x08026ac8
+ 8004930:	08026b56 	.word	0x08026b56
+ 8004934:	08026c5a 	.word	0x08026c5a
+ 8004938:	08026ca1 	.word	0x08026ca1
+ 800493c:	08026d44 	.word	0x08026d44
+ 8004940:	08026e5c 	.word	0x08026e5c
  8004944:	20027ba4 	.word	0x20027ba4
  8004948:	20027ba0 	.word	0x20027ba0
 
@@ -12575,8 +12575,8 @@ FrontendApplicationBase::FrontendApplicationBase(Model& m, FrontendHeap& heap)
  80049b0:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
  80049b2:	bf00      	nop
  80049b4:	20027bb0 	.word	0x20027bb0
- 80049b8:	08026e48 	.word	0x08026e48
- 80049bc:	08026e30 	.word	0x08026e30
+ 80049b8:	08026e08 	.word	0x08026e08
+ 80049bc:	08026df0 	.word	0x08026df0
  80049c0:	20027b5c 	.word	0x20027b5c
 
 080049c4 <_ZN23FrontendApplicationBase29gotoScreen1ScreenNoTransitionEv>:
@@ -12741,7 +12741,7 @@ GeneratedFont::GeneratedFont(const GlyphNode* glyphs, uint16_t numGlyphs, uint16
  8004a9e:	b00b      	add	sp, #44	; 0x2c
  8004aa0:	bd30      	pop	{r4, r5, pc}
  8004aa2:	bf00      	nop
- 8004aa4:	08026ec0 	.word	0x08026ec0
+ 8004aa4:	08026e80 	.word	0x08026e80
 
 08004aa8 <_ZN8touchgfx6Screen11setupScreenEv>:
      *
@@ -12947,7 +12947,7 @@ Screen1ViewBase::~Screen1ViewBase()
 }
  8004b4c:	4620      	mov	r0, r4
  8004b4e:	bd10      	pop	{r4, pc}
- 8004b50:	080270f0 	.word	0x080270f0
+ 8004b50:	080270b0 	.word	0x080270b0
 
 08004b54 <_ZN15Screen1ViewBaseD0Ev>:
 Screen1ViewBase::~Screen1ViewBase()
@@ -12965,7 +12965,7 @@ Screen1ViewBase::~Screen1ViewBase()
  8004b6c:	b003      	add	sp, #12
  8004b6e:	f85d fb04 	ldr.w	pc, [sp], #4
  8004b72:	bf00      	nop
- 8004b74:	080270f0 	.word	0x080270f0
+ 8004b74:	080270b0 	.word	0x080270b0
 
 08004b78 <_ZNK8touchgfx24TextAreaWithWildcardBase17invalidateContentEv>:
     virtual void invalidateContent() const
@@ -13025,11 +13025,11 @@ Screen1ViewBase::~Screen1ViewBase()
  8004bcc:	4718      	bx	r3
  8004bce:	bf00      	nop
  8004bd0:	20027bb4 	.word	0x20027bb4
- 8004bd4:	08026f18 	.word	0x08026f18
- 8004bd8:	08026f5a 	.word	0x08026f5a
- 8004bdc:	08026f95 	.word	0x08026f95
+ 8004bd4:	08026ed8 	.word	0x08026ed8
+ 8004bd8:	08026f1a 	.word	0x08026f1a
+ 8004bdc:	08026f55 	.word	0x08026f55
  8004be0:	20027bb8 	.word	0x20027bb8
- 8004be4:	08026fdc 	.word	0x08026fdc
+ 8004be4:	08026f9c 	.word	0x08026f9c
  8004be8:	20027bbc 	.word	0x20027bbc
 
 08004bec <_ZN8touchgfx8Drawable5setXYEss>:
@@ -13106,7 +13106,7 @@ public:
     }
  8004c50:	4770      	bx	lr
  8004c52:	bf00      	nop
- 8004c54:	08027ebc 	.word	0x08027ebc
+ 8004c54:	08027e7c 	.word	0x08027e7c
 
 08004c58 <_ZN8touchgfx8TextArea12BoundingAreaC1Ev>:
         : x(rectX), y(rectY), width(rectWidth), height(rectHeight)
@@ -13160,8 +13160,8 @@ public:
  8004ca2:	4620      	mov	r0, r4
  8004ca4:	bd10      	pop	{r4, pc}
  8004ca6:	bf00      	nop
- 8004ca8:	08027e2c 	.word	0x08027e2c
- 8004cac:	08026b00 	.word	0x08026b00
+ 8004ca8:	08027dec 	.word	0x08027dec
+ 8004cac:	08026ac0 	.word	0x08026ac0
 
 08004cb0 <_ZNK8touchgfx24TextAreaWithWildcardBase21calculateBoundingAreaEv>:
     virtual TextArea::BoundingArea calculateBoundingArea() const
@@ -13189,7 +13189,7 @@ public:
  8004ccc:	64a3      	str	r3, [r4, #72]	; 0x48
     }
  8004cce:	bd10      	pop	{r4, pc}
- 8004cd0:	08027060 	.word	0x08027060
+ 8004cd0:	08027020 	.word	0x08027020
 
 08004cd4 <_ZN8touchgfx4Line8setStartIiEEvT_S2_>:
      * @note The area containing the Line is not invalidated.
@@ -13642,11 +13642,11 @@ public:
  80050e0:	4640      	mov	r0, r8
  80050e2:	f008 fdb5 	bl	800dc50 <_ZN8touchgfx9Container3addERNS_8DrawableE>
  80050e6:	e009      	b.n	80050fc <_ZN15Screen1ViewBaseC1Ev+0x3fc>
- 80050e8:	080270f0 	.word	0x080270f0
- 80050ec:	08027f24 	.word	0x08027f24
+ 80050e8:	080270b0 	.word	0x080270b0
+ 80050ec:	08027ee4 	.word	0x08027ee4
  80050f0:	ffc5e8fa 	.word	0xffc5e8fa
  80050f4:	ff0a0101 	.word	0xff0a0101
- 80050f8:	08027bf0 	.word	0x08027bf0
+ 80050f8:	08027bb0 	.word	0x08027bb0
     line2.setPosition(126, 98, 53, 290);
  80050fc:	f44f 7391 	mov.w	r3, #290	; 0x122
  8005100:	4658      	mov	r0, fp
@@ -13935,12 +13935,12 @@ public:
  80053bc:	e7f4      	b.n	80053a8 <_ZN15Screen1ViewBaseC1Ev+0x6a8>
  80053be:	bf00      	nop
  80053c0:	ff0a0000 	.word	0xff0a0000
- 80053c4:	08026b00 	.word	0x08026b00
- 80053c8:	08026f18 	.word	0x08026f18
- 80053cc:	0802701a 	.word	0x0802701a
- 80053d0:	08026f95 	.word	0x08026f95
+ 80053c4:	08026ac0 	.word	0x08026ac0
+ 80053c8:	08026ed8 	.word	0x08026ed8
+ 80053cc:	08026fda 	.word	0x08026fda
+ 80053d0:	08026f55 	.word	0x08026f55
  80053d4:	20027bb8 	.word	0x20027bb8
- 80053d8:	08026fdc 	.word	0x08026fdc
+ 80053d8:	08026f9c 	.word	0x08026f9c
  80053dc:	20027bb4 	.word	0x20027bb4
         return texts->getText(typedTextId);
  80053e0:	4b94      	ldr	r3, [pc, #592]	; (8005634 <_ZN15Screen1ViewBaseC1Ev+0x934>)
@@ -14201,8 +14201,8 @@ public:
  800562c:	ecbd 8b10 	vpop	{d8-d15}
  8005630:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
  8005634:	20027bc0 	.word	0x20027bc0
- 8005638:	08027052 	.word	0x08027052
- 800563c:	08026b00 	.word	0x08026b00
+ 8005638:	08027012 	.word	0x08027012
+ 800563c:	08026ac0 	.word	0x08026ac0
 
 08005640 <__tcf_0>:
 KEEP extern const touchgfx::KerningNode kerning_verdana_10_4bpp[] FONT_KERNING_LOCATION_FLASH_ATTRIBUTE;
@@ -14262,9 +14262,9 @@ touchgfx::GeneratedFont& getFont_verdana_10_4bpp()
  80056a2:	bf00      	nop
  80056a4:	200123f4 	.word	0x200123f4
  80056a8:	90008df0 	.word	0x90008df0
- 80056ac:	0802841c 	.word	0x0802841c
+ 80056ac:	080283dc 	.word	0x080283dc
  80056b0:	200123f8 	.word	0x200123f8
- 80056b4:	080288d8 	.word	0x080288d8
+ 80056b4:	08028898 	.word	0x08028898
  80056b8:	08005641 	.word	0x08005641
 
 080056bc <__tcf_0>:
@@ -14325,9 +14325,9 @@ touchgfx::GeneratedFont& getFont_verdana_20_4bpp()
  800571e:	bf00      	nop
  8005720:	20012424 	.word	0x20012424
  8005724:	90009314 	.word	0x90009314
- 8005728:	08028450 	.word	0x08028450
+ 8005728:	08028410 	.word	0x08028410
  800572c:	20012428 	.word	0x20012428
- 8005730:	080288dc 	.word	0x080288dc
+ 8005730:	0802889c 	.word	0x0802889c
  8005734:	080056bd 	.word	0x080056bd
 
 08005738 <__tcf_0>:
@@ -14387,9 +14387,9 @@ touchgfx::GeneratedFont& getFont_verdana_40_4bpp()
  800579a:	bd30      	pop	{r4, r5, pc}
  800579c:	20012454 	.word	0x20012454
  80057a0:	90009838 	.word	0x90009838
- 80057a4:	080285f4 	.word	0x080285f4
+ 80057a4:	080285b4 	.word	0x080285b4
  80057a8:	20012458 	.word	0x20012458
- 80057ac:	080288e0 	.word	0x080288e0
+ 80057ac:	080288a0 	.word	0x080288a0
  80057b0:	08005739 	.word	0x08005739
 
 080057b4 <_ZNK8touchgfx4Font12getGSUBTableEv>:
@@ -14551,11 +14551,11 @@ touchgfx::Unicode::UnicodeChar touchgfx::TextProvider::getNextLigature(TextDirec
  800585c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
     return getNextChar();
  8005860:	f00f ba42 	b.w	8014ce8 <_ZN8touchgfx12TextProvider11getNextCharEv>
- 8005864:	0802711c 	.word	0x0802711c
- 8005868:	08027125 	.word	0x08027125
- 800586c:	080271d0 	.word	0x080271d0
- 8005870:	0802721a 	.word	0x0802721a
- 8005874:	08027228 	.word	0x08027228
+ 8005864:	080270dc 	.word	0x080270dc
+ 8005868:	080270e5 	.word	0x080270e5
+ 800586c:	08027190 	.word	0x08027190
+ 8005870:	080271da 	.word	0x080271da
+ 8005874:	080271e8 	.word	0x080271e8
 
 08005878 <_ZN8touchgfx12TextProvider18initializeInternalEv>:
 
@@ -14793,7 +14793,7 @@ FrontendApplication::FrontendApplication(Model& m, FrontendHeap& heap)
  8005990:	6023      	str	r3, [r4, #0]
 }
  8005992:	bd10      	pop	{r4, pc}
- 8005994:	08027304 	.word	0x08027304
+ 8005994:	080272c4 	.word	0x080272c4
 
 08005998 <_ZN5ModelC1Ev>:
 #include <stdint.h>
@@ -14918,7 +14918,7 @@ Screen1Presenter::Screen1Presenter(Screen1View& v)
 }
  8005a10:	bd10      	pop	{r4, pc}
  8005a12:	bf00      	nop
- 8005a14:	08027350 	.word	0x08027350
+ 8005a14:	08027310 	.word	0x08027310
 
 08005a18 <_ZN11Screen1View14tearDownScreenEv>:
 }
@@ -14944,7 +14944,7 @@ public:
  8005a24:	f7ff f88c 	bl	8004b40 <_ZN15Screen1ViewBaseD1Ev>
  8005a28:	4620      	mov	r0, r4
  8005a2a:	bd10      	pop	{r4, pc}
- 8005a2c:	0802738c 	.word	0x0802738c
+ 8005a2c:	0802734c 	.word	0x0802734c
 
 08005a30 <_ZN11Screen1ViewD0Ev>:
  8005a30:	b510      	push	{r4, lr}
@@ -14969,7 +14969,7 @@ Screen1View::Screen1View()
  8005a54:	6023      	str	r3, [r4, #0]
 }
  8005a56:	bd10      	pop	{r4, pc}
- 8005a58:	0802738c 	.word	0x0802738c
+ 8005a58:	0802734c 	.word	0x0802734c
 
 08005a5c <_ZN11Screen1View11setupScreenEv>:
     Screen1ViewBase::setupScreen();
@@ -15083,7 +15083,7 @@ void Screen1View::saveReading(uint8_t Distance)
  8005b30:	e7aa      	b.n	8005a88 <_ZN11Screen1View11saveReadingEh+0x28>
  8005b32:	bf00      	nop
  8005b34:	20012390 	.word	0x20012390
- 8005b38:	08027380 	.word	0x08027380
+ 8005b38:	08027340 	.word	0x08027340
 
 08005b3c <ft6x06_Reset>:
   */
@@ -15804,81 +15804,81 @@ uint8_t OTM8009A_Init(uint32_t ColorCoding, uint32_t orientation)
  8005f68:	2000      	movs	r0, #0
  8005f6a:	f7fa ffaf 	bl	8000ecc <DSI_IO_WriteCmd>
  8005f6e:	e095      	b.n	800609c <OTM8009A_Init+0x45c>
- 8005f70:	080273bc 	.word	0x080273bc
- 8005f74:	08027420 	.word	0x08027420
- 8005f78:	080273d0 	.word	0x080273d0
- 8005f7c:	080274a6 	.word	0x080274a6
- 8005f80:	080273e6 	.word	0x080273e6
- 8005f84:	080273fc 	.word	0x080273fc
- 8005f88:	08027412 	.word	0x08027412
- 8005f8c:	08027418 	.word	0x08027418
- 8005f90:	0802741a 	.word	0x0802741a
- 8005f94:	0802741c 	.word	0x0802741c
- 8005f98:	0802741e 	.word	0x0802741e
- 8005f9c:	080273be 	.word	0x080273be
- 8005fa0:	080273c0 	.word	0x080273c0
- 8005fa4:	080273c2 	.word	0x080273c2
- 8005fa8:	080273c6 	.word	0x080273c6
- 8005fac:	080273c8 	.word	0x080273c8
- 8005fb0:	080273ca 	.word	0x080273ca
- 8005fb4:	080273cc 	.word	0x080273cc
- 8005fb8:	080273ce 	.word	0x080273ce
- 8005fbc:	08027524 	.word	0x08027524
- 8005fc0:	080273d2 	.word	0x080273d2
- 8005fc4:	080273d4 	.word	0x080273d4
- 8005fc8:	080273d6 	.word	0x080273d6
- 8005fcc:	080273d8 	.word	0x080273d8
- 8005fd0:	080273da 	.word	0x080273da
- 8005fd4:	080273dc 	.word	0x080273dc
- 8005fd8:	080273c4 	.word	0x080273c4
- 8005fdc:	080273de 	.word	0x080273de
- 8005fe0:	080273e0 	.word	0x080273e0
- 8005fe4:	080273e2 	.word	0x080273e2
- 8005fe8:	08027527 	.word	0x08027527
- 8005fec:	0802752a 	.word	0x0802752a
- 8005ff0:	080273e4 	.word	0x080273e4
- 8005ff4:	08027531 	.word	0x08027531
- 8005ff8:	080273e8 	.word	0x080273e8
- 8005ffc:	08027540 	.word	0x08027540
- 8006000:	080273ea 	.word	0x080273ea
- 8006004:	08027424 	.word	0x08027424
- 8006008:	080273ec 	.word	0x080273ec
- 800600c:	0802740a 	.word	0x0802740a
- 8006010:	0802742f 	.word	0x0802742f
- 8006014:	080273ee 	.word	0x080273ee
- 8006018:	0802743a 	.word	0x0802743a
- 800601c:	0802744a 	.word	0x0802744a
- 8006020:	0802745a 	.word	0x0802745a
- 8006024:	08027465 	.word	0x08027465
- 8006028:	08027475 	.word	0x08027475
- 800602c:	080273f0 	.word	0x080273f0
- 8006030:	08027485 	.word	0x08027485
- 8006034:	080273f2 	.word	0x080273f2
- 8006038:	08027490 	.word	0x08027490
- 800603c:	0802749b 	.word	0x0802749b
- 8006040:	080274a9 	.word	0x080274a9
- 8006044:	080274b9 	.word	0x080274b9
- 8006048:	080274c9 	.word	0x080274c9
- 800604c:	080274d4 	.word	0x080274d4
- 8006050:	080274e4 	.word	0x080274e4
- 8006054:	0802740c 	.word	0x0802740c
- 8006058:	0802740e 	.word	0x0802740e
- 800605c:	08027410 	.word	0x08027410
- 8006060:	08027414 	.word	0x08027414
- 8006064:	08027416 	.word	0x08027416
- 8006068:	080274f4 	.word	0x080274f4
- 800606c:	08027502 	.word	0x08027502
- 8006070:	08027513 	.word	0x08027513
- 8006074:	080273f4 	.word	0x080273f4
- 8006078:	080273f6 	.word	0x080273f6
- 800607c:	080273fa 	.word	0x080273fa
- 8006080:	080274f8 	.word	0x080274f8
- 8006084:	080274fd 	.word	0x080274fd
- 8006088:	080273fe 	.word	0x080273fe
- 800608c:	08027400 	.word	0x08027400
- 8006090:	08027402 	.word	0x08027402
- 8006094:	08027404 	.word	0x08027404
- 8006098:	08027406 	.word	0x08027406
+ 8005f70:	0802737c 	.word	0x0802737c
+ 8005f74:	080273e0 	.word	0x080273e0
+ 8005f78:	08027390 	.word	0x08027390
+ 8005f7c:	08027466 	.word	0x08027466
+ 8005f80:	080273a6 	.word	0x080273a6
+ 8005f84:	080273bc 	.word	0x080273bc
+ 8005f88:	080273d2 	.word	0x080273d2
+ 8005f8c:	080273d8 	.word	0x080273d8
+ 8005f90:	080273da 	.word	0x080273da
+ 8005f94:	080273dc 	.word	0x080273dc
+ 8005f98:	080273de 	.word	0x080273de
+ 8005f9c:	0802737e 	.word	0x0802737e
+ 8005fa0:	08027380 	.word	0x08027380
+ 8005fa4:	08027382 	.word	0x08027382
+ 8005fa8:	08027386 	.word	0x08027386
+ 8005fac:	08027388 	.word	0x08027388
+ 8005fb0:	0802738a 	.word	0x0802738a
+ 8005fb4:	0802738c 	.word	0x0802738c
+ 8005fb8:	0802738e 	.word	0x0802738e
+ 8005fbc:	080274e4 	.word	0x080274e4
+ 8005fc0:	08027392 	.word	0x08027392
+ 8005fc4:	08027394 	.word	0x08027394
+ 8005fc8:	08027396 	.word	0x08027396
+ 8005fcc:	08027398 	.word	0x08027398
+ 8005fd0:	0802739a 	.word	0x0802739a
+ 8005fd4:	0802739c 	.word	0x0802739c
+ 8005fd8:	08027384 	.word	0x08027384
+ 8005fdc:	0802739e 	.word	0x0802739e
+ 8005fe0:	080273a0 	.word	0x080273a0
+ 8005fe4:	080273a2 	.word	0x080273a2
+ 8005fe8:	080274e7 	.word	0x080274e7
+ 8005fec:	080274ea 	.word	0x080274ea
+ 8005ff0:	080273a4 	.word	0x080273a4
+ 8005ff4:	080274f1 	.word	0x080274f1
+ 8005ff8:	080273a8 	.word	0x080273a8
+ 8005ffc:	08027500 	.word	0x08027500
+ 8006000:	080273aa 	.word	0x080273aa
+ 8006004:	080273e4 	.word	0x080273e4
+ 8006008:	080273ac 	.word	0x080273ac
+ 800600c:	080273ca 	.word	0x080273ca
+ 8006010:	080273ef 	.word	0x080273ef
+ 8006014:	080273ae 	.word	0x080273ae
+ 8006018:	080273fa 	.word	0x080273fa
+ 800601c:	0802740a 	.word	0x0802740a
+ 8006020:	0802741a 	.word	0x0802741a
+ 8006024:	08027425 	.word	0x08027425
+ 8006028:	08027435 	.word	0x08027435
+ 800602c:	080273b0 	.word	0x080273b0
+ 8006030:	08027445 	.word	0x08027445
+ 8006034:	080273b2 	.word	0x080273b2
+ 8006038:	08027450 	.word	0x08027450
+ 800603c:	0802745b 	.word	0x0802745b
+ 8006040:	08027469 	.word	0x08027469
+ 8006044:	08027479 	.word	0x08027479
+ 8006048:	08027489 	.word	0x08027489
+ 800604c:	08027494 	.word	0x08027494
+ 8006050:	080274a4 	.word	0x080274a4
+ 8006054:	080273cc 	.word	0x080273cc
+ 8006058:	080273ce 	.word	0x080273ce
+ 800605c:	080273d0 	.word	0x080273d0
+ 8006060:	080273d4 	.word	0x080273d4
+ 8006064:	080273d6 	.word	0x080273d6
+ 8006068:	080274b4 	.word	0x080274b4
+ 800606c:	080274c2 	.word	0x080274c2
+ 8006070:	080274d3 	.word	0x080274d3
+ 8006074:	080273b4 	.word	0x080273b4
+ 8006078:	080273b6 	.word	0x080273b6
+ 800607c:	080273ba 	.word	0x080273ba
+ 8006080:	080274b8 	.word	0x080274b8
+ 8006084:	080274bd 	.word	0x080274bd
+ 8006088:	080273be 	.word	0x080273be
+ 800608c:	080273c0 	.word	0x080273c0
+ 8006090:	080273c2 	.word	0x080273c2
+ 8006094:	080273c4 	.word	0x080273c4
+ 8006098:	080273c6 	.word	0x080273c6
 
   /* NOP command */
   DSI_IO_WriteCmd(0, (uint8_t *)ShortRegData1);
@@ -15902,9 +15902,9 @@ uint8_t OTM8009A_Init(uint32_t ColorCoding, uint32_t orientation)
  80060b2:	4620      	mov	r0, r4
  80060b4:	e737      	b.n	8005f26 <OTM8009A_Init+0x2e6>
  80060b6:	bf00      	nop
- 80060b8:	080273bc 	.word	0x080273bc
- 80060bc:	08027408 	.word	0x08027408
- 80060c0:	080273f8 	.word	0x080273f8
+ 80060b8:	0802737c 	.word	0x0802737c
+ 80060bc:	080273c8 	.word	0x080273c8
+ 80060c0:	080273b8 	.word	0x080273b8
 
 080060c4 <SystemInit>:
   */
@@ -16554,7 +16554,7 @@ static uint32_t DMA_CalcBaseAndBitshift(DMA_HandleTypeDef *hdma)
 }
  80063b8:	4618      	mov	r0, r3
  80063ba:	bd10      	pop	{r4, pc}
- 80063bc:	08027567 	.word	0x08027567
+ 80063bc:	08027527 	.word	0x08027527
 
 080063c0 <HAL_DMA_Init>:
 {
@@ -21890,18 +21890,18 @@ static HAL_StatusTypeDef JPEG_DMA_StartProcess(JPEG_HandleTypeDef *hjpeg)
     return HAL_ERROR;
  80080ec:	2001      	movs	r0, #1
  80080ee:	e7d4      	b.n	800809a <HAL_JPEG_Init+0x1f6>
- 80080f0:	0802772f 	.word	0x0802772f
- 80080f4:	0802774b 	.word	0x0802774b
- 80080f8:	080276d3 	.word	0x080276d3
+ 80080f0:	080276ef 	.word	0x080276ef
+ 80080f4:	0802770b 	.word	0x0802770b
+ 80080f8:	08027693 	.word	0x08027693
  80080fc:	0b0a0908 	.word	0x0b0a0908
- 8008100:	08027621 	.word	0x08027621
+ 8008100:	080275e1 	.word	0x080275e1
  8008104:	ffff0000 	.word	0xffff0000
  8008108:	09080706 	.word	0x09080706
- 800810c:	0802756f 	.word	0x0802756f
+ 800810c:	0802752f 	.word	0x0802752f
  8008110:	01000404 	.word	0x01000404
  8008114:	05070403 	.word	0x05070403
  8008118:	04040201 	.word	0x04040201
- 800811c:	08027713 	.word	0x08027713
+ 800811c:	080276d3 	.word	0x080276d3
 
 08008120 <HAL_JPEG_GetInfo>:
 {
@@ -22072,7 +22072,7 @@ static uint32_t JPEG_GetQuality(JPEG_HandleTypeDef *hjpeg)
     return HAL_ERROR;
  8008208:	2001      	movs	r0, #1
  800820a:	e7db      	b.n	80081c4 <HAL_JPEG_GetInfo+0xa4>
- 800820c:	0802778b 	.word	0x0802778b
+ 800820c:	0802774b 	.word	0x0802774b
 
 08008210 <HAL_JPEG_Decode_DMA>:
 {
@@ -23555,7 +23555,7 @@ static uint32_t JPEG_GetQuality(JPEG_HandleTypeDef *hjpeg)
   if (pLayerCfg->PixelFormat == LTDC_PIXEL_FORMAT_ARGB8888)
  8008b04:	2501      	movs	r5, #1
  8008b06:	e7e0      	b.n	8008aca <LTDC_SetConfig+0xc2>
- 8008b08:	080277cb 	.word	0x080277cb
+ 8008b08:	0802778b 	.word	0x0802778b
 
 08008b0c <HAL_LTDC_Init>:
 {
@@ -23930,7 +23930,7 @@ static uint32_t JPEG_GetQuality(JPEG_HandleTypeDef *hjpeg)
  8008d6a:	2401      	movs	r4, #1
  8008d6c:	e7db      	b.n	8008d26 <HAL_LTDC_SetPitch+0x26>
  8008d6e:	bf00      	nop
- 8008d70:	080277cb 	.word	0x080277cb
+ 8008d70:	0802778b 	.word	0x0802778b
  8008d74:	40016800 	.word	0x40016800
 
 08008d78 <HAL_PWREx_EnableOverDrive>:
@@ -25705,7 +25705,7 @@ void HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_M
  8009906:	e787      	b.n	8009818 <HAL_RCC_ClockConfig+0x38>
  8009908:	40023c00 	.word	0x40023c00
  800990c:	40023800 	.word	0x40023800
- 8009910:	0802754f 	.word	0x0802754f
+ 8009910:	0802750f 	.word	0x0802750f
  8009914:	20000060 	.word	0x20000060
  8009918:	20000068 	.word	0x20000068
 
@@ -25727,7 +25727,7 @@ uint32_t HAL_RCC_GetPCLK1Freq(void)
  800992c:	40d8      	lsrs	r0, r3
  800992e:	4770      	bx	lr
  8009930:	40023800 	.word	0x40023800
- 8009934:	0802755f 	.word	0x0802755f
+ 8009934:	0802751f 	.word	0x0802751f
  8009938:	20000060 	.word	0x20000060
 
 0800993c <HAL_RCC_GetPCLK2Freq>:
@@ -25748,7 +25748,7 @@ uint32_t HAL_RCC_GetPCLK2Freq(void)
  800994c:	40d8      	lsrs	r0, r3
  800994e:	4770      	bx	lr
  8009950:	40023800 	.word	0x40023800
- 8009954:	0802755f 	.word	0x0802755f
+ 8009954:	0802751f 	.word	0x0802751f
  8009958:	20000060 	.word	0x20000060
 
 0800995c <HAL_RCC_GetClockConfig>:
@@ -28873,9 +28873,9 @@ static void UART_EndTransmit_IT(UART_HandleTypeDef *huart)
  800abc0:	efff69f3 	.word	0xefff69f3
  800abc4:	40011000 	.word	0x40011000
  800abc8:	40023800 	.word	0x40023800
- 800abcc:	080277d2 	.word	0x080277d2
+ 800abcc:	08027792 	.word	0x08027792
  800abd0:	40004400 	.word	0x40004400
- 800abd4:	080277d5 	.word	0x080277d5
+ 800abd4:	08027795 	.word	0x08027795
  800abd8:	40004800 	.word	0x40004800
  800abdc:	40004c00 	.word	0x40004c00
  800abe0:	40005000 	.word	0x40005000
@@ -34116,7 +34116,7 @@ BaseType_t xAlreadyYielded = pdFALSE;
 }
  800cd48:	b008      	add	sp, #32
  800cd4a:	bd10      	pop	{r4, pc}
- 800cd4c:	080277e2 	.word	0x080277e2
+ 800cd4c:	080277a2 	.word	0x080277a2
  800cd50:	0800c801 	.word	0x0800c801
  800cd54:	200264e8 	.word	0x200264e8
  800cd58:	20000148 	.word	0x20000148
@@ -34804,7 +34804,7 @@ static void prvCheckForValidListAndQueue( void )
  800d1fc:	200269ec 	.word	0x200269ec
  800d200:	200269e8 	.word	0x200269e8
  800d204:	20026ab8 	.word	0x20026ab8
- 800d208:	080277e7 	.word	0x080277e7
+ 800d208:	080277a7 	.word	0x080277a7
 
 0800d20c <prvInsertTimerInActiveList>:
 	if( xNextExpiryTime <= xTimeNow )
@@ -34898,7 +34898,7 @@ BaseType_t xProcessTimerNow = pdFALSE;
  800d29c:	b008      	add	sp, #32
  800d29e:	bd10      	pop	{r4, pc}
  800d2a0:	20026b08 	.word	0x20026b08
- 800d2a4:	080277ec 	.word	0x080277ec
+ 800d2a4:	080277ac 	.word	0x080277ac
  800d2a8:	0800d3b9 	.word	0x0800d3b9
  800d2ac:	20026b0c 	.word	0x20026b0c
 
@@ -35605,7 +35605,7 @@ static uint32_t JPEG_MCU_YCbCr420_ARGB_ConvertBlocks(uint8_t *pInBuffer,
  800d780:	20027710 	.word	0x20027710
  800d784:	20027310 	.word	0x20027310
  800d788:	20026f10 	.word	0x20026f10
- 800d78c:	080277f4 	.word	0x080277f4
+ 800d78c:	080277b4 	.word	0x080277b4
 
 0800d790 <JPEG_MCU_YCbCr422_ARGB_ConvertBlocks>:
 static uint32_t JPEG_MCU_YCbCr422_ARGB_ConvertBlocks(uint8_t *pInBuffer, 
@@ -35832,7 +35832,7 @@ static uint32_t JPEG_MCU_YCbCr422_ARGB_ConvertBlocks(uint8_t *pInBuffer,
  800d8e0:	20027710 	.word	0x20027710
  800d8e4:	20027310 	.word	0x20027310
  800d8e8:	20026f10 	.word	0x20026f10
- 800d8ec:	080277f4 	.word	0x080277f4
+ 800d8ec:	080277b4 	.word	0x080277b4
 
 0800d8f0 <JPEG_MCU_YCbCr444_ARGB_ConvertBlocks>:
 static uint32_t JPEG_MCU_YCbCr444_ARGB_ConvertBlocks(uint8_t *pInBuffer, 
@@ -36009,7 +36009,7 @@ static uint32_t JPEG_MCU_YCbCr444_ARGB_ConvertBlocks(uint8_t *pInBuffer,
  800d9d0:	34c0      	adds	r4, #192	; 0xc0
  800d9d2:	e79f      	b.n	800d914 <JPEG_MCU_YCbCr444_ARGB_ConvertBlocks+0x24>
  800d9d4:	20027b10 	.word	0x20027b10
- 800d9d8:	080277f4 	.word	0x080277f4
+ 800d9d8:	080277b4 	.word	0x080277b4
  800d9dc:	20027710 	.word	0x20027710
  800d9e0:	20026b10 	.word	0x20026b10
  800d9e4:	20027310 	.word	0x20027310
@@ -36444,7 +36444,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800dc2e:	8082      	strh	r2, [r0, #4]
  800dc30:	4770      	bx	lr
  800dc32:	bf00      	nop
- 800dc34:	08027afc 	.word	0x08027afc
+ 800dc34:	08027abc 	.word	0x08027abc
 
 0800dc38 <_ZN8touchgfx9Container13getFirstChildEv>:
  800dc38:	6a80      	ldr	r0, [r0, #40]	; 0x28
@@ -37907,7 +37907,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800e9fa:	2304      	movs	r3, #4
  800e9fc:	e7b2      	b.n	800e964 <_ZN8touchgfx3HAL8blitCopyEPKtPKhttttthbtNS_6Bitmap12BitmapFormatES6_b+0x28>
  800e9fe:	bf00      	nop
- 800ea00:	08027bb8 	.word	0x08027bb8
+ 800ea00:	08027b78 	.word	0x08027b78
 
 0800ea04 <_ZN8touchgfx3HAL8blitFillENS_9colortypeEtttthtNS_6Bitmap12BitmapFormatEb>:
  800ea04:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
@@ -37957,7 +37957,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800ea88:	4798      	blx	r3
  800ea8a:	b00b      	add	sp, #44	; 0x2c
  800ea8c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
- 800ea90:	08027bb8 	.word	0x08027bb8
+ 800ea90:	08027b78 	.word	0x08027b78
 
 0800ea94 <_ZNK8touchgfx3HAL13getDstAddressEttPt>:
  800ea94:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
@@ -37980,7 +37980,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800eabc:	fb04 6000 	mla	r0, r4, r0, r6
  800eac0:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
  800eac4:	20027b56 	.word	0x20027b56
- 800eac8:	08027bb8 	.word	0x08027bb8
+ 800eac8:	08027b78 	.word	0x08027b78
 
 0800eacc <_ZN8touchgfx3HAL13blitCopyGlyphEPKhtttttNS_9colortypeEhNS_14BlitOperationsEb>:
  800eacc:	b5f0      	push	{r4, r5, r6, r7, lr}
@@ -38526,7 +38526,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800ef8c:	e9c0 4100 	strd	r4, r1, [r0]
  800ef90:	bd10      	pop	{r4, pc}
  800ef92:	bf00      	nop
- 800ef94:	08027bcc 	.word	0x08027bcc
+ 800ef94:	08027b8c 	.word	0x08027b8c
 
 0800ef98 <_ZN8touchgfx13DMA_Interface15isDmaQueueEmptyEv>:
  800ef98:	6840      	ldr	r0, [r0, #4]
@@ -38752,7 +38752,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800f174:	6282      	str	r2, [r0, #40]	; 0x28
  800f176:	e9c0 2205 	strd	r2, r2, [r0, #20]
  800f17a:	4770      	bx	lr
- 800f17c:	08027c28 	.word	0x08027c28
+ 800f17c:	08027be8 	.word	0x08027be8
 
 0800f180 <_ZNK8touchgfx4Line14getMinimalRectEv>:
  800f180:	f101 0364 	add.w	r3, r1, #100	; 0x64
@@ -38990,7 +38990,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800f404:	f833 0010 	ldrh.w	r0, [r3, r0, lsl #1]
  800f408:	4240      	negs	r0, r0
  800f40a:	4770      	bx	lr
- 800f40c:	08027cf4 	.word	0x08027cf4
+ 800f40c:	08027cb4 	.word	0x08027cb4
 
 0800f410 <_ZN8touchgfx7CWRUtil5isqrtEm>:
  800f410:	f5b0 3f80 	cmp.w	r0, #65536	; 0x10000
@@ -39058,7 +39058,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800f4ae:	e7e9      	b.n	800f484 <_ZN8touchgfx7CWRUtil7arcsineENS0_3Q10E+0x10>
  800f4b0:	2000      	movs	r0, #0
  800f4b2:	e7e7      	b.n	800f484 <_ZN8touchgfx7CWRUtil7arcsineENS0_3Q10E+0x10>
- 800f4b4:	08027c98 	.word	0x08027c98
+ 800f4b4:	08027c58 	.word	0x08027c58
 
 0800f4b8 <_ZN8touchgfx7CWRUtil6_angleENS0_2Q5ES1_RS1_>:
  800f4b8:	4281      	cmp	r1, r0
@@ -39106,7 +39106,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800f522:	e9c4 3317 	strd	r3, r3, [r4, #92]	; 0x5c
  800f526:	e9c4 3319 	strd	r3, r3, [r4, #100]	; 0x64
  800f52a:	bd10      	pop	{r4, pc}
- 800f52c:	08027db4 	.word	0x08027db4
+ 800f52c:	08027d74 	.word	0x08027d74
 
 0800f530 <_ZN8touchgfx4Line17updateCachedShapeEv>:
  800f530:	e92d 47f3 	stmdb	sp!, {r0, r1, r4, r5, r6, r7, r8, r9, sl, lr}
@@ -39466,7 +39466,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  800f8a4:	4620      	mov	r0, r4
  800f8a6:	b020      	add	sp, #128	; 0x80
  800f8a8:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
- 800f8ac:	0802839c 	.word	0x0802839c
+ 800f8ac:	0802835c 	.word	0x0802835c
 
 0800f8b0 <_ZNK8touchgfx8TextArea12getWildcard1Ev>:
  800f8b0:	2000      	movs	r0, #0
@@ -40529,7 +40529,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  80102e4:	f7ff ffd1 	bl	801028a <_ZN8touchgfx7Outline5resetEv>
  80102e8:	4620      	mov	r0, r4
  80102ea:	bd10      	pop	{r4, pc}
- 80102ec:	08027f8c 	.word	0x08027f8c
+ 80102ec:	08027f4c 	.word	0x08027f4c
 
 080102f0 <_ZN8touchgfx7Outline10renderLineEiiii>:
  80102f0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
@@ -44565,7 +44565,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8012b4c:	f001 fb26 	bl	801419c <_ZN8touchgfx6Screen4drawEv>
  8012b50:	e7ec      	b.n	8012b2c <_ZN8touchgfx11ApplicationC1Ev+0x50>
  8012b52:	bf00      	nop
- 8012b54:	08027f9c 	.word	0x08027f9c
+ 8012b54:	08027f5c 	.word	0x08027f5c
  8012b58:	20027ba0 	.word	0x20027ba0
  8012b5c:	b5e8b5cd 	.word	0xb5e8b5cd
  8012b60:	f407a5c2 	.word	0xf407a5c2
@@ -46212,7 +46212,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8013be2:	4b01      	ldr	r3, [pc, #4]	; (8013be8 <_ZN8touchgfx9ConstFontC1EPKNS_9GlyphNodeEttthhhhhhtt+0x4c>)
  8013be4:	6003      	str	r3, [r0, #0]
  8013be6:	bd30      	pop	{r4, r5, pc}
- 8013be8:	08027ff0 	.word	0x08027ff0
+ 8013be8:	08027fb0 	.word	0x08027fb0
 
 08013bec <_ZNK8touchgfx9ConstFont4findEt>:
  8013bec:	b5f0      	push	{r4, r5, r6, r7, lr}
@@ -46586,7 +46586,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8013ef6:	b007      	add	sp, #28
  8013ef8:	bd30      	pop	{r4, r5, pc}
  8013efa:	bf00      	nop
- 8013efc:	08028078 	.word	0x08028078
+ 8013efc:	08028038 	.word	0x08028038
 
 08013f00 <_ZN8touchgfx6Screen16handleClickEventERKNS_10ClickEventE>:
  8013f00:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
@@ -46653,7 +46653,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8013f9a:	e9c4 660c 	strd	r6, r6, [r4, #48]	; 0x30
  8013f9e:	b00a      	add	sp, #40	; 0x28
  8013fa0:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
- 8013fa4:	08028050 	.word	0x08028050
+ 8013fa4:	08028010 	.word	0x08028010
 
 08013fa8 <_ZN8touchgfx6Screen15handleDragEventERKNS_9DragEventE>:
  8013fa8:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
@@ -46755,8 +46755,8 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8014094:	b008      	add	sp, #32
  8014096:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
  801409a:	bf00      	nop
- 801409c:	08028050 	.word	0x08028050
- 80140a0:	08028064 	.word	0x08028064
+ 801409c:	08028010 	.word	0x08028010
+ 80140a0:	08028024 	.word	0x08028024
 
 080140a4 <_ZN8touchgfx8Drawable20getCachedVisibleRectEv>:
  80140a4:	b537      	push	{r0, r1, r2, r4, r5, lr}
@@ -46856,8 +46856,8 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8014186:	4798      	blx	r3
  8014188:	4620      	mov	r0, r4
  801418a:	bd70      	pop	{r4, r5, r6, pc}
- 801418c:	0802808c 	.word	0x0802808c
- 8014190:	08027b30 	.word	0x08027b30
+ 801418c:	0802804c 	.word	0x0802804c
+ 8014190:	08027af0 	.word	0x08027af0
  8014194:	20027b52 	.word	0x20027b52
  8014198:	20027b50 	.word	0x20027b50
 
@@ -56081,7 +56081,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  801a178:	f8c0 2080 	str.w	r2, [r0, #128]	; 0x80
  801a17c:	4770      	bx	lr
  801a17e:	bf00      	nop
- 801a180:	08028344 	.word	0x08028344
+ 801a180:	08028304 	.word	0x08028304
 
 0801a184 <_ZN8touchgfx8LCD16bpp16blitCopyARGB8888EPKmRKNS_4RectES5_h>:
  801a184:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
@@ -58792,7 +58792,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  801be72:	bf00      	nop
  801be74:	20027bf8 	.word	0x20027bf8
  801be78:	20027c6c 	.word	0x20027c6c
- 801be7c:	080280f8 	.word	0x080280f8
+ 801be7c:	080280b8 	.word	0x080280b8
  801be80:	20000000 	.word	0x20000000
  801be84:	08018467 	.word	0x08018467
 
@@ -68821,7 +68821,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  802336c:	b004      	add	sp, #16
  802336e:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
  8023372:	bf00      	nop
- 8023374:	08028064 	.word	0x08028064
+ 8023374:	08028024 	.word	0x08028024
 
 08023378 <_ZN8touchgfx8Gestures18registerClickEventENS_10ClickEvent14ClickEventTypeEtt>:
  8023378:	b5f0      	push	{r4, r5, r6, r7, lr}
@@ -68894,8 +68894,8 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  802342e:	73a1      	strb	r1, [r4, #14]
  8023430:	e7e5      	b.n	80233fe <_ZN8touchgfx8Gestures18registerClickEventENS_10ClickEvent14ClickEventTypeEtt+0x86>
  8023432:	bf00      	nop
- 8023434:	08028050 	.word	0x08028050
- 8023438:	08028078 	.word	0x08028078
+ 8023434:	08028010 	.word	0x08028010
+ 8023438:	08028038 	.word	0x08028038
 
 0802343c <_ZNK8touchgfx10Rasterizer14calculateAlphaEi.isra.5>:
  802343c:	10c9      	asrs	r1, r1, #3
@@ -69189,7 +69189,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  802373e:	2300      	movs	r3, #0
  8023740:	9301      	str	r3, [sp, #4]
  8023742:	e7c2      	b.n	80236ca <_ZN8touchgfx6CanvasC1EPKNS_12CanvasWidgetERKNS_4RectE+0xb6>
- 8023744:	0802839c 	.word	0x0802839c
+ 8023744:	0802835c 	.word	0x0802835c
 
 08023748 <_ZN8touchgfx6Canvas5closeEv>:
  8023748:	b538      	push	{r3, r4, r5, lr}
@@ -69512,7 +69512,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8023a6e:	4620      	mov	r0, r4
  8023a70:	bd10      	pop	{r4, pc}
  8023a72:	bf00      	nop
- 8023a74:	0802839c 	.word	0x0802839c
+ 8023a74:	0802835c 	.word	0x0802835c
 
 08023a78 <_ZN8touchgfx6CanvasD0Ev>:
  8023a78:	b510      	push	{r4, lr}
@@ -69606,9 +69606,9 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8023b1c:	e7f3      	b.n	8023b06 <__assert_func+0x12>
  8023b1e:	bf00      	nop
  8023b20:	20000148 	.word	0x20000148
- 8023b24:	080283a8 	.word	0x080283a8
- 8023b28:	080283b5 	.word	0x080283b5
- 8023b2c:	080283e3 	.word	0x080283e3
+ 8023b24:	08028368 	.word	0x08028368
+ 8023b28:	08028375 	.word	0x08028375
+ 8023b2c:	080283a3 	.word	0x080283a3
 
 08023b30 <atexit>:
  8023b30:	2300      	movs	r3, #0
@@ -70442,10 +70442,10 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8024256:	4798      	blx	r3
  8024258:	3601      	adds	r6, #1
  802425a:	e7f2      	b.n	8024242 <__libc_init_array+0x1e>
- 802425c:	080288ec 	.word	0x080288ec
- 8024260:	080288ec 	.word	0x080288ec
- 8024264:	080288ec 	.word	0x080288ec
- 8024268:	08028908 	.word	0x08028908
+ 802425c:	080288ac 	.word	0x080288ac
+ 8024260:	080288ac 	.word	0x080288ac
+ 8024264:	080288ac 	.word	0x080288ac
+ 8024268:	080288c8 	.word	0x080288c8
 
 0802426c <__retarget_lock_acquire_recursive>:
  802426c:	4770      	bx	lr
@@ -70529,7 +70529,7 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8024332:	e7ca      	b.n	80242ca <__register_exitproc+0x3e>
  8024334:	20028688 	.word	0x20028688
  8024338:	200285fc 	.word	0x200285fc
- 802433c:	080283e4 	.word	0x080283e4
+ 802433c:	080283a4 	.word	0x080283a4
  8024340:	08023b3d 	.word	0x08023b3d
  8024344:	2000014c 	.word	0x2000014c
 
@@ -70871,11 +70871,11 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  802464c:	4630      	mov	r0, r6
  802464e:	f000 f879 	bl	8024744 <_printf_i>
  8024652:	e7e4      	b.n	802461e <_vfiprintf_r+0x1ea>
- 8024654:	080283e8 	.word	0x080283e8
- 8024658:	080283f2 	.word	0x080283f2
+ 8024654:	080283a8 	.word	0x080283a8
+ 8024658:	080283b2 	.word	0x080283b2
  802465c:	00000000 	.word	0x00000000
  8024660:	0802440f 	.word	0x0802440f
- 8024664:	080283ee 	.word	0x080283ee
+ 8024664:	080283ae 	.word	0x080283ae
 
 08024668 <_printf_common>:
  8024668:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
@@ -71208,8 +71208,8 @@ HAL_StatusTypeDef JPEG_GetDecodeColorConvertFunc(JPEG_ConfTypeDef *pJpegInfo, JP
  8024978:	f104 0619 	add.w	r6, r4, #25
  802497c:	e7f5      	b.n	802496a <_printf_i+0x226>
  802497e:	bf00      	nop
- 8024980:	080283f9 	.word	0x080283f9
- 8024984:	0802840a 	.word	0x0802840a
+ 8024980:	080283b9 	.word	0x080283b9
+ 8024984:	080283ca 	.word	0x080283ca
 
 08024988 <__sflush_r>:
  8024988:	898a      	ldrh	r2, [r1, #12]

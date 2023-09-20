@@ -33,13 +33,13 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:302:44:virtual touchgfx::AbstractPainterLinearGradient& touchgfx::CWRVectorRendererRGB565::getLinearPainter()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:307:35:virtual touchgfx::AbstractPainterColor& touchgfx::CWRVectorRendererRGB565::getColorPainterColor()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:312:30:virtual touchgfx::AbstractPainter& touchgfx::CWRVectorRendererRGB565::getColorPainter()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:48:36:void __tcf_1()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:77:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:82:6:virtual void TouchGFXGeneratedHAL::enableInterrupts()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:92:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:115:11:virtual uint16_t* TouchGFXGeneratedHAL::getTFTFrameBuffer() const	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:120:6:virtual void TouchGFXGeneratedHAL::setTFTFrameBuffer(uint16_t*)	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:135:6:virtual void TouchGFXGeneratedHAL::InvalidateCache()	4
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:48:36:void __tcf_1()	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:77:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:82:6:virtual void TouchGFXGeneratedHAL::enableInterrupts()	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:92:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:115:11:virtual uint16_t* TouchGFXGeneratedHAL::getTFTFrameBuffer() const	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:120:6:virtual void TouchGFXGeneratedHAL::setTFTFrameBuffer(uint16_t*)	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:135:6:virtual void TouchGFXGeneratedHAL::InvalidateCache()	4
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:246:18:void DedicatedBufferController<no_streams, width, height, stride, output_format>::setRGBBuffer(uint8_t*, size_t) [with long unsigned int no_streams = 1; long unsigned int width = 800; long unsigned int height = 480; long unsigned int stride = 1600; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB565]	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:49:7:DedicatedBufferController<1, 800, 480, 1600, touchgfx::Bitmap::RGB565>::~DedicatedBufferController()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:300:7:touchgfx::CWRVectorRendererRGB565::~CWRVectorRendererRGB565()	1
@@ -50,10 +50,10 @@ C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:13
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:49:7:virtual DedicatedBufferController<1, 800, 480, 1600, touchgfx::Bitmap::RGB565>::~DedicatedBufferController()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:189:11:virtual touchgfx::CWRVectorRenderer::CanvasWidgetProxy::~CanvasWidgetProxy()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRVectorRenderer.hpp:300:7:virtual touchgfx::CWRVectorRendererRGB565::~CWRVectorRendererRGB565()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:65:6:virtual void TouchGFXGeneratedHAL::initialize()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:96:6:virtual bool TouchGFXGeneratedHAL::beginFrame()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:125:6:virtual void TouchGFXGeneratedHAL::flushFrameBuffer(const touchgfx::Rect&)	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:130:6:virtual bool TouchGFXGeneratedHAL::blockCopy(void*, const void*, uint32_t)	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:65:6:virtual void TouchGFXGeneratedHAL::initialize()	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:96:6:virtual bool TouchGFXGeneratedHAL::beginFrame()	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:125:6:virtual void TouchGFXGeneratedHAL::flushFrameBuffer(const touchgfx::Rect&)	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:130:6:virtual bool TouchGFXGeneratedHAL::blockCopy(void*, const void*, uint32_t)	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:96:18:void DedicatedBufferController<no_streams, width, height, stride, output_format>::unregisterVideoWidget(touchgfx::VideoController::Handle) [with long unsigned int no_streams = 1; long unsigned int width = 800; long unsigned int height = 480; long unsigned int stride = 1600; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB565]	2
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:638:18:virtual void touchgfx::HAL::backPorchExited()	1
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:106:18:virtual void TouchGFXGeneratedHAL::flushFrameBuffer()	1
@@ -70,12 +70,12 @@ C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:13
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:126:18:void DedicatedBufferController<no_streams, width, height, stride, output_format>::setFrameRate(touchgfx::VideoController::Handle, uint32_t, uint32_t) [with long unsigned int no_streams = 1; long unsigned int width = 800; long unsigned int height = 480; long unsigned int stride = 1600; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB565]	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:232:18:void DedicatedBufferController<no_streams, width, height, stride, output_format>::draw(touchgfx::VideoController::Handle, const touchgfx::Rect&, const touchgfx::VideoWidget&) [with long unsigned int no_streams = 1; long unsigned int width = 800; long unsigned int height = 480; long unsigned int stride = 1600; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB565]	2
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:204:18:bool DedicatedBufferController<no_streams, width, height, stride, output_format>::updateFrame(touchgfx::VideoController::Handle, touchgfx::VideoWidget&) [with long unsigned int no_streams = 1; long unsigned int width = 800; long unsigned int height = 480; long unsigned int stride = 1600; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB565]	5
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:101:6:virtual void TouchGFXGeneratedHAL::endFrame()	7
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:87:6:virtual void TouchGFXGeneratedHAL::disableInterrupts()	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:101:6:virtual void TouchGFXGeneratedHAL::endFrame()	7
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:87:6:virtual void TouchGFXGeneratedHAL::disableInterrupts()	1
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:67:20:touchgfx::VideoController::Handle DedicatedBufferController<no_streams, width, height, stride, output_format>::registerVideoWidget(touchgfx::VideoWidget&) [with long unsigned int no_streams = 1; long unsigned int width = 800; long unsigned int height = 480; long unsigned int stride = 1600; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB565]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	4
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:39:18:static touchgfx::VideoController& touchgfx::VideoController::getInstance()	1
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:46:17:static touchgfx::VectorRenderer* touchgfx::VectorRenderer::getInstance()	3
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:39:18:static touchgfx::VideoController& touchgfx::VideoController::getInstance()	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:46:17:static touchgfx::VectorRenderer* touchgfx::VectorRenderer::getInstance()	3
 ../../TouchGFX/target/generated/DedicatedBufferVideoController.hpp:293:10:void DedicatedBufferController<no_streams, width, height, stride, output_format>::decoderTaskEntry() [with long unsigned int no_streams = 1; long unsigned int width = 800; long unsigned int height = 480; long unsigned int stride = 1600; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB565]	5
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:159:17:void videoTaskFunc(void*)	0
-C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:162:1:cpp)	1
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:159:17:void videoTaskFunc(void*)	0
+C:/mainApp/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:162:1:cpp)	1

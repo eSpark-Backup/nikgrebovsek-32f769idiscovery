@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/tgfx_jpeg_utils.o: \
- C:/TouchGFXProjects/guiApp/TouchGFX/target/generated/tgfx_jpeg_utils.c \
+ C:/mainApp/TouchGFX/target/generated/tgfx_jpeg_utils.c \
  ../../Utilities/JPEG/jpeg_utils.h ../../Core/Inc/jpeg_utils_conf.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \
