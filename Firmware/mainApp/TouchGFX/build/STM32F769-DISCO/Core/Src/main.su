@@ -1,7 +1,0 @@
-main.c:1506:6:StartDefaultTask	8	static
-main.c:1387:16:QSPI_WriteEnable.constprop	88	static
-main.c:260:6:SystemClock_Config	88	static
-main.c:499:6:MX_I2C4_Init	16	static
-main.c:154:5:main	256	static
-main.c:1595:6:HAL_TIM_PeriodElapsedCallback	0	static
-main.c:1612:6:Error_Handler	0	static
