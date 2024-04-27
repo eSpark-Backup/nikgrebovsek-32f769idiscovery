@@ -124,7 +124,7 @@ uint32_t IC_Val1 = 0;
 uint32_t IC_Val2 = 0;
 uint32_t Difference = 0;
 uint8_t Is_First_Captured = 0;  // is the first value captured ?
-uint8_t Distance  = 0;
+uint8_t Distance  = 200;
 uint8_t updateScreen = 0;
 uint8_t serialNumber=0;
 uint8_t distance[5]={0,0,0,0,0};
@@ -312,6 +312,7 @@ void HCSR04_Read(void)
 				  RH = (float) ((RH1<<8)|RH2)/10;
 				}
 			  }
+		  Distance = tCelsius;
 	__HAL_TIM_ENABLE_IT(&htim11, TIM_IT_CC1);
 }
 /* USER CODE END 0 */
