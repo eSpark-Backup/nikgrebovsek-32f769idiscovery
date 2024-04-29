@@ -124,7 +124,7 @@ uint32_t IC_Val1 = 0;
 uint32_t IC_Val2 = 0;
 uint32_t Difference = 0;
 uint8_t Is_First_Captured = 0;  // is the first value captured ?
-uint8_t Distance  = 200;
+uint8_t Distance  = 0;
 uint8_t updateScreen = 0;
 uint8_t serialNumber=0;
 uint8_t distance[5]={0,0,0,0,0};
@@ -280,11 +280,8 @@ uint8_t DHT22_Read (void)
   return b;
 }
 
-void HCSR04_Read(void)
+void DHT22_Loop(void)
 {
-//	HAL_GPIO_WritePin(TRIG_PORT, TRIG_PIN, GPIO_PIN_SET);  // pull the TRIG pin HIGH
-//	HAL_Delay(10);  // wait for 10 us
-//	HAL_GPIO_WritePin(TRIG_PORT, TRIG_PIN, GPIO_PIN_RESET);  // pull the TRIG pin low
 //	HAL_GPIO_TogglePin(TRIG_PORT, TRIG_PIN_2);
 //	  microDelay(50000);//10------->1us and 130000-------->13000
 //  HAL_Delay(300);
@@ -313,6 +310,14 @@ void HCSR04_Read(void)
 				}
 			  }
 		  Distance = tCelsius;
+	__HAL_TIM_ENABLE_IT(&htim11, TIM_IT_CC1);
+}
+
+void HCSR04_Read()
+{
+	HAL_GPIO_WritePin(TRIG_PORT, TRIG_PIN, GPIO_PIN_SET);  // pull the TRIG pin HIGH
+	HAL_Delay(10);  // wait for 10 us
+	HAL_GPIO_WritePin(TRIG_PORT, TRIG_PIN, GPIO_PIN_RESET);  // pull the TRIG pin low
 	__HAL_TIM_ENABLE_IT(&htim11, TIM_IT_CC1);
 }
 /* USER CODE END 0 */
@@ -1795,7 +1800,7 @@ void sensorTaskFunc(void *argument)
 {
 	while(1)
 	{
-		HCSR04_Read();
+		DHT22_Loop();
 		osDelay(0);
 	}
 }
